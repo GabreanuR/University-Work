@@ -8,7 +8,7 @@ This repository contains all my coursework for the Computer Science program at t
   - [Semester 2](#semester-2)
 - [Year 2](#year-2) *(To be filled out as the years progress)*
 - [Year 3](#year-3) *(To be filled out as the years progress)*
-- [External Projects](#external-projects)
+- [University and Personal Projects](#university-and-personal-projects)
 - [Credits](#credits)
 
 ---
@@ -26,7 +26,7 @@ This repository contains all my coursework for the Computer Science program at t
 ### Semester 2
 - **Mathematical and Computational Logic** - Logic and proof techniques for computer science.
 - **Competitive Programming (Elective)** - Solutions to competitive programming challenges.
-- **Object-Oriented Programming** - Understanding OOP principles in languages like Java or C++.
+- **Object-Oriented Programming** - Understanding OOP principles in C++.
 - **Formal Languages and Automata** - The study of formal languages and automata theory.
 - **Geometry and Linear Algebra** - Mathematical concepts with applications in computer science.
 - **Databases** - Database design, SQL, and relational databases.
@@ -46,12 +46,29 @@ This repository contains all my coursework for the Computer Science program at t
 
 ---
 
-## External Projects
+## University and Personal Projects
 
-Here are some of my external projects related to the courses and university work:
-- [Project 1: HTML & CSS Website](https://github.com/yourusername/html-css-project)
-- [Project 2: JavaScript Mini Projects](https://github.com/yourusername/js-mini-projects)
+Each course in this repository includes links to relevant projects I have worked on. Below is an overview of the major projects per course:
 
+### Year 1
+
+#### Semester 1
+- **Web Technologies**  
+  - [WW2-History-Website - HTML, CSS, JavaScript](https://github.com/GabreanuR/WW2-History-Website)
+  
+- **Computer System Architecture**  
+  - [Memory Management System (simplified) - Assembly X86](https://github.com/GabreanuR/Memory-Management-System)
+  - [QR Code Reader & Writer - Python](https://github.com/GabreanuR/QR-Code-Reader-Writer)
+
+- **Basic Tools and Techniques in Computer Science**  
+  - [XML Parser - Shell Script](https://github.com/GabreanuR/XML-Parser)
+
+#### Semester 2
+*(To be filled out)*
+
+### Personal
+- [FlashCards Webiste - HTML, CSS, JavaScript](https://github.com/GabreanuR/FlashCards)
+  
 ---
 
 ## Credits
