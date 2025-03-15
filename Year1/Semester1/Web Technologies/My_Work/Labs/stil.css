@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(199, 244, 239);
+}
+header > h1 {
+    border: 1cm solid black;
+    padding: 1cm;
+    height: 2cm;
+    margin: 1cm;
+    color: whitesmoke;
+    font-style: italic;
+}
+header {
+    padding: 1cm;
+    background-color: turquoise;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    padding: 0;
+    margin: 0;
+}

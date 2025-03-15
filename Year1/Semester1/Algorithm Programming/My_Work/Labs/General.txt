@@ -1,0 +1,60 @@
+Link catre acest fisier:
+https://bit.ly/PA_LAB_s13_2024
+
+
+Linkuri utile:
+https://docs.python.org/3/tutorial/index.html
+
+https://docs.python.org/3/tutorial/inputoutput.html
+
+https://pythonbasics.org/try-except/
+
+
+Laborator 1:
+https://docs.google.com/document/d/1wCK2Vu7Ny4js_ahzIdDdL9UL-g9gwegY/edit?usp=sharing&ouid=103396152483260729031&rtpof=true&sd=true
+
+Laborator 2:
+https://docs.google.com/document/d/1mLMT0GV-k1mkHyDnn1rPTAadoa6Qc0DtWCD1d7NEJ-s/edit?usp=drive_link
+
+Laborator 3 (siruri de caractere):
+https://docs.google.com/document/d/1a0Mtr6Zt5TV30k5E0niEIJv8S_9VY81QDRBv9uLDRxg/edit?usp=sharing
+
+Laborator 4 (liste):
+https://docs.google.com/document/d/1SwCmGlHJVJSRsm3SgpxEQht2g5JhNQDXoEeR-F-6gpU/edit?usp=sharing
+
+Laborator 5 (matrice si fisiere): 
+https://docs.google.com/document/d/1WM1XypigbW_tepXfieslSPZ2uM5FdRN9l-wJc5LWIWo/edit?usp=drive_link
+
+Laborator 6 (sortare liste; dictionare):
+https://docs.google.com/document/d/1bU5Srecwv9WjE3aD7TnxATIauHr582qZ/edit?usp=sharing&ouid=103396152483260729031&rtpof=true&sd=true
+
+Laborator 7 (functii; dictionare):
+https://docs.google.com/document/d/1fRHKC3FIxMhKwYFF7TdcjmFs46-YHIzz/edit?usp=sharing&ouid=103396152483260729031&rtpof=true&sd=true
+
+Laborator 8 (translate, maketrans; modul re) => NU intra la test:
+https://docs.google.com/document/d/10F4Jrrd0Gg2E-B_7q3OSeRF5rOPEHWY6hNXPiWrCErw/edit?usp=sharing
+
+
+Laborator 9 (Greedy):
+https://docs.google.com/document/d/1ClbsRyvcAL_FH_TiJVihunV3-QpSYA3CDW1xyB7QXJE/edit?usp=sharing
+
+
+Laborator 10:
+—
+
+Laborator 11 (Divide et impera):
+https://docs.google.com/document/d/1jI2H0iO0l0sMuOgZ2cip-Uzw2GBmh2dYZQfleTjtlKw/edit?usp=sharing
+
+Laborator 12 (Divide et impera):
+https://docs.google.com/document/d/1UgutziWtCzsMEtXEivaTKE8iufL418XwD45s_wGDnNs/edit?usp=sharing
+
+Model subiect TEST laborator:
+https://drive.google.com/file/d/1UDFiw1ACLIUxj55S2abYTQdZzPgnucer/view?usp=sharing
+
+
+Laborator 13 (Programare dinamica):
+https://docs.google.com/document/d/1UCFuPlWchZbHJbWaMKlERVF47AAtFH6Wjwj5Qx4mOK4/edit?usp=sharing
+
+Laborator 14 (Programare dinamica):
+https://docs.google.com/document/d/1Q4gbzaet7N5bWZ0FcvFxyfoDeCNh3-01ynZqyFAl-mM/edit?usp=sharing
+

@@ -1,0 +1,453 @@
+#%%
+#Problema 1
+n=int(input("n= "))
+ogl=0
+cn=n
+while n:
+    ogl=ogl*10+n%10
+    n//=10
+if cn==ogl:
+    print(f"{cn} este palindrom")
+else:
+    print(f"{cn} nu este palindrom")
+#%%
+#Problema 2
+L1,L2=input("L1 si L2 sunt: ").split()
+L1,L2=int(L1),int(L2)
+aux1,aux2=L1,L2
+while aux2!=0:
+     r=aux1%aux2
+     aux1=aux2
+     aux2=r
+nr=(L1*L2)//(aux1*aux1)
+print(f"Placile au latura de lungime {aux1} si le folosim intr-un numar de {nr}")
+#%%
+#Problema 3
+a,b=input("a si b sunt: ").split()
+a,b=int(a),int(b)
+f1=0
+f2=1
+f3=0
+while f3<a:
+    f3=f1+f2
+    f1=f2
+    f2=f3
+if f3<=b:
+    print(f"Cel mai mic numar Fibonacci din intervalul [{a},{b}] este {f3}")
+else: 
+    print(f"Nu exista niciun numar Fibonacci din intervalul [{a},{b}] este {f3}")
+#%%
+#Problema 4
+a,b=input("a si b sunt: ").split()
+a,b=int(a),int(b)
+for i in range(0,96,5):
+    if a<=i<=b:
+        continue
+    print(f"{i}",end=" ")
+print()
+for i in range(95,-1,-5):
+    if a<=i<=b:
+        continue
+    print(f"{i}",end=" ")
+#%%
+#Problema 5
+n=int(input("n= "))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
+#%%
+#Problema 6
+n=int(input("n= "))
+nmax=0
+nmin=0
+for i in range (9,-1,-1):
+    k=0
+    aux=n
+    while aux:
+        if aux%10==i:
+            k+=1
+        aux//=10
+    for j in range (k):
+        nmax=nmax*10+i
+for i in range (1,10):
+    k=0
+    aux=n
+    while aux:
+        if aux%10==i:
+            k+=1
+        aux//=10
+    for j in range (k):
+        nmin=nmin*10+i
+        if 0<nmin<10:
+            y=0
+            aux2=n
+            while aux2:
+                if aux2%10==0:
+                    y+=1
+                aux2//=10
+            for q in range (y):
+                nmin=nmin*10
+print(f"Numarul maxim posibil este {nmax}")
+print(f"Numarul minim posibil este {nmin}")
+#%%
+#Problema 7
+n=int(input("n= "))
+nmin=None
+for i in range(n):
+    s=int(input("s= "))
+    if nmin==None:
+        nmin=s
+        k=1
+    elif s<nmin:
+        s=nmin
+        k=1
+    elif s==nmin:
+        k+=1
+print(f"Cea mai mica valoare este {nmin} si apare de {k} ori")
+#%%
+#Problema 8
+n=int(input("n= "))
+nmax1=None
+nmax2=None
+for i in range(n):
+    s=int(input("s= "))
+    if nmax1==None and nmax2==None:
+        nmax1=s
+    elif nmax2==None and nmax1<s:
+        nmax2=nmax1
+        nmax1=s
+    elif nmax2==None and nmax1>s:
+        nmax2=s
+    elif nmax2==None and nmax1==s:
+        continue
+    elif s>nmax1:
+        nmax2=nmax1
+        nmax1=s
+    elif nmax2<s<nmax1:
+        nmax2=s
+if nmax1==None or nmax2==None:
+    print("Eroare")
+else:
+    print(f"Cea mai mare valoare este {nmax1} si a doua cea mai mare valoare este {nmax2}")
+#%%
+#Problema 9
+a,b=input("a si b sunt: ").split()
+a,b=int(a),int(b)
+x=2
+while x<a:
+    x=x*2
+while x<=b:
+    print(x,end=" ")
+    x=x*2
+#%%
+#Problema 10
+n=int(input("Introduceti numarul studentilor: "))
+a,b=input("Primul interval: ").split()
+a,b=int(a),int(b)
+for _ in range (n-1):
+    a2,b2=input("Alt interval: ").split()
+    a2,b2=int(a2),int(b2)
+    a,b=max(a,a2),min(b,b2)
+    if a>=b:
+        print("Studentii nu sunt simultan prezenti")
+        break
+else: 
+    print(f"Intervalul orar este {a} si {b}")
+#%%
+#Problema 11
+n=int(input("Introduceti marimea vectorului: "))
+p=int(input("Introduceti indicele creasta: "))
+x=int(input("Introduceti elementul 0: "))
+for i in range(1,n):
+    y=int(input(f"Introduceti elementul {i}: "))
+    if i<=p:
+        if x<y:
+            pass
+        else:
+            print("Vectorul nu contine creasta de indice p")
+            break
+    else:
+        if x>y:
+            pass
+        else:
+            print("Vectorul nu contine creasta de indice p")
+            break
+    x=y
+else:
+    print("Vectorul contine creasta de indice p")
+#%%
+#Problema 12
+n=int(input("n= "))
+while n>9:
+    aux=0
+    while n:
+        aux+=n%10
+        n=n//10
+    n=aux
+print(f"cifra de control este {n}")
+#%%
+#Problema 12 nr 2
+n=int(input("n= "))
+r=n%9
+if n==0:
+    cc=0
+elif r==0: 
+    cc=9
+else:
+    cc=r
+print(f"cifra de control este {cc}")
+#%%
+#Problema 13
+n=int(input("n= "))
+if n&(n-1)==0:
+    while n>1:
+        print(n,n-1,end=" ")
+        n//=2
+else:
+    print(n,end=" ")
+    n+=1
+    n//=2
+    while n>1:
+        print(n,n-1,end=" ")
+        n//=2
+#%%
+#Problema 14
+n=int(input("n= "))
+i=1
+nr=0
+while i*i<=n:
+    if n%i==0:
+        if i*i==n:
+            nr+=1
+        else:
+            nr+=2
+    i+=1
+print(f"Numarul {n} are {nr} divizori")
+#%%
+#Problema 15
+n=int(input("n= "))
+y=0
+z=0
+for j in range(1,n+1):
+    i=1
+    nr=0
+    while i*i<=j:
+        if j%i==0:
+            if i*i==j:
+                nr+=1
+            else:
+                nr+=2
+        i+=1
+    if y<nr:
+        y=nr
+        z=j
+print(f"Numarul {z} ...")
+#%%
+#Problema 16
+n=int(input("n= "))
+i=1
+nr=0
+while i*i<=n:
+    if n%i==0:
+        if i*i==n:
+            nr+=1
+        else:
+            nr+=2
+    i+=1
+if nr==3:
+    print(True)
+else:
+    print(False)
+#%%
+#Problema 17
+a,b=input("a si b sunt: ").split()
+a,b=int(a),int(b)
+y=min(a,b)
+i=1
+nr=0
+while i<=y//2:
+    if a%i==0 and b%i==0:
+        nr+=1
+    i+=1
+print(f"Numarul de divizori comuni este {nr}")
+#%%
+#Problema 18
+n=int(input("n= "))
+p=5
+s=0
+while p<=n:
+    s+=n//p
+    p*=5
+print(f"Numarul de zerouri din coada factorialului este {s}")
+#%%
+#Problema 19
+
+#%%
+#Problema 1 
+
+x = int(input("x = "))
+y = int(input("y = "))
+suma = x + y
+prod = x * y
+print(suma, prod)
+print(suma, prod, sep=",")
+print(suma, prod, sep="\n")
+print(f"suma numerelor {x} si {y} este {x+y}, iar produsul este {x*y}")
+
+#print("suma numerelor {x} si {y} este {x+y}, iar produsul este {x*y}")
+
+#%%
+#Problema 2
+
+a,b,c=input("introduceti 3 numere: ").split()
+#print(a,b,c)
+#print(type(a))
+a,b,c=int(a),int(b),int(c)
+#print(a,b,c)
+#print(type(a))
+if 0<=a<24 and 0<=b<60 and 0<=c<60:
+    print(f"{a:02d}:{b:02d}:{c:02d}")
+else:
+    print("Date invalide")
+
+#%%
+#Problema 3
+
+z=int(input("zi="))
+l=int(input("luna="))
+a=int(input("an="))
+ok=True
+
+if l in [1,3,5,7,8,10,12]:
+    #31 de zie
+    if 0<z<31:
+        z+=1
+    elif z==31:
+        z=1;
+        if l==12:
+            l=1
+            a+=1
+        else:
+            l+=1
+    else:
+        ok=False
+elif l in [4,6,9,11]:
+    #30 de zile
+    if 0<z<30:
+        z+=1
+    elif z==30:
+        z=1;
+        l+=1
+    else:
+        ok=False
+elif l==2:
+    #februarie
+    if a%4==0 and a%100!=0 or a%400==0:
+        #an bisect 29 zile
+        if 0<z<29:
+            z+=1
+        elif z==29:
+            z=1;
+            l+=1
+        else:
+            ok=False
+    else:
+        #anul nu e bisect 28 zile
+        if 0<z<28:
+            z+=1
+        elif z==28:
+            z=1;
+            l+=1
+        else:
+            ok=False
+else:
+    ok=False
+
+if ok==False:
+    print("Date incorecte")
+else:
+    print(f"{z:02d}:{l:02d}:{a:04d}")
+#%%
+
+nr=34.2327
+nr=int(nr*1000)
+print(f"{(nr/1000)}")
+#%%
+#Problema 4
+
+x,op,y=input("scrie o expresie cu 2 temeni: ").split()
+x,y=float(x),float(y)
+if op=="+":
+    r=x+y
+    print(f"{r:.3f}")
+elif op=="-":
+    r=x-y
+    print(f"{r:.3f}")
+elif op=="*":
+    r=x*y
+    print(f"{r:.3f}")
+elif op=="/":
+    r=x/y
+    print(f"{r:.3f}")
+elif op=="//":
+    r=x//y
+    print(f"{r:.3f}")
+else:
+    print("Eroare")
+#%%
+#Problema 5
+
+a,b,c,d,e,f=input("scrie o expresie cu 6 temeni: ").split()
+a,b=int(a),int(b)
+c,d=float(c),float(d)
+print(a,b,c,d,e,f,sep=" ")
+print(a,c,e,b,d,f,sep=" ")
+print(a,b,c,d,e,f,sep="\n")
+print((a,b),(c,d),(e,f),sep="\n")
+#%%
+#Problema 6
+
+z=int(input("Cate zile? "))
+b=float(input("Curs astazi: "))
+m=0
+for x in range(1,z):
+    a=b
+    b=float(input("Curs astazi: "))
+    d=b-a
+    if d>m:
+        m=d
+        z1=x
+        z2=x+1
+print(f"Cea mai mare crestere a fost de {m:.2f} intre zilele {z1} si {z2}")
+#%%
+#Problema 7
+
+s=float(input("Cat costa jucaria? "))
+nrz=0
+sc=0
+while s>0:
+    x=float(input("Cati bani a depus Gigel azi? "))
+    s=s-x
+    sc+=x
+    nrz+=1
+    m=sc/nrz
+    print(f"Pana acum, Gigel a depus in medie {m:.3f} lei pe zi")
+print(f"Gigel a strans banii in {nrz} zile, a mai ramas cu {-s} lei")
+#%%
+#Problema 8
+
+a,b,c=input("introduceti 3 numere: ").split()
+a,b,c=int(a),int(b),int(c)
+y=max(a,b,c)
+x=min(a,b,c)
+print(y-x)
+
+#%%
+#Problema 9 
+
+a,b,c=input("introduceti 3 numere: ").split()
+a,b,c=int(a),int(b),int(c)
+y=max(a,b,c)
+x=min(a,b,c)
+print(x,a+b+c-y-x,y)

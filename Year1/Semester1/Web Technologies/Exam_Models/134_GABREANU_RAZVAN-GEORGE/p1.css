@@ -1,0 +1,66 @@
+.box {
+    width: 66vw;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". d1 d1 ."
+    "d2 d2 d3 d3"
+    "d4 d4 d4 d4"
+    "d5 . . d6"
+    "d5 . . d6";
+}
+.box>div {
+    padding: 10px;
+    border: 5px double red;
+    margin: 5px;
+    
+}
+.box>:nth-child(1){
+    grid-area: d1;
+}
+.box>:nth-child(2){
+    grid-area: d2;
+}
+.box>:nth-child(3){
+    grid-area: d3;
+}
+.box>:nth-child(4){
+    grid-area: d4;
+}
+.box>:nth-child(5){
+    grid-area: d5;
+}
+.box>:nth-child(6){
+    grid-area: d6;
+}
+.box>div:nth-child(3n){
+    background-color: yellow;
+    color: black;
+}
+.box>div:nth-child(3n+1){
+    background-color: gray;
+    color: white;
+}
+.box>div:nth-child(3n+2){
+    background-color: gray;
+    color: white;
+}
+@media screen and (min-width: 250px) and (max-width: 650px) {
+    .box {
+        display: block;
+    }
+    .box:hover {
+        height: 200%;
+    }
+    .box:hover .box>:nth-child(6){
+        border: 1px double blue;
+    }
+    .box:hover .box>:last-child{
+        transition: border 3s, color 2s;
+    }
+    
+}

@@ -1,0 +1,4 @@
+Lungime 5: multe, rosii, multe, prune
+Lungime 4: pere, mere
+Lungime 3: ana, are, mai
+Lungime 2: si

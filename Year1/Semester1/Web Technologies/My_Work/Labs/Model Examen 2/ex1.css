@@ -1,0 +1,52 @@
+.container {
+    height: 50vh;
+    width: 250px;
+    border: dotted blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". d2 d5"
+    "d1 d3 d5"
+    ". d4 d5";
+}
+.container>div {
+    border: 8px double black;
+    font-size: 15px;
+}
+.container>:nth-child(1){
+    grid-area: d1;
+}
+.container>:nth-child(2){
+    grid-area: d2;
+}
+.container>:nth-child(3){
+    grid-area: d3;
+}
+.container>:nth-child(4){
+    grid-area: d4;
+}
+.container>:nth-child(5){
+    grid-area: d5;
+}
+@media screen and (max-width: 600px) and (max-height: 500px) {
+    .container {
+        display: block;
+    }
+    .container>div {
+        animation: schimbare 3s infinite alternate;
+        transition: font-size 2s, color 2s;
+    }
+    .container>div:hover {
+        font-size: 30px;
+        color: red;
+    }
+    @keyframes schimbare  {
+        0%{
+          border: 8px double black;
+        }
+        100%{
+            border: 8px double yellow;
+        }
+      }
+}

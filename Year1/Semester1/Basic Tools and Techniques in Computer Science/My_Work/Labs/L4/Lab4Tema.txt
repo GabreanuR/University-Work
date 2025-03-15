@@ -1,0 +1,2168 @@
+Script started on 2024-10-23 17:29:26+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcc hello.c -o hello[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc hello.c -o hello && [7m<pre>./hello</pre>[27m[1P<pre>./hello</pre[K[K[K[K[K[1P./hello[1P./hello[1P./hello[1P./hello[1P./hello
+[?2004l
+Hello, World!
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo asta fost ex 4
+[?2004l
+asta fost ex 4
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo acum ex 5
+[?2004l
+acum ex 5
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ nono[K[K[Kano hello.c'
+[?2004l
+[?2004h>  [?2004l
+bash: unexpected EOF while looking for matching `''
+exit
+
+Script done on 2024-10-23 17:32:49+00:00 [COMMAND_EXIT_CODE="2"]
+
+
+
+Script started on 2024-10-23 17:34:02+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echi[Ko 4[Kex 4
+[?2004l
+ex 4
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ nann[Ko hello.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 7 lines ](B[m[H(B[0;7m  GNU nano 7.2                         hello.c                                  [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[34m/* this is my first C program */
+[3d[36m#include[33m <stdio.h>
+[5d(B[0m[32mint[39m(B[m main(){
+[6dprintf((B[0;1m[33m"Hello, World!\n"[39m(B[m);
+[7d[35mreturn[39m(B[m 0;
+[8d}[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25h[A[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25h
+[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25hp[?25l[?12l[?25h[7d[?25l[?12l[?25h[C[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[22d[K[?12l[?25h[7;3H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h0[?25l[?12l[?25h;[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h)[?25l[?12l[?25h{[?25l[1;48H(B[0;7m*[79G(B[m[6;22r[6;1HM[1;24r[6;1H[?12l[?25h[?25l[10d[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l7[6;22r8M[1;24r[6;5Hprintf((B[0;1m[33m"Introduceți numele: "[39m(B[m);
+[7d[?12l[?25h[?25l[?12l[?25h[6;36H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+[1P   [?25l[?12l[?25h
+[1P  [?25l[?12l[?25h
+[1P [?25l[?12l[?25h[1P[?25l[?12l[?25h[7d[?25l[?12l[?25hs[?25l[?12l[?25hc[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hf[?25l[?12l[?25h([?25l[?12l[?25h)[?25l[?12l[?25h[?25l[?12l[?25h")[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m)[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m%"[39m(B[m)[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m)[?25l[?12l[?25h[C[?25l[?12l[?25h,)[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l7[6;22r8
+[6dM[1;24r[6;1H[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25h
+[32mchar[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h n[?25l[?12l[?25hu[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h[[?25l[?12l[?25h5[?25l[?12l[?25h0[?25l[?12l[?25h][?25l[?12l[?25h;[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9;15H[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25hn)[?25l[?12l[?25hu)[?25l[?12l[?25hm)[?25l[?12l[?25he)[?25l[?12l[?25h)[?25l[?12l[?25h;[?25l[?12l[?25h[9d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m);[K[?25l[?12l[?25h[C[?25l[?12l[?25h,);[?25l[?12l[?25hn);[?25l[?12l[?25hu);[?25l[?12l[?25hm);[?25l[?12l[?25he);[?25l[23;14H   (B[0;7mM-F(B[m New Buffer  (B[0;7m^S(B[m Spell Check  (B[0;7m^J(B[m Full Justify (B[0;7m^V(B[m Cut Till End[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-\(B[m Pipe Text   (B[0;7m^Y(B[m Linter       (B[0;7m^O(B[m Formatter    (B[0;7m^Z(B[m Suspend[K
+[22d(B[0;7mCommand to execute:                                                             [22;21H(B[m[?12l[?25h[?25l(B[0;7m.(B[m[?12l[?25h[?25l(B[0;7m/(B[m[?12l[?25h[?25l(B[0;7mh(B[m[?12l[?25h[?25l(B[0;7me(B[m[?12l[?25h[?25l(B[0;7ml(B[m[?12l[?25h[?25l(B[0;7ml(B[m[?12l[?25h[?25l(B[0;7m.(B[m[?12l[?25h[?25l(B[0;7mc(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m0(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7mo(B[m[?12l[?25h[?25l(B[0;7m.(B[m[?12l[?25h[?25l(B[0;7mc(B[m[?12l[?25h[?25l  [1K (B[0;7m[ Executing... ](B[m[K[22;35H(B[0;7mRead 1 line ](B[m[K [22;17H(B[0;1m[37m[41m[ Error: line 1: ./hello.c: Permission denied ][39;49m(B[m[?2004h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[K[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[9;20H[?12l[?25h[?25l[22;33H[1K (B[0;7m[ Writing... ](B[m[K[1;48H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 10 lines ](B[m[?12l[?25h[9;20H[?25l[22;32H  (B[0;7m[ Writing... ](B[m[K[1;79H[22;32H(B[0;7m[ Wrote 10 lines ](B[m[?12l[?25h[9;20H[?25l[?12l[?25h
+[12d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./hello
+[?2004l
+Hello, World!
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mnano hello.c[27mnano hello.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 10 lines ](B[m[H(B[0;7m  GNU nano 7.2                         hello.c                                  [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[34m/* this is my first C program */
+[3d[36m#include[33m <stdio.h>
+[5d(B[0m[32mint[39m(B[m main(){
+[6d[32mchar[39m(B[m nume[50];
+[7dprintf((B[0;1m[33m"Introduceți numele: "[39m(B[m);
+[8dscanf((B[0;1m[33m"%s"[39m(B[m,nume);
+[9dprintf((B[0;1m[33m"Hello"[39m(B[m,nume);
+[10d[35mreturn[39m(B[m 0;
+[11d}[2d[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcc hello.c -o hello[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc hello.c -o hello
+[?2004l
+[01m[Khello.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Khello.c:8:8:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args -Wformat-extra-args]8;; [m[K]
+    8 | printf([01;35m[K"Hello"[m[K,nume);
+      |        [01;35m[K^~~~~~~[m[K
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./hello
+[?2004l
+Introduceți numele: razvan
+Hello[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ nano hell.c[K[Ko.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 10 lines ](B[m[H(B[0;7m  GNU nano 7.2                         hello.c                                  [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[34m/* this is my first C program */
+[3d[36m#include[33m <stdio.h>
+[5d(B[0m[32mint[39m(B[m main(){
+[6d[32mchar[39m(B[m nume[50];
+[7dprintf((B[0;1m[33m"Introduceți numele: "[39m(B[m);
+[8dscanf((B[0;1m[33m"%s"[39m(B[m,nume);
+[9dprintf((B[0;1m[33m"Hello"[39m(B[m,nume);
+[10d[35mreturn[39m(B[m 0;
+[11d}[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25hp[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l
+[22d[K[?12l[?25h[9;7H[?25l[?12l[?25h([?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;48H(B[0;7m*[79G(B[m[?12l[?25h[9;14H(B[0;1m[33m "[39m(B[m,nume);[9;15H[?25l[?12l[?25h(B[0;1m[33m%"[39m(B[m,nume);[9;16H[?25l[?12l[?25h(B[0;1m[33mS"[39m(B[m,nume);[9;17H[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33ms"[39m(B[m,nume);[9;17H[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;48H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 10 lines ](B[m[?12l[?25h[9;17H[?25l
+[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcc hello.c -o hello[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc hello.c -o hello
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./hello
+[?2004l
+Introduceți numele: razvan
+Hello razvan[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo ex5[K 5
+[?2004l
+ex 5
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo aboa[K[K[K[Kups abia am fau[Kct ex 5
+[?2004l
+ups abia am fact ex 5
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ecj[Kho ex 6
+[?2004l
+ex 6
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ non[Kno[K[K[Kano prieten[K[K[K[Kntenv.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 7.2                       printenv.c                                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[36m#include[33m <stdio.h>
+[3d(B[0m[32mint[39m(B[m main([32mint[39m(B[m argc, [32mchar[39m(B[m *argv[], [32mchar[39m(B[m *envp[])
+[4d{[5dprintf((B[0;1m[33m"Prima variabila de mediu este %s\n"[39m(B[m, envp[0]);
+[6dexit(0);
+[7d}[2d[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25hr[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h
+[7d[K[?25l[6;9H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[5;55H[?12l[?25h[?25l[?12l[?25h [?25l
+[22d[K[?12l[?25h[5;53H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[8G"Prima variabila de mediu este %s\n[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h(B[0;1m[31mP[39m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[A{[?12l[?25h[?25l[?12l[?25h[K[?25l[3;47H[?12l[?25h[?25l[?12l[?25h[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hcha[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hcha[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25hin[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h
+in[K[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[2;19H[?12l[?25h[?25l[?12l[?25h[2;9H <stdio.h[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h
+#includ[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h
+(B[0;1m[36m#[39m(B[m[K[?25l[?12l[?25h[K[?25l[?12l[?25h[?25l(B[0;1m[36m#include[33m <stdio.h>
+[4d(B[0m[32mint[39m(B[m main([32mint[39m(B[m argc, [32mchar[39m(B[m *argv[], [32mchar[39m(B[m *envp[]) {[5;5H(B[0;1m[33mfor[39m(B[m ([32mint[39m(B[m i = 0; envp[i] != (B[0;1m[31mNULL[39m(B[m; i++) {[6;9Hprintf((B[0;1m[33m"%s\n"[39m(B[m, envp[i]);[7;5H}[8d[35mreturn[39m(B[m 0;
+[9d}[10d[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25hfo[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hw ([32mint[39m(B[m i = 0; envp[i] != (B[0;1m[31mNULL[39m(B[m; i++) {[6G[?25l[?12l[?25hh ([32mint[39m(B[m i = 0; envp[i] != (B[0;1m[31mNULL[39m(B[m; i++) {[7G[?25l[?12l[?25hi ([32mint[39m(B[m i = 0; envp[i] != (B[0;1m[31mNULL[39m(B[m; i++) {[8G[?25l[?12l[?25hl ([32mint[39m(B[m i = 0; envp[i] != (B[0;1m[31mNULL[39m(B[m; i++) {[5;9H[?25l[?12l[?25h(B[0;1m[33mwhile[39m(B[m ([32mint[39m(B[m i = 0; envp[i] != (B[0;1m[31mNULL[39m(B[m; i++) {[5;10H[?25l[?12l[?25h [?25l[?12l[?25h([?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l[?25h0[?25l[?12l[?25h;[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hint[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hv[?25l[?12l[?25hp[?25l[?12l[?25h[[?25l[?12l[?25hi[?25l[?12l[?25h][?25l[?12l[?25h [?25l[?12l[?25h![?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h;[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25h+[?25l[?12l[?25h+[?25l[?12l[?25h)[?25l[?12l[?25h [?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h{[K[?25l[?12l[?25h[6d[?25l[?12l[?25h[7;6H[?25l[?12l[?25h
+[42m    [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[7;22r[22;1H
+[1;24r[6;33H[?12l[?25h[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 8 lines ](B[m[?12l[?25h[6;33H[?25l
+[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcc printenv.c -o printenv[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc printenv.c -o printenv
+[?2004l
+[01m[Kprintenv.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kprintenv.c:4:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kenvp[m[K’
+    4 |     while [01;31m[Ke[m[K[32m[Knvp[m[K[i]{
+      |           [01;31m[K^[m[K[32m[K~~~[m[K
+      |           [32m[K([m[K
+[01m[Kprintenv.c:4:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ undeclared (first use in this function)
+    4 |     while envp[[01;31m[Ki[m[K]{
+      |                [01;31m[K^[m[K
+[01m[Kprintenv.c:4:16:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kprintenv.c:7:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+    7 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ nano printenv.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 8 lines ](B[m[H(B[0;7m  GNU nano 7.2                       printenv.c                                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[36m#include[33m <stdio.h>
+[4d(B[0m[32mint[39m(B[m main([32mint[39m(B[m argc, [32mchar[39m(B[m *argv[], [32mchar[39m(B[m *envp[]) {[5;5H(B[0;1m[33mwhile[39m(B[m envp[i]{[6;9Hprintf((B[0;1m[33m"%s\n"[39m(B[m, envp[i]);[7;5H[35mreturn[39m(B[m 0;
+[8d}[2d[?12l[?25h[?25l[22;33H (B[0;7m[ Writing... ](B[m[K[1;79H[22;32H(B[0;7m[ Wrote 8 lines ](B[m[?12l[?25h
+[2d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./printenv
+[?2004l
+Prima variabila de mediu este SHELL=/bin/bash
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mnano printenv.c[27mnano printenv.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 8 lines ](B[m[H(B[0;7m  GNU nano 7.2                       printenv.c                                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[36m#include[33m <stdio.h>
+[4d(B[0m[32mint[39m(B[m main([32mint[39m(B[m argc, [32mchar[39m(B[m *argv[], [32mchar[39m(B[m *envp[]) {[5;5H(B[0;1m[33mwhile[39m(B[m envp[i]{[6;9Hprintf((B[0;1m[33m"%s\n"[39m(B[m, envp[i]);[7;5H[35mreturn[39m(B[m 0;
+[8d}[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[A[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[4;49H[?25l[1d(B[0;7m*[79G(B[m[5;21r[5;1HM[1;24r[5;1H[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[1K \[?25l[?12l[?25h[42m[1K [49m(B[m [?25l[?12l[?25h
+[K[?25l[5;21r[21;1H
+[1;24r[4;49H[?12l[?25h[?25l7[5;21r8
+[5dM[1;24r[5;1H[?12l[?25h[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h
+    i[?25l[?12l[?25h=[?25l
+[22d[K[?12l[?25h[5;7H0[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[A[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[6;19H[?25l[?12l[?25h[7d[?25l[?12l[?25h[8;14H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[7;33H[?25l7[8;22r8
+[8dM[1;24r[8;1H[?12l[?25h[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[1K i[?25l[?12l[?25h+[?25l[?12l[?25h=[?25l[?12l[?25h1[?25l[?12l[?25h[9d[?25l
+[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse
+[22d(B[0;7mFile Name to Write: printenv.c(B[m[?12l[?25h[?25l  [1K (B[0;7m[ Writing... ](B[m[K[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 10 lines ](B[m
+[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcc printenv.c -o printenv[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc printenv.c -o printenv
+[?2004l
+[01m[Kprintenv.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kprintenv.c:4:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ undeclared (first use in this function)
+    4 |     [01;31m[Ki[m[K=0
+      |     [01;31m[K^[m[K
+[01m[Kprintenv.c:4:5:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kprintenv.c:4:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kwhile[m[K’
+    4 |     i=0
+      |        [01;31m[K^[m[K
+      |        [32m[K;[m[K
+    5 |     [32m[Kwhile[m[K envp[i]{
+      |     [32m[K~~~~~[m[K
+[01m[Kprintenv.c:9:1:[m[K [01;31m[Kerror: [m[Kexpected declaration or statement at end of input
+    9 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ nano printenv.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 10 lines ](B[m[H(B[0;7m  GNU nano 7.2                       printenv.c                                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[36m#include[33m <stdio.h>
+[4d(B[0m[32mint[39m(B[m main([32mint[39m(B[m argc, [32mchar[39m(B[m *argv[], [32mchar[39m(B[m *envp[]) {[5;5Hi=0[6;5H(B[0;1m[33mwhile[39m(B[m envp[i]{[7;9Hprintf((B[0;1m[33m"%s\n"[39m(B[m, envp[i]);[8;9Hi+=1[9;5H[35mreturn[39m(B[m 0;
+[10d}[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[4;49H[?25l[?12l[?25h[5;8H[?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[5;8H;[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25hi[?25l[?12l[?25h+[?25l[?12l[?25h=[?25l[?12l[?25h1[?25l[?12l[?25h;[?25l[?12l[?25h[9d[?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[5Gretur[K[?25l
+[22d[K[?12l[?25h[9;9H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h
+[42m    [49m(B[m[K[?25l[?12l[?25h
+    e[?25l[?12l[?25hx[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25h([?25l[?12l[?25h0[?25l[?12l[?25h)[?25l[?12l[?25h;[?25l[?12l[?25h[A[?25l[?12l[?25h;[?25l7[9;22r8
+[9dM[1;24r[9;1H[?12l[?25h[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h
+    }[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 11 lines ](B[m[?12l[?25h[9;6H[?25l
+[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcc printenv.c -o printenv[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc printenv.c -o printenv
+[?2004l
+[01m[Kprintenv.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kprintenv.c:4:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ undeclared (first use in this function)
+    4 |     [01;31m[Ki[m[K=0;
+      |     [01;31m[K^[m[K
+[01m[Kprintenv.c:4:5:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kprintenv.c:5:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kenvp[m[K’
+    5 |     while [01;31m[Ke[m[K[32m[Knvp[m[K[i]{
+      |           [01;31m[K^[m[K[32m[K~~~[m[K
+      |           [32m[K([m[K
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ nano printenv.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 7.2                       printenv.c                                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[36m#include[33m <stdio.h>
+[4d(B[0m[32mint[39m(B[m main([32mint[39m(B[m argc, [32mchar[39m(B[m *argv[], [32mchar[39m(B[m *envp[]) {[5;5Hi=0;[6;5H(B[0;1m[33mwhile[39m(B[m envp[i]{[7;9Hprintf((B[0;1m[33m"%s\n"[39m(B[m, envp[i]);[8;9Hi+=1;[9;5H}[10dexit(0);
+[11d}[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[5;5Hii=0;[?25l[?12l[?25hni=0;[?25l[?12l[?25hti=0;[?25l[?12l[?25h[32mint[39m(B[m i=0;[?25l[22;32H  (B[0;7m[ Writing... ](B[m[K[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 11 lines ](B[m[?12l[?25h[5;9H[?25l
+[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcc printenv.c -o printenv[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc printenv.c -o printenv
+[?2004l
+[01m[Kprintenv.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kprintenv.c:5:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kenvp[m[K’
+    5 |     while [01;31m[Ke[m[K[32m[Knvp[m[K[i]{
+      |           [01;31m[K^[m[K[32m[K~~~[m[K
+      |           [32m[K([m[K
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m./printenv[27m./printenv
+[?2004l
+Prima variabila de mediu este SHELL=/bin/bash
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mnano printenv.c[27mnano printenv.c
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 7.2                       printenv.c                                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d(B[0;1m[36m#include[33m <stdio.h>
+[4d(B[0m[32mint[39m(B[m main([32mint[39m(B[m argc, [32mchar[39m(B[m *argv[], [32mchar[39m(B[m *envp[]) {[5;5H[32mint[39m(B[m i=0;[6;5H(B[0;1m[33mwhile[39m(B[m envp[i]{[7;9Hprintf((B[0;1m[33m"%s\n"[39m(B[m, envp[i]);[8;9Hi+=1;[9;5H}[10dexit(0);
+[11d}[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[6d[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[1;49H(B[0;7m*[79G(B[m[?12l[?25h[6;11H(envp[i]{[6;12H[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hv[?25l[?12l[?25hp[?25l
+[22d[K[?12l[?25h[6;17H[?25l[?12l[?25hi[?25l[?12l[?25h][?25l[?12l[?25h){[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;49H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 11 lines ](B[m[?12l[?25h[6;20H[?25l
+[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m<pre>cc printenv.c -o printenv</pre>[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P<pre>cc printenv.c -o printenv</pre[K[K[K[K[K[1P[1P[1P[1P[1P
+[?2004l
+[01m[Kprintenv.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kprintenv.c:9:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration -Wimplicit-function-declaration]8;; [m[K]
+    9 |     [01;35m[Kexit[m[K(0);
+      |     [01;35m[K^~~~[m[K
+[01m[Kprintenv.c:2:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+    1 | #include <stdio.h>
+  +++ |+[32m[K#include <stdlib.h>[m[K
+    2 | 
+[01m[Kprintenv.c:9:5:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch -Wbuiltin-declaration-mismatch]8;; [m[K]
+    9 |     [01;35m[Kexit[m[K(0);
+      |     [01;35m[K^~~~[m[K
+[01m[Kprintenv.c:9:5:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./printenv
+[?2004l
+SHELL=/bin/bash
+SESSION_MANAGER=local/Ubuntu:@/tmp/.ICE-unix/3522,unix/Ubuntu:/tmp/.ICE-unix/3522
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_SHELL_SESSION_MODE=ubuntu
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+GTK_MODULES=gail:atk-bridge
+PWD=/home/razvan
+XDG_SESSION_DESKTOP=ubuntu
+LOGNAME=razvan
+XDG_SESSION_TYPE=wayland
+SYSTEMD_EXEC_PID=3569
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.1CK4V2
+HOME=/home/razvan
+USERNAME=razvan
+IM_CONFIG_PHASE=1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure
+VTE_VERSION=7600
+WAYLAND_DISPLAY=wayland-0
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/b049432f_b112_46f7_a05d_48d921234d6c
+GNOME_SETUP_DISPLAY=:1
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=razvan
+GNOME_TERMINAL_SERVICE=:1.119
+DISPLAY=:0
+SHLVL=2
+GSM_SKIP_SSH_AGENT_WORKAROUND=true
+QT_IM_MODULE=ibus
+XDG_RUNTIME_DIR=/run/user/1000
+DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+PATH=/home/razvan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+GDMSESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+_=./printenv
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo gata 6
+[?2004l
+gata 6
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo 7 finalul
+[?2004l
+7 finalul
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ mkdir bin
+[?2004l
+mkdir: cannot create directory ‘bin’: File exists
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ rm -r bin[K[K[K./[K[K/home[K[K[K[K[K[K[K[K[K[K[Kmkdir bin
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ find hello
+[?2004l
+hello
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ history
+[?2004l
+    1  sudo apt-get install bzip2 tar
+    2  cat - > out
+    3  exit
+    4  echo mihai
+    5  exit
+    6  cd /home/desktop
+    7  cd /home/razvan/desktop
+    8  cd /home/razvan/Desktop
+    9  cat - > out
+   10  script
+   11  echo mihai
+   12  exit
+   13  cat - > out
+   14  echo $PS1
+   15  export  PS1="uso$ "
+   16  exit
+   17  echo $PATH
+   18  pw
+   19  pws
+   20  pwd
+   21  ls
+   22  echo $HOME
+   23  echo $PATH
+   24  pwd
+   25  ls
+   26  cd ..
+   27  cd /home/razvan
+   28  cd $HOME
+   29  cd
+   30  which ls
+   31  cat - > out
+   32  cat out
+   33  cat << Pisica >> out
+   34  ana are mere
+   35  Pisica
+   36  cat out
+   37  cat < out
+   38  echo $PS1
+   39  export PS1="uso$ "
+   40  echo $PS1
+   41  export PS1="uso$PS1"
+   42  echo $PS1
+   43  exit
+   44  pwd
+   45  mkdir tmp
+   46  cd tmp
+   47  touch foo
+   48  ls
+   49  cp foo bar
+   50  ls
+   51  mv bar baz
+   52  ls
+   53  pwd
+   54  ls
+   55  rm baz foo
+   56  ls
+   57  cd../
+   58  cd ..
+   59  cd ../
+   60  cd
+   61  rmdir tmp
+   62  man find
+   63  find /bin -name ls
+   64  find /home/razvan lab3.txt
+   65  ls
+   66  find /home/razvan/bin
+   67  find /home/razvan/out ls
+   68  find /home/razvan out ls
+   69  find /home/razvan l*
+   70  mkdir tmp
+   71  touch tmp/bar tmp/baz tmp/foo
+   72  ls tmp
+   73  find tmp b* rm
+   74  find tmp b* rm {} \;
+   75  man find
+   76  find tmp -name b* -exec rm {} \;
+   77  ls tmp
+   78  echo Tema
+   79  echo 1
+   80  mkdir uso
+   81  cd uso
+   82  touch plan
+   83  mkdir curs lab
+   84  cd curs
+   85  mkdir 1
+   86  cd 1
+   87  touch uso-cura-1.pdf
+   88  tocuh uso-curs-1.tex
+   89  touch uso-curs-1.tex
+   90  cd ..
+   91  cd lab
+   92  mkdir 1
+   93  cd 1
+   94  touch uso-lab-1.aux
+   95  touch uso-lab-1.tex
+   96  touch uso-lab-1.pdf
+   97  touch uso-lab-1.fls
+   98  touch uso-lab-1.log
+   99  touch uso-lab-1.fdb_latexmk
+  100  touch uso-lab-1.synctex.gz
+  101  cd
+  102  tree uso
+  103  cd $HOME
+  104  mkdir bin
+  105  cp bin $PATH
+  106  man cp
+  107  cp /home/razvan/bin $PATH
+  108  man cp
+  109  cp -r bin $PATH
+  110  which echo
+  111  cp /usr/bin/echo /home/razvan/bin
+  112  which echo
+  113  echo 3
+  114  echo -e "bab\nbaba\nbabab\nbababa\nbababab\nbabababa" > rat
+  115  grep -E 'baba(na)*' rat
+  116  grep -E 'baba(ba)*' rat
+  117  grep -E 'baba(ba)+' rat
+  118  grep -E 'baba(ba)?' rat
+  119  echo 4
+  120  mkdir orig backup
+  121  cd orig
+  122  touch foo bar baz
+  123  find orig
+  124  man find
+  125  find orig -exec cp backup
+  126  find orig -exec cp backup {} \;
+  127  cd
+  128  find orig -exec cp backup {} \;
+  129  find orig -exec cp backup/ {} \;
+  130  find orig/ -exec cp backup {} \;
+  131  find /home/razvan/orig -exec cp backup {} \;
+  132  find /home/razvan/orig -exec cp -r backup {} \;
+  133  find /home/razvan/orig -exec cp orig/ backup {} \;
+  134  man find
+  135  find orig -type f -exec cp {} backup/{}.orig \;
+  136  find orig -type f -exec cp {} backup/ \; 
+  137  find orig -type f -exec cp {} backup/.orig \;
+  138  find orig -type f -exec cp {} backup/ -exec mv {} .orig \;
+  139  find orig -type f -exec cp {} backup/ \;
+  140  find backup -type f -exec mv {} .orig \;
+  141  find orig -type f -exec cp {} backup/ \;
+  142  find orig -type f -exec cp {} backup/.orig \;
+  143  man mv
+  144  mv /backup/bar /backup/bar.orig
+  145  mv home/razvan/backup/bar home/razvan/backup/bar.orig
+  146  mv /home/razvan/backup/bar /home/razvan/backup/bar.orig
+  147  mv /home/razvan/backup/baz /home/razvan/backup/baz.orig
+  148  mv /home/razvan/backup/foo /home/razvan/backup/foo.orig
+  149  echo 5
+  150  rm -r /home/razvan/backup
+  151  echo gata tema
+  152  exit
+  153  script lab3.txt
+  154  script lab3nr2.txt
+  155  useradd -m -g users mihai
+  156  exit
+  157  script lab3.txt
+  158  sudo
+  159  sudo useradd -m -g users mihai
+  160  passwd mihai
+  161  sudo passwd mihai
+  162  sudo usermod -G wheel mihai
+  163  sudo groupadd wheel
+  164  sudo usermod -G wheel mihai
+  165  sudo userdel -r mihai
+  166  sudo groupdel wheel
+  167  sudo useradd -m -g users alex
+  168  touch foo bar baz
+  169  ls -l foo bar baz
+  170  sudo chown alex:users foo
+  171  sudo chown alex bar
+  172  sudo chown :users baz
+  173  ls -l bar baz foo
+  174  sudo chmod u-w bar
+  175  sudo chmod g+w baz
+  176  sudo chmod a+wx foo
+  177  ls -l foo bar baz
+  178  w
+  179  who -a
+  180  last -5
+  181  last -s 17:00 -t 17:40
+  182  ps
+  183  ps -o  pid ,group ,command
+  184  ps -o  pid , group , command
+  185  ps -o  pid, group, command
+  186  ps -a -o  pid, group, command
+  187  ps
+  188  pstree 8455
+  189  pstree 9350
+  190  sleep 60 &
+  191  sleep 70 &
+  192  pstree 8455
+  193  top
+  194  pgrep firefox
+  195  kill 7052
+  196  pgrep bc
+  197  exit
+  198  cd ; fuser .
+  199  sudo useradd -m -g users admin prof
+  200  sudo useradd -m -g users admin
+  201  sudo useradd -m -g users prof
+  202  sudo useradd -m -g users stud 151
+  203  sudo useradd -m -g users stud151
+  204  sudo useradd -m -g users stud152
+  205  sudo useradd -m -g users stud153
+  206  sudo useradd -m -g users stud154
+  207  sudo groupadd seria15
+  208  sudo groupadd gr151
+  209  sudo groupadd gr152
+  210  sudo groupadd gr153
+  211  sudo groupadd gr154
+  212  sudo groupadd wheel
+  213  sudo usermod -G wheel admin
+  214  man visudo
+  215  find /etc/sudoers
+  216  man visudo
+  217  sudo visudo
+  218  admin [200~ALL=(ALL:ALL) ALL
+  219  admin ALL=(ALL:ALL) ALL
+  220  sudo admin ALL=(ALL:ALL) ALL
+  221  sudo admin ALL = (ALL:ALL) ALL
+  222  sudo visudo
+  223  history
+  224  sudo visudo
+  225  mkdir seria 15
+  226  mkdir seria15
+  227  cd seria15
+  228  mkdir 151 152 153 154 catalog subiecte
+  229  cd subiecte
+  230  touch examen.txt
+  231  touch restanta.txt
+  232  cd ..
+  233  cd catalog
+  234  touch note151.txt
+  235  touch note152.txt
+  236  touch note153.txt
+  237  touch note154.txt
+  238  cd ..
+  239  cd 151
+  240  touch discutii.txt laborator.txt
+  241  cd ..
+  242  cd 152
+  243  touch discutii.txt laborator.txt
+  244  cd ..
+  245  cd 153
+  246  touch discutii.txt laborator.txt
+  247  cd ..
+  248  cd 154
+  249  touch discutii.txt laborator.txt
+  250  cd ..
+  251  tree seria15
+  252  su prof
+  253  man sudo
+  254  sudo -u prof u+w /home/razvan/seria15/catalog
+  255  sudo -u prof chmod u+w /home/razvan/seria15/catalog
+  256  man chmod
+  257  man sudo
+  258  sudo chown profesor:profesor seria15/catalog
+  259  sudo chown prof:prof seria15/catalog
+  260  sudo chown prof:users seria15/catalog
+  261  ls -l seria15/catalog
+  262  ls -l seria15
+  263  sudo chmod u+w seria15/catalog
+  264  ls -l seria15
+  265  sudo chmod a-w seria15/catalog
+  266  sudo chmod u+w seria15/catalog
+  267  ls -l seria15
+  268  sudo chown :seria15 
+  269  sudo chown :seria15 seria15/catalog
+  270  sudo chmod a-r seria15/catalog
+  271  sudo chmod g+r seria15/catalog
+  272  ls -l seria15
+  273  sudo chown :gr151 seria15/151
+  274  sudo chmod g+r seria15/151
+  275  sudo chmod g+w seria15/151
+  276  ls -l seria15
+  277  sudo chmod a-r seria15/151
+  278  sudo chmod a-w seria15/151
+  279  sudo chmod g+r seria15/151
+  280  sudo chmod g+w seria15/151
+  281  ls -l seria15
+  282  sudo chown :gr152 seria15/152
+  283  sudo chmod a-r seria15/152
+  284  sudo chmod a-w seria15/152
+  285  sudo chmod g+r seria15/152
+  286  sudo chmod g+w seria15/152
+  287  sudo chown :gr153 seria15/153
+  288  sudo chmod a-r seria15/153
+  289  sudo chmod a-w seria15/153
+  290  sudo chmod g+r seria15/153
+  291  sudo chmod g+w seria15/153
+  292  sudo chown a-r seria15/154
+  293  sudo chown :gr154
+  294  sudo chown :gr154 seria15/154
+  295  sudo chmod a-r seria15/154
+  296  sudo chmod a-w seria15/154
+  297  sudo chmod g-r seria15/154
+  298  sudo chmod g-w seria15/154
+  299  ls -l seria15
+  300  sudo chmod g+r seria15/154
+  301  sudo chmod g+w seria15/154
+  302  ls -l seria15
+  303  sudo chmod a+r seria15/151
+  304  sudo chmod a+r seria15/152
+  305  sudo chmod a+r seria15/153
+  306  sudo chmod a+r seria15/154
+  307  ls -l seria15
+  308  sudo chown prof seria15/subiecte
+  309  sudo chmod a-r seria15/subiecte
+  310  sudo chmod a-w seria15/subiecte
+  311  sudo chmod u+r seria15/subiecte
+  312  sudo chmod u+w seria15/subiecte
+  313  sudo chmod a-x seria15/subiecte
+  314  sudo chmod u+x seria15/subiecte
+  315  ls -l seria15
+  316  ps
+  317  sleep 200 &
+  318  pkill 13522
+  319  pkill 13523
+  320  pkill 13525
+  321  pstree
+  322  ps
+  323  pkill 13522
+  324  ps
+  325  ps -a -o user
+  326  ps -a -o user group
+  327  ps -a -o user, group
+  328  man ps
+  329  ps -a -o user,group
+  330  ps -a -o ps,pid
+  331  man ps
+  332  ps -p --ppid
+  333  ps -p -ppid
+  334  ps p,ppid
+  335  ps -a -o p,ppid
+  336  ps
+  337  ps -eo user,group,pid,ppid,rss,cmd
+  338  exit
+  339  a=2009
+  340  b=alex
+  341  [200~ c=” f a t a merge pe j o s ”
+  342  c="fata merge pe jos"
+  343  a = 2009
+  344  echo $a, $b, $cq
+  345  echo $a, $b, $c
+  346  d="$a: $b ($c)"
+  347  echo $d
+  348  echo $name
+  349  name=”james $name”
+  350  name="james $name"
+  351  echo $name
+  352  myname=John
+  353  echo ${myname}_Doe
+  354  a="some string"
+  355  expr $a + 1
+  356  b=2
+  357  expr $b + 1
+  358  read favorite_movie
+  359  echo $favorite_movie
+  360  read a b c
+  361  echo $a $b $c
+  362  read a b c
+  363  $a
+  364  $b
+  365  echo $a
+  366  echo $b
+  367  echo $c
+  368  echo ${mylongname:- John Doe}
+  369  echo $mylongname
+  370  read mylongname
+  371  echo $mylongname
+  372  echo ${mylongname:- John Doe}
+  373  echo cat > animals.txt
+  374  grep cat animals.txt
+  375  echo $?
+  376  grep dog animals.txt
+  377  echo $?
+  378  echo Ana > agenda.txt
+  379  grep Mara agenda.txt
+  380  echo Ana > agenda.txt
+  381  grep Ana agenda.txt || echo "Persoana nu exista!"
+  382  grep Mara agenda.txt || echo "Persoana nu exista!"
+  383  echo Maria > agenda.txt
+  384  grep Maria agenda.txt || grep Ana agenda.txt
+  385  cat -
+  386  cat − > hello.c
+  387  cat - > hello.c
+  388  cat − > hello.c
+  389  cat - > hello.c
+  390  cat hello.c
+  391  cat << END > hello.c
+  392  #include <stdio.h>
+  393  int main(){
+  394  printf("Hello, World!\n");
+  395  return 0;
+  396  }
+  397  END
+  398  cat hello.c
+  399  cat < ‘tty‘ > hello.c
+  400  cat < 'tty' > hello.c
+  401  cat << 'tty' > hello.c
+  402  #include <stdio.h>
+  403  int main(){
+  404  printf("Hello, World!\n");
+  405  return 0;
+  406  }
+  407  cat hello.c
+  408  cat < `tty` > hello.c
+  409  cat hello.c
+  410  cat < /dev/pts/1 > hello.c
+  411  cat  `tty` > hello.c
+  412  cat hello.c
+  413  cat - hello.c > new_hello.c
+  414  cat new_hello.c
+  415  mv new_hello.c hello.c
+  416  cat hello.c
+  417  sudo apt install gcc
+  418  cc hello.c −o hello
+  419  gcc hello.c −o hello
+  420  cc hello.c -o hello
+  421  ./hello
+  422  cat - > printenv.c
+  423  cc printenv.c -o printenv
+  424  ./printenv
+  425  echo Tema
+  426  echo 1. Am facut pana acum
+  427  echo 2
+  428  read a b c
+  429  expr $a + $b + $c
+  430  myusername=$whoami
+  431  echo myusername
+  432  man export
+  433  echo $myusername
+  434  myusername=${whoami}
+  435  echo $myusername
+  436  whoami
+  437  read whoami
+  438  whoami
+  439  export myusername=$whoami
+  440  echo $myusername
+  441  export myusername=$(whoami)
+  442  echo $myusername
+  443  echo ex 3 a fost
+  444  echo 4
+  445  exit
+  446  echo asta fost ex 4
+  447  echo acum ex 5
+  448  nano hello.c'
+  449  echo ex 4
+  450  nano hello.c
+  451  ./hello
+  452  nano hello.c
+  453  cc hello.c -o hello
+  454  ./hello
+  455  nano hello.c
+  456  cc hello.c -o hello
+  457  ./hello
+  458  echo ex 5
+  459  echo ups abia am fact ex 5
+  460  echo ex 6
+  461  nano printenv.c
+  462  cc printenv.c -o printenv
+  463  nano printenv.c
+  464  ./printenv
+  465  nano printenv.c
+  466  cc printenv.c -o printenv
+  467  nano printenv.c
+  468  cc printenv.c -o printenv
+  469  nano printenv.c
+  470  cc printenv.c -o printenv
+  471  ./printenv
+  472  nano printenv.c
+  473  cc printenv.c -o printenv
+  474  ./printenv
+  475  echo gata 6
+  476  echo 7 finalul
+  477  mkdir bin
+  478  find hello
+  479  history
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ which hello
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cp /jo[K[Khome/razvan/hello /home/razvan/bin
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ls -l
+[?2004l
+total 220
+-rw-rw-r-- 1 razvan razvan     6 Oct 23 12:03 agenda.txt
+-rw-rw-r-- 1 razvan razvan     4 Oct 23 11:59 animals.txt
+-r--rw-r-- 1 alex   razvan     0 Oct 19 14:31 bar
+-rw-rw-r-- 1 razvan users      0 Oct 19 14:31 baz
+drwxrwxr-x 2 razvan razvan  4096 Oct 23 17:56 [0m[01;34mbin[0m
+drwxr-xr-x 2 razvan razvan  4096 Oct 19 12:26 [01;34mDesktop[0m
+drwxr-xr-x 2 razvan razvan  4096 Oct 15 15:35 [01;34mDocuments[0m
+drwxr-xr-x 2 razvan razvan  4096 Oct 15 15:35 [01;34mDownloads[0m
+-rwxrwxrwx 1 alex   users      0 Oct 19 14:31 [01;32mfoo[0m
+-rwxrwxr-x 1 razvan razvan 16056 Oct 23 17:40 [01;32mhello[0m
+-rw-rw-r-- 1 razvan razvan   168 Oct 23 17:40 hello.c
+-rw-rw-r-- 1 razvan razvan 49152 Oct 23 17:54 lab4tema.txt
+-rw-rw-r-- 1 razvan razvan 48273 Oct 23 12:44 lab4.txt
+drwxr-xr-x 2 razvan razvan  4096 Oct 15 15:35 [01;34mMusic[0m
+drwxrwxr-x 2 razvan razvan  4096 Oct 19 13:44 [01;34morig[0m
+-rw-rw-r-- 1 razvan razvan    31 Oct 19 12:41 out
+drwxr-xr-x 2 razvan razvan  4096 Oct 15 15:35 [01;34mPictures[0m
+-rwxrwxr-x 1 razvan razvan 16000 Oct 23 17:51 [01;32mprintenv[0m
+-rw-rw-r-- 1 razvan razvan   172 Oct 23 17:50 printenv.c
+drwxr-xr-x 2 razvan razvan  4096 Oct 15 15:35 [01;34mPublic[0m
+-rw-rw-r-- 1 razvan razvan    39 Oct 19 13:27 rat
+drwxrwxr-x 8 razvan razvan  4096 Oct 19 16:14 [01;34mseria15[0m
+drwx------ 6 razvan razvan  4096 Oct 23 11:10 [01;34msnap[0m
+drwxr-xr-x 2 razvan razvan  4096 Oct 15 15:35 [01;34mTemplates[0m
+drwxrwxr-x 2 razvan razvan  4096 Oct 19 13:05 [01;34mtmp[0m
+drwxrwxr-x 2 razvan razvan  4096 Oct 19 15:11 [01;34mtmpdir[0m
+drwxrwxr-x 4 razvan razvan  4096 Oct 19 13:10 [01;34muso[0m
+drwxr-xr-x 2 razvan razvan  4096 Oct 15 15:35 [01;34mVideos[0m
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ which hello
+[?2004l
+/home/razvan/bin/hello
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m/home/razvan/bin/hello[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/home/razvan/bin/hello
+[?2004l
+Introduceți numele: razvan
+Hello razvan[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ls
+[?2004l
+agenda.txt   [0m[01;34mbin[0m        [01;32mfoo[0m           lab4.txt  [01;34mPictures[0m    rat        [01;34mtmp[0m
+animals.txt  [01;34mDesktop[0m    [01;32mhello[0m         [01;34mMusic[0m     [01;32mprintenv[0m    [01;34mseria15[0m    [01;34mtmpdir[0m
+bar          [01;34mDocuments[0m  hello.c       [01;34morig[0m      printenv.c  [01;34msnap[0m       [01;34muso[0m
+baz          [01;34mDownloads[0m  lab4tema.txt  out       [01;34mPublic[0m      [01;34mTemplates[0m  [01;34mVideos[0m
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ find hello
+[?2004l
+hello
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ which h[K[K[K[K[K[K[Kman find
+[?2004l
+[?1049h[22;0;0t[?1h=
+[4mFIND[24m(1)                     General Commands Manual                    [4mFIND[24m(1)[m
+[m
+[1mNAME[0m[m
+       find - search for files in a directory hierarchy[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mfind  [22m[-H]  [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [ex‐[m
+       pression][m
+[m
+[1mDESCRIPTION[0m[m
+       This manual page documents the GNU version of [1mfind[22m.  GNU [1mfind  [22msearches[m
+       the  directory  tree  rooted at each given starting-point by evaluating[m
+       the given expression from left to right,  according  to  the  rules  of[m
+       precedence  (see  section  OPERATORS),  until the outcome is known (the[m
+       left hand side is false for [4mand[24m operations,  true  for  [4mor[24m),  at  which[m
+       point  [1mfind  [22mmoves  on  to the next file name.  If no starting-point is[m
+       specified, `.' is assumed.[m
+[m
+       If you are using [1mfind [22min an environment  where  security  is  important[m
+       (for  example  if  you  are  using  it  to  search directories that are[m
+       writable by other users), you should read the `Security Considerations'[m
+       chapter of the findutils documentation, which is called  [1mFinding  Files[0m[m
+       and  comes  with findutils.  That document also includes a lot more de‐[m
+[7m Manual page find(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       tail and discussion than this manual page, so you may find  it  a  more[m
+[7m Manual page find(1) line 2 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       useful source of information.[m
+[7m Manual page find(1) line 3 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 4 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mOPTIONS[0m[m
+[7m Manual page find(1) line 5 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The  [1m-H[22m,  [1m-L  [22mand  [1m-P  [22moptions control the treatment of symbolic links.[m
+[7m Manual page find(1) line 6 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Command-line arguments following these are taken to be names  of  files[m
+[7m Manual page find(1) line 7 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       or  directories  to  be  examined, up to the first argument that begins[m
+[7m Manual page find(1) line 8 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       with `-', or the argument `(' or `!'.  That argument and any  following[m
+[7m Manual page find(1) line 9 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       arguments  are  taken  to  be  the  expression describing what is to be[m
+[7m Manual page find(1) line 10 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       searched for.  If no paths are given, the current  directory  is  used.[m
+[7m Manual page find(1) line 11 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       If  no  expression  is  given,  the  expression [1m-print [22mis used (but you[m
+[7m Manual page find(1) line 12 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       should probably consider using [1m-print0 [22minstead, anyway).[m
+[7m Manual page find(1) line 13 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 14 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       This manual page talks about  `options'  within  the  expression  list.[m
+[7m Manual page find(1) line 15 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       These  options  control the behaviour of [1mfind [22mbut are specified immedi‐[m
+[7m Manual page find(1) line 16 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ately after the last path name.  The five `real' options [1m-H[22m, [1m-L[22m, [1m-P[22m, [1m-D[0m[m
+[7m Manual page find(1) line 17 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       and [1m-O [22mmust appear before the first path name, if  at  all.   A  double[m
+[7m Manual page find(1) line 18 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       dash  [1m-- [22mcould theoretically be used to signal that any remaining argu‐[m
+[7m Manual page find(1) line 19 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ments are not options, but this does not really work  due  to  the  way[m
+[7m Manual page find(1) line 20 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1mfind  [22mdetermines  the end of the following path arguments: it does that[m
+[7m Manual page find(1) line 21 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       by reading until an expression argument comes (which also starts with a[m
+[7m Manual page find(1) line 22 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       `-').  Now, if a path argument would start with a `-', then [1mfind  [22mwould[m
+[7m Manual page find(1) line 23 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       treat  it  as  expression  argument  instead.  Thus, to ensure that all[m
+[7m Manual page find(1) line 24 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       start points are taken as such, and especially to prevent that wildcard[m
+[7m Manual page find(1) line 25 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       patterns expanded by the calling shell are not  mistakenly  treated  as[m
+[7m Manual page find(1) line 26 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       expression  arguments, it is generally safer to prefix wildcards or du‐[m
+[7m Manual page find(1) line 27 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       bious path names with either `./' or to use absolute path names  start‐[m
+[7m Manual page find(1) line 28 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ing  with '/'.  Alternatively, it is generally safe though non-portable[m
+[7m Manual page find(1) line 29 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       to use the GNU option [1m-files0-from [22mto pass arbitrary starting points to[m
+[7m Manual page find(1) line 30 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1mfind[22m.[m
+[7m Manual page find(1) line 31 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 32 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -P     Never follow symbolic links.  This  is  the  default  behaviour.[m
+[7m Manual page find(1) line 33 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              When  [1mfind  [22mexamines  or prints information about files, and the[m
+[7m Manual page find(1) line 34 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              file is a symbolic link, the information  used  shall  be  taken[m
+[7m Manual page find(1) line 35 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              from the properties of the symbolic link itself.[m
+[7m Manual page find(1) line 36 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 37 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -L     Follow symbolic links.  When [1mfind [22mexamines or prints information[m
+[7m Manual page find(1) line 38 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              about  files, the information used shall be taken from the prop‐[m
+[7m Manual page find(1) line 39 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              erties of the file to which the link points, not from  the  link[m
+[7m Manual page find(1) line 40 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              itself (unless it is a broken symbolic link or [1mfind [22mis unable to[m
+[7m Manual page find(1) line 41 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              examine  the file to which the link points).  Use of this option[m
+[7m Manual page find(1) line 42 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              implies [1m-noleaf[22m.  If you later use the [1m-P [22moption,  [1m-noleaf  [22mwill[m
+[7m Manual page find(1) line 43 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              still  be  in  effect.   If [1m-L [22mis in effect and [1mfind [22mdiscovers a[m
+[7m Manual page find(1) line 44 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              symbolic link to a subdirectory during its search, the subdirec‐[m
+[7m Manual page find(1) line 45 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tory pointed to by the symbolic link will be searched.[m
+[7m Manual page find(1) line 46 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 47 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              When the [1m-L [22moption is in effect, the [1m-type [22mpredicate will always[m
+[7m Manual page find(1) line 48 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              match against the type of the file that a symbolic  link  points[m
+[7m Manual page find(1) line 49 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              to rather than the link itself (unless the symbolic link is bro‐[m
+[7m Manual page find(1) line 50 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              ken).   Actions  that  can cause symbolic links to become broken[m
+[7m Manual page find(1) line 51 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              while [1mfind [22mis executing (for example [1m-delete[22m) can give  rise  to[m
+[7m Manual page find(1) line 52 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              confusing  behaviour.   Using  [1m-L  [22mcauses the [1m-lname [22mand [1m-ilname[0m[m
+[7m Manual page find(1) line 53 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              predicates always to return false.[m
+[7m Manual page find(1) line 54 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 55 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -H     Do not follow symbolic links, except while processing  the  com‐[m
+[7m Manual page find(1) line 56 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              mand  line  arguments.  When [1mfind [22mexamines or prints information[m
+[7m Manual page find(1) line 57 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              about files, the information used shall be taken from the  prop‐[m
+[7m Manual page find(1) line 58 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              erties  of the symbolic link itself.  The only exception to this[m
+[7m Manual page find(1) line 59 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              behaviour is when a file specified on the command line is a sym‐[m
+[7m Manual page find(1) line 60 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              bolic link, and the link can be resolved.  For  that  situation,[m
+[7m Manual page find(1) line 61 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the  information  used is taken from whatever the link points to[m
+[7m Manual page find(1) line 62 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              (that is, the link is followed).  The information about the link[m
+[7m Manual page find(1) line 63 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              itself is used as a fallback if the file pointed to by the  sym‐[m
+[7m Manual page find(1) line 64 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              bolic  link  cannot  be examined.  If [1m-H [22mis in effect and one of[m
+[7m Manual page find(1) line 65 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the paths specified on the command line is a symbolic link to  a[m
+[7m Manual page find(1) line 66 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              directory,  the  contents  of  that  directory  will be examined[m
+[7m Manual page find(1) line 67 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              (though of course [1m-maxdepth 0 [22mwould prevent this).[m
+[7m Manual page find(1) line 68 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 69 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       If more than one of [1m-H[22m, [1m-L [22mand [1m-P [22mis specified, each overrides the oth‐[m
+[7m Manual page find(1) line 70 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ers; the last one appearing on the command line takes effect.  Since it[m
+[7m Manual page find(1) line 71 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       is the default, the [1m-P [22moption should be considered to be in effect  un‐[m
+[7m Manual page find(1) line 72 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       less either [1m-H [22mor [1m-L [22mis specified.[m
+[7m Manual page find(1) line 73 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 74 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       GNU  [1mfind  [22mfrequently  stats files during the processing of the command[m
+[7m Manual page find(1) line 75 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       line itself, before any searching has begun.  These options also affect[m
+[7m Manual page find(1) line 76 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       how those arguments are processed.  Specifically, there are a number of[m
+[7m Manual page find(1) line 77 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       tests that compare files listed on the command line against a  file  we[m
+[7m Manual page find(1) line 78 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       are  currently  considering.   In  each case, the file specified on the[m
+[7m Manual page find(1) line 79 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       command line will have been examined and some of  its  properties  will[m
+[7m Manual page find(1) line 80 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       have been saved.  If the named file is in fact a symbolic link, and the[m
+[7m Manual page find(1) line 81 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-P  [22moption  is  in effect (or if neither [1m-H [22mnor [1m-L [22mwere specified), the[m
+[7m Manual page find(1) line 82 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       information used for the comparison will be taken from  the  properties[m
+[7m Manual page find(1) line 83 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       of  the symbolic link.  Otherwise, it will be taken from the properties[m
+[7m Manual page find(1) line 84 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       of the file the link points to.  If [1mfind [22mcannot follow  the  link  (for[m
+[7m Manual page find(1) line 85 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       example  because it has insufficient privileges or the link points to a[m
+[7m Manual page find(1) line 86 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       nonexistent file) the properties of the link itself will be used.[m
+[7m Manual page find(1) line 87 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 88 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       When the [1m-H [22mor [1m-L [22moptions are in effect, any symbolic links  listed  as[m
+[7m Manual page find(1) line 89 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the  argument of [1m-newer [22mwill be dereferenced, and the timestamp will be[m
+[7m Manual page find(1) line 90 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       taken from the file to which the symbolic link points.  The  same  con‐[m
+[7m Manual page find(1) line 91 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       sideration applies to [1m-newerXY[22m, [1m-anewer [22mand [1m-cnewer[22m.[m
+[7m Manual page find(1) line 92 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 93 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The  [1m-follow  [22moption has a similar effect to [1m-L[22m, though it takes effect[m
+[7m Manual page find(1) line 94 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       at the point where it appears (that is, if [1m-L [22mis not used  but  [1m-follow[0m[m
+[7m Manual page find(1) line 95 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       is, any symbolic links appearing after [1m-follow [22mon the command line will[m
+[7m Manual page find(1) line 96 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       be dereferenced, and those before it will not).[m
+[7m Manual page find(1) line 97 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 98 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -D debugopts[m
+[7m Manual page find(1) line 99 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Print  diagnostic  information;  this can be helpful to diagnose[m
+[7m Manual page find(1) line 100 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              problems with why [1mfind [22mis not doing what you want.  The list  of[m
+[7m Manual page find(1) line 101 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              debug  options  should be comma separated.  Compatibility of the[m
+[7m Manual page find(1) line 102 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              debug options is not guaranteed between releases  of  findutils.[m
+[7m Manual page find(1) line 103 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              For  a  complete  list of valid debug options, see the output of[m
+[7m Manual page find(1) line 104 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1mfind -D help[22m.  Valid debug options include[m
+[7m Manual page find(1) line 105 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 106 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              exec   Show diagnostic information relating to -exec,  -execdir,[m
+[7m Manual page find(1) line 107 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     -ok and -okdir[m
+[7m Manual page find(1) line 108 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 109 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              opt    Prints  diagnostic  information relating to the optimisa‐[m
+[7m Manual page find(1) line 110 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     tion of the expression tree; see the -O option.[m
+[7m Manual page find(1) line 111 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 112 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rates  Prints a summary indicating how often each predicate suc‐[m
+[7m Manual page find(1) line 113 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     ceeded or failed.[m
+[7m Manual page find(1) line 114 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 115 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              search Navigate the directory tree verbosely.[m
+[7m Manual page find(1) line 116 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 117 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              stat   Print messages as files are examined with  the  [1mstat  [22mand[m
+[7m Manual page find(1) line 118 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     [1mlstat  [22msystem  calls.  The [1mfind [22mprogram tries to minimise[m
+[7m Manual page find(1) line 119 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     such calls.[m
+[7m Manual page find(1) line 120 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 121 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tree   Show the expression tree in its  original  and  optimised[m
+[7m Manual page find(1) line 122 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     form.[m
+[7m Manual page find(1) line 123 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 124 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              all    Enable all of the other debug options (but [1mhelp[22m).[m
+[7m Manual page find(1) line 125 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 126 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              help   Explain the debugging options.[m
+[7m Manual page find(1) line 127 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 128 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -Olevel[m
+[7m Manual page find(1) line 129 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Enables  query optimisation.  The [1mfind [22mprogram reorders tests to[m
+[7m Manual page find(1) line 130 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              speed up execution while preserving the overall effect; that is,[m
+[7m Manual page find(1) line 131 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              predicates with side effects are not reordered relative to  each[m
+[7m Manual page find(1) line 132 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              other.   The  optimisations performed at each optimisation level[m
+[7m Manual page find(1) line 133 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              are as follows.[m
+[7m Manual page find(1) line 134 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 135 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              0      Equivalent to optimisation level 1.[m
+[7m Manual page find(1) line 136 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 137 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              1      This is the default optimisation level and corresponds to[m
+[7m Manual page find(1) line 138 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     the traditional behaviour.  Expressions are reordered  so[m
+[7m Manual page find(1) line 139 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     that  tests based only on the names of files (for example[m
+[7m Manual page find(1) line 140 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     [1m-name [22mand [1m-regex[22m) are performed first.[m
+[7m Manual page find(1) line 141 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 142 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              2      Any [1m-type [22mor [1m-xtype [22mtests are performed after  any  tests[m
+[7m Manual page find(1) line 143 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     based  only  on  the names of files, but before any tests[m
+[7m Manual page find(1) line 144 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     that require information from the inode.  On many  modern[m
+[7m Manual page find(1) line 145 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     versions  of  Unix,  file types are returned by [1mreaddir()[0m[m
+[7m Manual page find(1) line 146 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     and so these predicates are faster to evaluate than pred‐[m
+[7m Manual page find(1) line 147 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     icates which need to stat the file first.  If you use the[m
+[7m Manual page find(1) line 148 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     [1m-fstype [4m[22mFOO[24m predicate and specify a filesystem  type  [4mFOO[0m[m
+[7m Manual page find(1) line 149 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     which  is  not known (that is, present in `/etc/mtab') at[m
+[7m Manual page find(1) line 150 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     the time [1mfind [22mstarts, that  predicate  is  equivalent  to[m
+[7m Manual page find(1) line 151 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     [1m-false[22m.[m
+[7m Manual page find(1) line 152 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 153 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              3      At this optimisation level, the full cost-based query op‐[m
+[7m Manual page find(1) line 154 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     timiser  is  enabled.   The order of tests is modified so[m
+[7m Manual page find(1) line 155 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     that cheap (i.e. fast) tests are performed first and more[m
+[7m Manual page find(1) line 156 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     expensive ones are performed later, if necessary.  Within[m
+[7m Manual page find(1) line 157 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     each cost band, predicates are evaluated earlier or later[m
+[7m Manual page find(1) line 158 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     according to whether they are likely to succeed  or  not.[m
+[7m Manual page find(1) line 159 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     For [1m-o[22m, predicates which are likely to succeed are evalu‐[m
+[7m Manual page find(1) line 160 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     ated  earlier, and for [1m-a[22m, predicates which are likely to[m
+[7m Manual page find(1) line 161 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K                     fail are evaluated earlier.[m
+[7m Manual page find(1) line 162 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 163 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              The cost-based optimiser has a fixed  idea  of  how  likely  any[m
+[7m Manual page find(1) line 164 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              given  test  is to succeed.  In some cases the probability takes[m
+[7m Manual page find(1) line 165 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              account of the specific nature of the test (for example, [1m-type f[0m[m
+[7m Manual page find(1) line 166 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              is assumed to be more likely  to  succeed  than  [1m-type c[22m).   The[m
+[7m Manual page find(1) line 167 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              cost-based  optimiser  is currently being evaluated.  If it does[m
+[7m Manual page find(1) line 168 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              not actually improve the performance of [1mfind[22m, it will be removed[m
+[7m Manual page find(1) line 169 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              again.  Conversely, optimisations that prove to be reliable, ro‐[m
+[7m Manual page find(1) line 170 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              bust and effective may be enabled at lower  optimisation  levels[m
+[7m Manual page find(1) line 171 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              over  time.   However,  the default behaviour (i.e. optimisation[m
+[7m Manual page find(1) line 172 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              level 1) will not be changed in the 4.3.x release  series.   The[m
+[7m Manual page find(1) line 173 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              findutils  test suite runs all the tests on [1mfind [22mat each optimi‐[m
+[7m Manual page find(1) line 174 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              sation level and ensures that the result is the same.[m
+[7m Manual page find(1) line 175 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 176 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[1mEXPRESSION[0m[m
+[7m Manual page find(1) line 177 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The part of the command line after the list of starting points  is  the[m
+[7m Manual page find(1) line 178 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [4mexpression[24m.   This  is  a kind of query specification describing how we[m
+[7m Manual page find(1) line 179 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       match files and what we do with the files that were  matched.   An  ex‐[m
+[7m Manual page find(1) line 180 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       pression is composed of a sequence of things:[m
+[7m Manual page find(1) line 181 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 182 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Tests  Tests return a true or false value, usually on the basis of some[m
+[7m Manual page find(1) line 183 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              property  of a file we are considering.  The [1m-empty [22mtest for ex‐[m
+[7m Manual page find(1) line 184 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              ample is true only when the current file is empty.[m
+[7m Manual page find(1) line 185 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 186 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Actions[m
+[7m Manual page find(1) line 187 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Actions have side effects (such as  printing  something  on  the[m
+[7m Manual page find(1) line 188 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              standard  output) and return either true or false, usually based[m
+[7m Manual page find(1) line 189 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              on whether or not they are successful.  The  [1m-print  [22maction  for[m
+[7m Manual page find(1) line 190 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              example prints the name of the current file on the standard out‐[m
+[7m Manual page find(1) line 191 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              put.[m
+[7m Manual page find(1) line 192 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 193 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Global options[m
+[7m Manual page find(1) line 194 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Global  options affect the operation of tests and actions speci‐[m
+[7m Manual page find(1) line 195 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              fied on any part of the command line.  Global options always re‐[m
+[7m Manual page find(1) line 196 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              turn true.  The [1m-depth [22moption for example  makes  [1mfind  [22mtraverse[m
+[7m Manual page find(1) line 197 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the file system in a depth-first order.[m
+[7m Manual page find(1) line 198 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 199 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Positional options[m
+[7m Manual page find(1) line 200 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Positional  options  affect  only  tests or actions which follow[m
+[7m Manual page find(1) line 201 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              them.  Positional options always return  true.   The  [1m-regextype[0m[m
+[7m Manual page find(1) line 202 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              option for example is positional, specifying the regular expres‐[m
+[7m Manual page find(1) line 203 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              sion dialect for regular expressions occurring later on the com‐[m
+[7m Manual page find(1) line 204 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              mand line.[m
+[7m Manual page find(1) line 205 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 206 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Operators[m
+[7m Manual page find(1) line 207 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Operators  join  together the other items within the expression.[m
+[7m Manual page find(1) line 208 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              They include for example [1m-o [22m(meaning logical OR) and [1m-a [22m(meaning[m
+[7m Manual page find(1) line 209 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              logical AND).  Where an operator is missing, [1m-a [22mis assumed.[m
+[7m Manual page find(1) line 210 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 211 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The [1m-print [22maction is performed on all files for which the whole expres‐[m
+[7m Manual page find(1) line 212 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       sion is true, unless it contains an action other than [1m-prune [22mor  [1m-quit[22m.[m
+[7m Manual page find(1) line 213 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Actions  which inhibit the default [1m-print [22mare [1m-delete[22m, [1m-exec[22m, [1m-execdir[22m,[m
+[7m Manual page find(1) line 214 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-ok[22m, [1m-okdir[22m, [1m-fls[22m, [1m-fprint[22m, [1m-fprintf[22m, [1m-ls[22m, [1m-print [22mand [1m-printf[22m.[m
+[7m Manual page find(1) line 215 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 216 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The [1m-delete [22maction also acts like an option (since it implies [1m-depth[22m).[m
+[7m Manual page find(1) line 217 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 218 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K   [1mPOSITIONAL OPTIONS[0m[m
+[7m Manual page find(1) line 219 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Positional options always return true.  They affect only  tests  occur‐[m
+[7m Manual page find(1) line 220 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ring later on the command line.[m
+[7m Manual page find(1) line 221 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 222 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -daystart[m
+[7m Manual page find(1) line 223 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Measure  times  (for  [1m-amin[22m,  [1m-atime[22m,  [1m-cmin[22m, [1m-ctime[22m, [1m-mmin[22m, and[m
+[7m Manual page find(1) line 224 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1m-mtime[22m) from the beginning of today rather than  from  24  hours[m
+[7m Manual page find(1) line 225 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              ago.   This  option only affects tests which appear later on the[m
+[7m Manual page find(1) line 226 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              command line.[m
+[7m Manual page find(1) line 227 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 228 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -follow[m
+[7m Manual page find(1) line 229 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Deprecated; use the [1m-L  [22moption  instead.   Dereference  symbolic[m
+[7m Manual page find(1) line 230 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              links.   Implies [1m-noleaf[22m.  The [1m-follow [22moption affects only those[m
+[7m Manual page find(1) line 231 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tests which appear after it on the command line.  Unless the  [1m-H[0m[m
+[7m Manual page find(1) line 232 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              or [1m-L [22moption has been specified, the position of the [1m-follow [22mop‐[m
+[7m Manual page find(1) line 233 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tion  changes  the  behaviour of the [1m-newer [22mpredicate; any files[m
+[7m Manual page find(1) line 234 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              listed as the argument of [1m-newer [22mwill be  dereferenced  if  they[m
+[7m Manual page find(1) line 235 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              are symbolic links.  The same consideration applies to [1m-newerXY[22m,[m
+[7m Manual page find(1) line 236 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1m-anewer [22mand [1m-cnewer[22m.  Similarly, the [1m-type [22mpredicate will always[m
+[7m Manual page find(1) line 237 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              match  against  the type of the file that a symbolic link points[m
+[7m Manual page find(1) line 238 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              to rather than the link itself.  Using [1m-follow [22mcauses the [1m-lname[0m[m
+[7m Manual page find(1) line 239 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1mand -ilname [22mpredicates always to return false.[m
+[7m Manual page find(1) line 240 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 241 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -regextype [4mtype[0m[m
+[7m Manual page find(1) line 242 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Changes the regular expression syntax understood by  [1m-regex  [22mand[m
+[7m Manual page find(1) line 243 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1m-iregex  [22mtests  which  occur  later on the command line.  To see[m
+[7m Manual page find(1) line 244 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              which regular expression types are known,  use  [1m-regextype help[22m.[m
+[7m Manual page find(1) line 245 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              The Texinfo documentation (see [1mSEE ALSO[22m) explains the meaning of[m
+[7m Manual page find(1) line 246 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              and differences between the various types of regular expression.[m
+[7m Manual page find(1) line 247 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 248 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -warn, -nowarn[m
+[7m Manual page find(1) line 249 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Turn  warning  messages on or off.  These warnings apply only to[m
+[7m Manual page find(1) line 250 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the command line usage, not to any conditions  that  [1mfind  [22mmight[m
+[7m Manual page find(1) line 251 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              encounter  when  it searches directories.  The default behaviour[m
+[7m Manual page find(1) line 252 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              corresponds to [1m-warn [22mif standard input is a tty, and to  [1m-nowarn[0m[m
+[7m Manual page find(1) line 253 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              otherwise.   If a warning message relating to command-line usage[m
+[7m Manual page find(1) line 254 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              is produced, the exit status of [1mfind [22mis not  affected.   If  the[m
+[7m Manual page find(1) line 255 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1mPOSIXLY_CORRECT  [22menvironment  variable is set, and [1m-warn [22mis also[m
+[7m Manual page find(1) line 256 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              used, it is not specified which, if any, warnings  will  be  ac‐[m
+[7m Manual page find(1) line 257 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tive.[m
+[7m Manual page find(1) line 258 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 259 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K   [1mGLOBAL OPTIONS[0m[m
+[7m Manual page find(1) line 260 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Global options always return true.  Global options take effect even for[m
+[7m Manual page find(1) line 261 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       tests  which  occur earlier on the command line.  To prevent confusion,[m
+[7m Manual page find(1) line 262 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       global options should specified on the command-line after the  list  of[m
+[7m Manual page find(1) line 263 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       start  points, just before the first test, positional option or action.[m
+[7m Manual page find(1) line 264 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       If you specify a global option in some other place, [1mfind [22mwill  issue  a[m
+[7m Manual page find(1) line 265 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       warning message explaining that this can be confusing.[m
+[7m Manual page find(1) line 266 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 267 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       The global options occur after the list of start points, and so are not[m
+[7m Manual page find(1) line 268 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       the same kind of option as [1m-L[22m, for example.[m
+[7m Manual page find(1) line 269 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 270 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -d     A  synonym  for  -depth, for compatibility with FreeBSD, NetBSD,[m
+[7m Manual page find(1) line 271 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              MacOS X and OpenBSD.[m
+[7m Manual page find(1) line 272 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 273 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -depth Process each directory's contents before the  directory  itself.[m
+[7m Manual page find(1) line 274 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              The -delete action also implies [1m-depth[22m.[m
+[7m Manual page find(1) line 275 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 276 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -files0-from [4mfile[0m[m
+[7m Manual page find(1) line 277 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Read  the  starting  points from [4mfile[24m instead of getting them on[m
+[7m Manual page find(1) line 278 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the command line.  In contrast to the known limitations of pass‐[m
+[7m Manual page find(1) line 279 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              ing starting points via arguments on the  command  line,  namely[m
+[7m Manual page find(1) line 280 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the limitation of the amount of file names, and the inherent am‐[m
+[7m Manual page find(1) line 281 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              biguity of file names clashing with option names, using this op‐[m
+[7m Manual page find(1) line 282 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tion  allows  to  safely  pass  an  arbitrary number of starting[m
+[7m Manual page find(1) line 283 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              points to [1mfind[22m.[m
+[7m Manual page find(1) line 284 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 285 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Using this option and passing starting  points  on  the  command[m
+[7m Manual page find(1) line 286 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              line  is mutually exclusive, and is therefore not allowed at the[m
+[7m Manual page find(1) line 287 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              same time.[m
+[7m Manual page find(1) line 288 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 289 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              The [4mfile[24m argument is mandatory.  One can use  [1m-files0-from -  [22mto[m
+[7m Manual page find(1) line 290 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              read the list of starting points from the [4mstandard[24m [4minput[24m stream,[m
+[7m Manual page find(1) line 291 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              and  e.g. from a pipe.  In this case, the actions [1m-ok [22mand [1m-okdir[0m[m
+[7m Manual page find(1) line 292 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              are not allowed, because they  would  obviously  interfere  with[m
+[7m Manual page find(1) line 293 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              reading from [4mstandard[24m [4minput[24m in order to get a user confirmation.[m
+[7m Manual page find(1) line 294 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 295 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              The  starting  points  in [4mfile[24m have to be separated by ASCII NUL[m
+[7m Manual page find(1) line 296 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              characters.  Two consecutive NUL characters,  i.e.,  a  starting[m
+[7m Manual page find(1) line 297 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              point  with a Zero-length file name is not allowed and will lead[m
+[7m Manual page find(1) line 298 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              to an error diagnostic followed by a non-Zero exit code later.[m
+[7m Manual page find(1) line 299 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 300 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              In the case the given [4mfile[24m is empty, [1mfind [22mdoes not  process  any[m
+[7m Manual page find(1) line 301 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              starting point and therefore will exit immediately after parsing[m
+[7m Manual page find(1) line 302 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the  program  arguments.  This is unlike the standard invocation[m
+[7m Manual page find(1) line 303 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              where [1mfind [22massumes the current directory as starting point if no[m
+[7m Manual page find(1) line 304 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              path argument is passed.[m
+[7m Manual page find(1) line 305 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 306 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              The processing of the starting points  is  otherwise  as  usual,[m
+[7m Manual page find(1) line 307 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              e.g.   [1mfind  [22mwill  recurse  into subdirectories unless otherwise[m
+[7m Manual page find(1) line 308 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              prevented.  To process only the starting points, one  can  addi‐[m
+[7m Manual page find(1) line 309 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tionally pass [1m-maxdepth 0[22m.[m
+[7m Manual page find(1) line 310 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 311 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Further  notes:  if a file is listed more than once in the input[m
+[7m Manual page find(1) line 312 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              file, it is unspecified whether it is visited  more  than  once.[m
+[7m Manual page find(1) line 313 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              If  the [4mfile[24m is mutated during the operation of [1mfind[22m, the result[m
+[7m Manual page find(1) line 314 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              is unspecified as well.  Finally, the seek position  within  the[m
+[7m Manual page find(1) line 315 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              named  [4mfile[24m  at  the time [1mfind [22mexits, be it with [1m-quit [22mor in any[m
+[7m Manual page find(1) line 316 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              other way, is also unspecified.  By "unspecified" here is  meant[m
+[7m Manual page find(1) line 317 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              that  it  may or may not work or do any specific thing, and that[m
+[7m Manual page find(1) line 318 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the behavior may change from platform to platform, or from [1mfind‐[0m[m
+[7m Manual page find(1) line 319 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1mutils [22mrelease to release.[m
+[7m Manual page find(1) line 320 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 321 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -help, --help[m
+[7m Manual page find(1) line 322 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Print a summary of the command-line usage of [1mfind [22mand exit.[m
+[7m Manual page find(1) line 323 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 324 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -ignore_readdir_race[m
+[7m Manual page find(1) line 325 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Normally, [1mfind [22mwill emit an error message when it fails to  stat[m
+[7m Manual page find(1) line 326 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              a  file.   If you give this option and a file is deleted between[m
+[7m Manual page find(1) line 327 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the time [1mfind [22mreads the name of the file from the directory  and[m
+[7m Manual page find(1) line 328 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the time it tries to stat the file, no error message will be is‐[m
+[7m Manual page find(1) line 329 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              sued.  This also applies to files or directories whose names are[m
+[7m Manual page find(1) line 330 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              given on the command line.  This option takes effect at the time[m
+[7m Manual page find(1) line 331 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the command line is read, which means that you cannot search one[m
+[7m Manual page find(1) line 332 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              part  of  the filesystem with this option on and part of it with[m
+[7m Manual page find(1) line 333 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              this option off (if you need to do that, you will need to  issue[m
+[7m Manual page find(1) line 334 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              two  [1mfind  [22mcommands instead, one with the option and one without[m
+[7m Manual page find(1) line 335 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              it).[m
+[7m Manual page find(1) line 336 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 337 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Furthermore, [1mfind [22mwith the [1m-ignore_readdir_race [22moption will  ig‐[m
+[7m Manual page find(1) line 338 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              nore  errors of the [1m-delete [22maction in the case the file has dis‐[m
+[7m Manual page find(1) line 339 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              appeared since the parent directory was read: it will not output[m
+[7m Manual page find(1) line 340 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              an error diagnostic, and the return code of the  [1m-delete  [22maction[m
+[7m Manual page find(1) line 341 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              will be true.[m
+[7m Manual page find(1) line 342 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 343 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -maxdepth [4mlevels[0m[m
+[7m Manual page find(1) line 344 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Descend at most [4mlevels[24m (a non-negative integer) levels of direc‐[m
+[7m Manual page find(1) line 345 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tories  below the starting-points.  Using [1m-maxdepth 0 [22mmeans only[m
+[7m Manual page find(1) line 346 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              apply the tests and actions to the starting-points themselves.[m
+[7m Manual page find(1) line 347 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 348 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -mindepth [4mlevels[0m[m
+[7m Manual page find(1) line 349 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Do not apply any tests or actions at levels less than [4mlevels[24m  (a[m
+[7m Manual page find(1) line 350 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              non-negative  integer).   Using  [1m-mindepth 1  [22mmeans  process all[m
+[7m Manual page find(1) line 351 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              files except the starting-points.[m
+[7m Manual page find(1) line 352 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 353 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -mount Don't descend directories on other  filesystems.   An  alternate[m
+[7m Manual page find(1) line 354 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              name  for  [1m-xdev[22m,  for compatibility with some other versions of[m
+[7m Manual page find(1) line 355 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [1mfind[22m.[m
+[7m Manual page find(1) line 356 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 357 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -noignore_readdir_race[m
+[7m Manual page find(1) line 358 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Turns off the effect of [1m-ignore_readdir_race[22m.[m
+[7m Manual page find(1) line 359 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 360 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -noleaf[m
+[7m Manual page find(1) line 361 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Do not optimize by assuming that  directories  contain  2  fewer[m
+[7m Manual page find(1) line 362 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              subdirectories  than  their  hard  link  count.   This option is[m
+[7m Manual page find(1) line 363 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              needed when searching filesystems that do not  follow  the  Unix[m
+[7m Manual page find(1) line 364 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              directory-link  convention, such as CD-ROM or MS-DOS filesystems[m
+[7m Manual page find(1) line 365 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              or AFS volume mount points.  Each directory  on  a  normal  Unix[m
+[7m Manual page find(1) line 366 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              filesystem  has  at least 2 hard links: its name and its `.' en‐[m
+[7m Manual page find(1) line 367 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              try.  Additionally, its subdirectories (if any) each have a `..'[m
+[7m Manual page find(1) line 368 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              entry linked to that directory.  When [1mfind [22mis examining a direc‐[m
+[7m Manual page find(1) line 369 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tory, after it has statted 2 fewer subdirectories than  the  di‐[m
+[7m Manual page find(1) line 370 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              rectory's  link  count, it knows that the rest of the entries in[m
+[7m Manual page find(1) line 371 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the directory are non-directories (`leaf' files in the directory[m
+[7m Manual page find(1) line 372 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              tree).  If only the files' names need to be examined,  there  is[m
+[7m Manual page find(1) line 373 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              no  need  to  stat  them;  this  gives a significant increase in[m
+[7m Manual page find(1) line 374 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              search speed.[m
+[7m Manual page find(1) line 375 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 376 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -version, --version[m
+[7m Manual page find(1) line 377 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Print the [1mfind [22mversion number and exit.[m
+[7m Manual page find(1) line 378 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 379 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -xdev  Don't descend directories on other filesystems.[m
+[7m Manual page find(1) line 380 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 381 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K   [1mTESTS[0m[m
+[7m Manual page find(1) line 382 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Some tests, for example [1m-newerXY [22mand [1m-samefile[22m,  allow  comparison  be‐[m
+[7m Manual page find(1) line 383 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       tween  the file currently being examined and some reference file speci‐[m
+[7m Manual page find(1) line 384 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       fied on the command line.  When these tests are used,  the  interpreta‐[m
+[7m Manual page find(1) line 385 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       tion  of  the reference file is determined by the options [1m-H[22m, [1m-L [22mand [1m-P[0m[m
+[7m Manual page find(1) line 386 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       and any previous [1m-follow[22m, but the reference file is only examined once,[m
+[7m Manual page find(1) line 387 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       at the time the command line is parsed.  If the reference  file  cannot[m
+[7m Manual page find(1) line 388 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       be examined (for example, the [1mstat[22m(2) system call fails for it), an er‐[m
+[7m Manual page find(1) line 389 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       ror message is issued, and [1mfind [22mexits with a nonzero status.[m
+[7m Manual page find(1) line 390 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 391 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       A  numeric  argument  [4mn[24m  can be specified to tests (like [1m-amin[22m, [1m-mtime[22m,[m
+[7m Manual page find(1) line 392 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [1m-gid[22m, [1m-inum[22m, [1m-links[22m, [1m-size[22m, [1m-uid [22mand [1m-used[22m) as[m
+[7m Manual page find(1) line 393 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 394 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [4m+n[24m     for greater than [4mn[24m,[m
+[7m Manual page find(1) line 395 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 396 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [4m-n[24m     for less than [4mn[24m,[m
+[7m Manual page find(1) line 397 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 398 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       [4mn[24m      for exactly [4mn[24m.[m
+[7m Manual page find(1) line 399 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 400 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       Supported tests:[m
+[7m Manual page find(1) line 401 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 402 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -amin [4mn[0m[m
+[7m Manual page find(1) line 403 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              File was last accessed less than, more than or exactly [4mn[24m minutes[m
+[7m Manual page find(1) line 404 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              ago.[m
+[7m Manual page find(1) line 405 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 406 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -anewer [4mreference[0m[m
+[7m Manual page find(1) line 407 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              Time of the last access of the current file is more recent  than[m
+[7m Manual page find(1) line 408 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              that  of  the  last data modification of the [4mreference[24m file.  If[m
+[7m Manual page find(1) line 409 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [4mreference[24m is a symbolic link and the [1m-H [22moption or the [1m-L  [22moption[m
+[7m Manual page find(1) line 410 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              is in effect, then the time of the last data modification of the[m
+[7m Manual page find(1) line 411 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              file it points to is always used.[m
+[7m Manual page find(1) line 412 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 413 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -atime [4mn[0m[m
+[7m Manual page find(1) line 414 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              File  was  last  accessed  less  than, more than or exactly [4mn[24m*24[m
+[7m Manual page find(1) line 415 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              hours ago.  When find figures out how many 24-hour  periods  ago[m
+[7m Manual page find(1) line 416 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              the  file  was last accessed, any fractional part is ignored, so[m
+[7m Manual page find(1) line 417 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              to match [1m-atime +1[22m, a file has to have been  accessed  at  least[m
+[7m Manual page find(1) line 418 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K              [4mtwo[24m days ago.[m
+[7m Manual page find(1) line 419 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K[m
+[7m Manual page find(1) line 420 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KBB
+[K       -cmin [4mn[0m[m
+[7m Manual page find(1) line 421 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ home
+[?2004l
+Command 'home' not found, did you mean:
+  command 'hime' from deb hime (0.9.11+dfsg-4)
+  command 'hose' from deb netpipes (4.2-8build1)
+Try: sudo apt install <deb name>
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cp /hpme[K[K[Kome/raz[K[K[K[K/razban[K[K[Kvan/bon [K[K[Kin $PATh[KH
+[?2004l
+cp: -r not specified; omitting directory '/home/razvan/bin'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cp -r [7mcp /home/razvan/bin $PATH[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp /home/razvan/bin $PATH[C[1P[1P[1P
+[?2004l
+cp: cannot create directory '/home/razvan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin': No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cd bo[Kin
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/bin [01;32mrazvan@Ubuntu[00m:[01;34m~/bin[00m$ hello
+[?2004l
+Introduceți numele: razba  van
+Hello razvan[?2004h]0;razvan@Ubuntu: ~/bin [01;32mrazvan@Ubuntu[00m:[01;34m~/bin[00m$ cd
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo gata tema
+[?2004l
+gata tema
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ c[Kec[Kxit
+[?2004l
+exit
+
+Script done on 2024-10-23 18:03:27+00:00 [COMMAND_EXIT_CODE="0"]

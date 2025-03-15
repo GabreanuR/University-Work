@@ -1,0 +1,2382 @@
+Script started on 2024-10-30 12:25:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ chmod u+x myscript
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myscript
+[?2004l
+Hello scripting world !
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ touch myscript.sh
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myscript.sh
+[?2004l
+bash: ./myscript.sh: Permission denied
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ chmod u+x myscript.sh
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ chmod u+x myscript.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P./myscript.sh
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myscript.sh
+[?2004l
+awk: 1: unexpected character 0xe2
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myscript.sh
+[?2004l
+ARGV[0] = awk
+ [?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ type test
+[?2004l
+test is a shell builtin
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ type [
+[?2004l
+[ is a shell builtin
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ type typw[Ke
+[?2004l
+type is a shell builtin
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ X=4
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ ”$X” −l t ”0” ] && echo ”X i s l e s s than z e r o ” \[27m
+
+[7m> | | echo ”X i s g r e a t e r than z e r o ”[27m
+
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [ ”$X” −l t ”0” ] && echo ”X i s l e s s than z e r o ” \
+
+> | | echo ”X i s g r e a t e r than z e r o ”[1P”[1Po”[1Pro”[1Pero”[1P[1P[1P[1P[1P[1P[1P[1P[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "[1P
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P \" \[1P[1@0[1P[1@o[1P[1P[1P[1P[1P[1P[1P[1P[1@"[1P[1@'[1P[1@"[C[C[1P[1@"[1P[1@"[1P[1@"[C[C[C[C[C[C[C[1P[1P[1@-
+
+
+[?2004l
+bash: syntax error near unexpected token `||'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ "$X" -lt "0" ] && echo "X is less than zero " \[27m
+
+[7m> || echo "X is greater than zero"[27m
+
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ "$X" -lt "0" ] && echo "X is less than zero " \
+
+> || echo "X is greater than zero"[1P[1P[1@|[1@|
+
+[?2004l
+bash: syntax error near unexpected token `||'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ "$X" -lt "0" ] && echo "X is less than zero " \[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ "$X" -lt "0" ] && echo "X is less than zero " \
+
+[A
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m> || echo "X is greater than zero"[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> || echo "X is greater than zero"
+[?2004l
+bash: syntax error near unexpected token `||'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ > || echo "X is greater than zero"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ "$X" -lt "0" ] && echo "X is less than zero " \
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P> || echo "X is greater than zero"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K> || echo "X is greater than zero"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ "$X" -lt "0" ] && echo "X is less than zero " \> || echo "X is greater than zero"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "X is g[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C|| echo "X is gr[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+X is greater than zero
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ x=-[K0[K-1[K[K[K[KX=-1
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$  X=-1[ "$X" -lt "0" ] && echo "X is less than zero " || echo "X is greater than zero"
+[?2004l
+X is less than zero 
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ X=0
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ ”$X” = ”0” ] && \[27m
+
+[7m> echo ”X i s the s t r i n g o r number \”0\””[27m[A
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ ”$X” = ”0” ] && \
+
+[1P> echo ”X i s the s t r i n g o r number \”0\”[K""[1P0\"""0\""[1P[1P[1P[1P[1P[1P[1P[1P[1@"
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C echo "X is the string or number \"0\""
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@"[C[1P[1@"[1P[1@"[1P[1@"
+[?2004l
+X is the string or number "0"
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ X=hello
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ ”$X” = ” h e l l o ” ] && \[27m
+
+[7m> echo ”X matches the s t r i n g \” h e l l o \””[27m[A
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ ”$X” = ” h e l l o ” ] && \
+
+> echo ”X matches the s t r i n g \” h e l l o \””[C[K[K""[1P[1P[1P[1P[1P[1@"[1P[1P[1P[1P[1P[1P[1@"
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C echo "X matches the string \" hello \""[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C echo "X matches the string \" hello[1P \""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] &&  echo "X matches the string \" hello [1P\""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" ] &&  echo "X matches the string \" hello \""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" ] &&  echo "X matches the string \" hello [1P\""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co" ] &&  echo "X matches the string \" hello \[1P""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clo" ] &&  echo "X matches the string \" hello \"[C[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cllo" ] &&  echo "X matches the string \" hello \""[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cello" ] &&  echo "X matches the string \" hello \"" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@"[1P[1@"[1P[1@"
+[?2004l
+X matches the string " hello "
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ X [K=not hello
+[?2004l
+Introduceți numele: q
+Hello q[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ X="np[Kot hello"
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ ”$X” != ” h e l l o ” ] && echo ”X i s not the s t r i n g \[27m[7m”[27m[7m h e l l o \””[27m[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$  [ ”$X” != ” h e l l o ” ] && echo ”X i s not the s t r i n g \” h e l l o \””[K[C[K""[1P[1P[1P[1P[1P[1@"
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg \"h[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cng \"he[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cing \"hel[C[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cring \"hell[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctring \"hello[1P \""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs not the string \"hello [1P\""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CX is not the string \"hello \[1P""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"X is not the string \"hello \""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo "X is not the string \"hello \[1P""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" ] && echo "X is not the string \"hello \""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co " ] && echo "X is not the string \"hello \[1P""[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clo " ] && echo "X is not the string \"hello \"[C[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cllo " ] && echo "X is not the string \"hello \""[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cello " ] && echo "X is not the string \"hello \"" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@"[1P[1@"[1P[1@"
+[?2004l
+X is not the string "hello "
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo $x
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ $[Kecho $X
+[?2004l
+not hello
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ −n ”$X” ] && echo ”X i s o f n onze r o l e n g t h ”[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [ −n ”$X” ] && echo ”X i s o f n onze r o l e n g t h ”
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"[1P"[1Ph"[1Pth"[1Pgth"[1Pngth"[1Pength"[1Plength" length"[C[C[C[1P[1P[1P[1P[1P[1P[1@"[1P[1@"[1P[1@"
+[?2004l
+bash: [: −n: unary operator expected
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ −n "$X" ] && echo "X is of nonzero length"[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ −n "$X" ] && echo "X is of nonzero length"[1P[1@-
+[?2004l
+X is of nonzero length
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ X=somefile
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ −f ”$X” ] && \[27m
+
+[7m> echo ”X i s the path o f a r e a l f i l e ” | | \[27m
+
+[7m> echo ”No such f i l e : $X”[27m
+
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [ −f ”$X” ] && \
+
+> echo ”X i s the path o f a r e a l f i l e ” | | \
+
+> echo ”No such f i l e : $X” "[1P[1P[1P[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C echo ”No such file: $X"
+
+[K
+
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@"[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "X is the path of a real file" ||  echo ”No such file: $X"                                              [Aecho "X is the path of a real file" ||  echo ”No[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo "X is the path of a real file" ||  echo ”No [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C" ] && echo "X is the path of a real file" ||  echo ”No[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C$X" ] && echo "X is the path of a real file" ||  echo ”No [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C"$X" ] && echo "X is the path of a real file" ||  echo ”No[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C
+
+
+[?2004l
+[?2004h> q
+[?2004l
+[?2004h> q
+[?2004l
+[?2004h> q
+[?2004l
+[?2004h>     q[Kx
+[?2004l
+[?2004h> d
+[?2004l
+[?2004h> "
+[?2004l
+bash: [: −f: unary operator expected
+”No such file: somefile
+
+q
+q
+q
+x
+d
+
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ −f "$X" ] && echo "X is the path of a real file" ||  echo ”No[27m[7m [27m[7msuch file: $X"[27m[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [ −f "$X" ] && echo "X is the path of a real file" ||  echo ”No such file: $X"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CNo s[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"No [1@s[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf "$X" ] && echo "X is the path of a real file" ||  echo "No s[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C-f "$X" ] && echo "X is the path of a real file" ||  echo "No [1@s[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C
+
+[?2004l
+No such file: somefile
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mX=/e t c / passwd[27mX=/e t c / passwd[1Ppasswd[1P/passwd[1Pc/passwd[1Ptc/passwd
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ −f ”$X” ] && \[27m
+
+[7m> echo ”X i s the path o f a r e a l f i l e ” | | \[27m
+
+[7m> echo ”No such f i l e : $X”[27m[A[A [ −f ”$X” ] && \
+
+> echo ”X i s the path o f a r e a l f i l e ” | | \
+
+> echo ”No such f i l e : $X”[C[K'[K"[1P[1P[1P[1P[C[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "No such file: $X"
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@"[1P[1P[1P[1P[1P[1@ [1P[1P[1P[1P[1P[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "X is the path of a real file" || echo "No such file: $X"[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "X is the path of a real file" || echo "No [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo "X is the path of a real file" || echo "No s[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C" ] && echo "X is the path of a real file" || echo "No [1@s[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C$X" ] && echo "X is the path of a real file" || echo "No s[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C"$X" ] && echo "X is the path of a real file" || echo "No [1@s[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[Cf "$X" ] && echo "X is the path of a real file" || echo "No s[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C-f "$X" ] && echo "X is the path of a real file" || echo "No [1@s[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C
+
+[?2004l
+X is the path of a real file
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mX=/bin / l s[27mX=/bin / l s[1Ps[1Pls[1P/ls
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ −x ”$X” ] && echo ”X i s the path o f an e x e c u t a bl e [27m[7mf[27m[7m i l e ”[27m[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$  [ −x ”$X” ] && echo ”X i s the path o f an e x e c u t a bl e f i l e ”[C[K"[1P"[1Pe"[1Ple"[1Pile"
+[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce fi[1Ple"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cble fil[1Pe"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cable file[1P"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctable file"[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cutable file" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[C[1P[1@"[1P[1@"[1P[1@"[1@\[C[1P[1P[1@-
+[?2004l
+X is the path of an executable file
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mX=.[27mX=.
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ ”$X” −nt ”/ e t c / passwd ” ] && \[27m
+
+[7m> echo ”X i s a f i l e which i s newer than / e t c / passwd ”[27m
+
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [ ”$X” −nt ”/ e t c / passwd ” ] && \
+
+> echo ”X i s a f i l e which i s newer than / e t c / passwd ”[C "[1P"[1Ppasswd"[1P/passwd"[1Pc/passwd"[1Ptc/passwd"[1Petc/passwd"[1P[1P[1P[1P[1P[1P
+
+[?2004l
+[?2004h> "
+[?2004l
+bash: [: too many arguments
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ ”$X” −nt ”/ e t c / passwd ” ] && \[27m
+
+[7m> echo X is a file which is newer than /etc/passwd"[27m
+
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ ”$X” −nt ”/ e t c / passwd ” ] && \
+
+> echo X is a file which is newer than /etc/passwd"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho X is a file which is n[26P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho X is a file which is ne[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo X is a file which is new[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" ] && echo X is a file which is ne[1@w[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" ] && echo X is a file which is new[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpasswd" ] && echo X is a file which is newe[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/passwd" ] && echo X is a file which is newer[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc/passwd" ] && echo X is a file which is newer [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctc/passwd" ] && echo X is a file which is newer t[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/passwd" ] && echo X is a file which is newer th[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C/etc/passwd" ] && echo X is a file which is newer tha[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C"/etc/passwd" ] && echo X is a file which is newer th[1@a[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cnt "/etc/passwd" ] && echo X is a file which is newer tha[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C-nt "/etc/passwd" ] && echo X is a file which is newer th[1@a[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C -nt "/etc/passwd" ] && echo X is a file which is newer tha[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C" -nt "/etc/passwd" ] && echo X is a file which is newer th[1@a[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C$X" -nt "/etc/passwd" ] && echo X is a file which is newer tha[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C"$X" -nt "/etc/passwd" ] && echo X is a file which is newer th[1@a[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C
+
+
+[?2004l
+[?2004h> "
+[?2004l
+X is a file which is newer than /etc/passwd
+
+
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ "$X" -nt "/etc/passwd" ] && echo X is a file which is newer t[27m[7mh[27m[7man /etc/passwd"\00[27m
+
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[ "$X" -nt "/etc/passwd" ] && echo X is a file which is newer than /etc/passwd"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"X is a file which is newer t[1@h[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[?2004l
+X is a file which is newer than /etc/passwd
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ X=hello
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ −n ”$X” ] && echo ”$X i s a non−z e r o s t r i n g ” \[27m
+
+[7m> | | echo ”$X i s the n u l l s t r i n g ”[27m[A
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [ −n ”$X” ] && echo ”$X i s a non−z e r o s t r i n g ” \
+
+> | | echo ”$X i s the n u l l s t r i n g ”[C[K'[1P'[C[K"[1Pg"[1Png"[1Ping"[1Pring"[1Ptring"[1P[1P[1P[1P[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || ec[5P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || ech[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C|| echo[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" || echo[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg " || echo [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cng " || echo "[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cing " || echo "$[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cring " || echo "$X[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctring " || echo "$X [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co string " || echo "$X i[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cro string " || echo "$X is[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cero string " || echo "$X is [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs a non−zero string " || echo "$X is t[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$X is a non−zero string " || echo "$X is th[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$X is a non−zero string " || echo "$X is t[1@h[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo "$X is a non−zero string " || echo "$X is th[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C" ] && echo "$X is a non−zero string " || echo "$X is t[1@h[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C$X" ] && echo "$X is a non−zero string " || echo "$X is th[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C"$X" ] && echo "$X is a non−zero string " || echo "$X is t[1@h[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[Cn "$X" ] && echo "$X is a non−zero string " || echo "$X is th[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C-n "$X" ] && echo "$X is a non−zero string " || echo "$X is t[1@h[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C
+
+[?2004l
+hello is a non−zero string 
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ Y=bye
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m[ $X != $Y ] && echo ”$X i s not e q u al t o $Y” \[27m
+
+[7m> | | echo ”$X i s e q u al t o $Y”[27m[A[ $X != $Y ] && echo ”$X i s not e q u al t o $Y” \
+
+> | | echo ”$X i s e q u al t o $Y”[C[K"[1P[1P[1P[1P[1P[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "$X [12P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "$X i[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C|| echo "$X is[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "$X is [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" || echo "$X is[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co $Y" || echo "$X is [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cal to $Y" || echo "$X is e[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cual to $Y" || echo "$X is eq[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cqual to $Y" || echo "$X is equ[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs not equal to $Y" || echo "$X is equa[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$X is not equal to $Y" || echo "$X is equal[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$X is not equal to $Y" || echo "$X is equa[1@l[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+hello is not equal to bye
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo $X
+[?2004l
+hello
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ ! ”$X” = ”” ] && echo ”$X i s not an empty s t r i n g ” \[27m
+
+[7m> | | echo ”$X i s the empty s t r i n g ”[27m[A
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [ ! ”$X” = ”” ] && echo ”$X i s not an empty s t r i n g ” \
+
+> | | echo ”$X i s the empty s t r i n g ”[C[K"[1P"[1Pg"[1Png"[1Ping"[1Pring"[1Ptring"[1P[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ||[2P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C|| e[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || ec[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" || e[1@c[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" || ec[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg" || ech[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cng" || echo[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cing" || echo [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cring" || echo "[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctring" || echo "$[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs not an empty string" || echo "$X[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$X is not an empty string" || echo "$X [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$X is not an empty string" || echo "$X[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo "$X is not an empty string" || echo "$X [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo "$X is not an empty string" || echo "$X i[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C" ] && echo "$X is not an empty string" || echo "$X [1@i[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C" ] && echo "$X is not an empty string" || echo "$X[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C = "" ] && echo "$X is not an empty string" || echo "$X [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C" = "" ] && echo "$X is not an empty string" || echo "$X[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C$X" = "" ] && echo "$X is not an empty string" || echo "$X [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C"$X" = "" ] && echo "$X is not an empty string" || echo "$X[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C"$X" = "" ] && echo "$X is not an empty string" || echo "$X [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C "$X" = "" ] && echo "$X is not an empty string" || echo "$X[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C
+
+[?2004l
+hello is not an empty string
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo $X 4Y[K[K$Y
+[?2004l
+hello bye
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ ”$X” = ” h e l l o ” −a ”$Y” = ” bye ” ] && \[27m
+
+[7m> echo ” Proper g r e e t i n g s have been made” \[27m
+
+[7m> | | echo ” This i s not q ui t e p o l i t e ”[27m
+
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [ ”$X” = ” h e l l o ” −a ”$Y” = ” bye ” ] && \
+
+> echo ” Proper g r e e t i n g s have been made” \
+
+> | | echo ” This i s not q ui t e p o l i t e ”
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"[C[C[1P"[1Pe"[1Pte"[1Pite"[1Plite"[1Polite"[1P[1P[1P[1P[1P[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "This is not quite polite"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "This is not quite pol[1Pite"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C|| echo "This is not quite poli[1Pte"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "This is not quite polit[1Pe"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" || echo "This is not quite polite"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs have been made" || echo "This is not quite polit[1Pe"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgs have been made" || echo "This is not quite polite[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cngs have been made" || echo "This is not quite polite"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cings have been made" || echo "This is not quite polite" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Proper gre[15P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Proper gree[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo "Proper greet[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C] && echo "Proper greeti[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" ] && echo "Proper greet[1@i[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbye" ] && echo "Proper greeti[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbye" ] && echo "Proper greetin[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"bye" ] && echo "Proper greeti[1@n[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C = "bye" ] && echo "Proper greetin[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" = "bye" ] && echo "Proper greeti[1@n[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$Y" = "bye" ] && echo "Proper greetin[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$Y" = "bye" ] && echo "Proper greeti[1@n[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca "$Y" = "bye" ] && echo "Proper greetin[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-a "$Y" = "bye" ] && echo "Proper greeti[1@n[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -a "$Y" = "bye" ] && echo "Proper greetin[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-a "$Y" = "bye" ] && echo "Proper greeting[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -a "$Y" = "bye" ] && echo "Proper greetin[1@g[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co" -a "$Y" = "bye" ] && echo "Proper greeting[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clo" -a "$Y" = "bye" ] && echo "Proper greetings[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cllo" -a "$Y" = "bye" ] && echo "Proper greetings [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cello" -a "$Y" = "bye" ] && echo "Proper greetings h[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Chello" -a "$Y" = "bye" ] && echo "Proper greetings ha[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[Chello" -a "$Y" = "bye" ] && echo "Proper greetings hav[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C"hello" -a "$Y" = "bye" ] && echo "Proper greetings ha[1@v[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C = "hello" -a "$Y" = "bye" ] && echo "Proper greetings hav[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C" = "hello" -a "$Y" = "bye" ] && echo "Proper greetings ha[1@v[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C$X" = "hello" -a "$Y" = "bye" ] && echo "Proper greetings hav[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C"$X" = "hello" -a "$Y" = "bye" ] && echo "Proper greetings ha[1@v[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C
+
+[?2004l
+Proper greetings have been made
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ Y=notbye
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ helo [K[Klo[K[K[K[K[Kecho $X 4[K$Y
+[?2004l
+hello notbye
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m [ ”$X” != ” h e l l o ” −o ”$Y” != ” bye ” ] && \[27m
+
+[7m> echo ” This i s not q ui t e p o l i t e ” \[27m
+
+[7m4[27m
+
+[7m> | | echo ” P o l i t e n e s s has been s a t i s f i e d ”[27m
+
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [ ”$X” != ” h e l l o ” −o ”$Y” != ” bye ” ] && \
+
+> echo ” This i s not q ui t e p o l i t e ” \
+
+4
+
+> | | echo ” P o l i t e n e s s has been s a t i s f i e d ”  "[1Pd"[1Ped"[1Pied"[1Pfied"[1Psfied"[1Pisfied"[1Ptisfied"[1Patisfied"[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@"[1P
+[1P[A[C || echo "Politeness has been satisfied"
+
+[K
+
+[K[A[A[C
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "Politeness has been satisfied"                                  [A[C[C[C[C[C[C || echo "Politeness has been satisf[1Pied"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C|| echo "Politeness has been satisfi[1Ped"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C || echo "Politeness has been satisfie[1Pd"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" || echo "Politeness has been satisfied"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" || echo "Politeness has been satisfie[1Pd"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce" || echo "Politeness has been satisfied[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cte" || echo "Politeness has been satisfied" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cite" || echo "Politeness has been satisfied" 
+ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@i[1P[1P[1@"[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "This is [13P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "This is n[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "This is no[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C echo "This is n[1@o[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ] && echo "This is no[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C] && echo "This is not[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" ] && echo "This is no[1@t[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbye" ] && echo "This is not[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbye" ] && echo "This is not [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"bye" ] && echo "This is not[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C != "bye" ] && echo "This is not [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" != "bye" ] && echo "This is not[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$Y" != "bye" ] && echo "This is not [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"$Y" != "bye" ] && echo "This is not[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co "$Y" != "bye" ] && echo "This is not [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-o "$Y" != "bye" ] && echo "This is not[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -o "$Y" != "bye" ] && echo "This is not [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -o "$Y" != "bye" ] && echo "This is not[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -o "$Y" != "bye" ] && echo "This is not [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co" -o "$Y" != "bye" ] && echo "This is not q[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clo" -o "$Y" != "bye" ] && echo "This is not qu[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cllo" -o "$Y" != "bye" ] && echo "This is not qui[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cello" -o "$Y" != "bye" ] && echo "This is not quit[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Chello" -o "$Y" != "bye" ] && echo "This is not quite[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[Chello" -o "$Y" != "bye" ] && echo "This is not quite [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C"hello" -o "$Y" != "bye" ] && echo "This is not quite[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C != "hello" -o "$Y" != "bye" ] && echo "This is not quite [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C" != "hello" -o "$Y" != "bye" ] && echo "This is not quite[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C$X" != "hello" -o "$Y" != "bye" ] && echo "This is not quite [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C"$X" != "hello" -o "$Y" != "bye" ] && echo "This is not quite[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C
+
+
+[?2004l
+This is not quite polite
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ touch if.sh
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ chmod u+x if.sh
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if/sh[K[K[K.sh
+[?2004l
+q
+./if.sh: line 3: syntax error near unexpected token `then'
+./if.sh: line 3: `if[! −e "$filename"] ; then'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+q
+./if.sh: line 3: syntax error near unexpected token `then'
+./if.sh: line 3: `if[! −e "$filename"] ; then'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+animals.txt
+./if.sh: line 3: syntax error near unexpected token `then'
+./if.sh: line 3: `if[! −e "$filename"] ; then'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+somefile
+./if.sh: line 3: syntax error near unexpected token `then'
+./if.sh: line 3: `if[! −e "$filename"] ; then'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+somefile
+./if.sh: line 3: syntax error near unexpected token `then'
+./if.sh: line 3: `if[! -e "$filename"]; then'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+^[[A    somefile
+./if.sh: line 3: [!: command not found
+./if.sh: line 5: [: missing `]'
+ name exists, but we don''t know what kind of file it is
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+somefile
+ name does not exist
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+o somefile
+ name does not exist
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+somefile
+  name does not exist
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+somefile
+ name does not exist
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+somefile
+somefile does not exist
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+animals.txt
+animals.txt is a regular file
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+/etc
+ /etc exists, but we don''t know what kind of file it is
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please in put a filename: animals.txt
+./if.sh: line 4: ls -ld $filename 2> /dev/null : No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ history
+[?2004l
+    1  sudo apt-get install bzip2 tar
+    2  cat - > out
+    3  exit
+    4  echo mihai
+    5  exit
+    6  cd /home/desktop
+    7  cd /home/razvan/desktop
+    8  cd /home/razvan/Desktop
+    9  cat - > out
+   10  script
+   11  echo mihai
+   12  exit
+   13  cat - > out
+   14  echo $PS1
+   15  export  PS1="uso$ "
+   16  exit
+   17  echo $PATH
+   18  pw
+   19  pws
+   20  pwd
+   21  ls
+   22  echo $HOME
+   23  echo $PATH
+   24  pwd
+   25  ls
+   26  cd ..
+   27  cd /home/razvan
+   28  cd $HOME
+   29  cd
+   30  which ls
+   31  cat - > out
+   32  cat out
+   33  cat << Pisica >> out
+   34  ana are mere
+   35  Pisica
+   36  cat out
+   37  cat < out
+   38  echo $PS1
+   39  export PS1="uso$ "
+   40  echo $PS1
+   41  export PS1="uso$PS1"
+   42  echo $PS1
+   43  exit
+   44  pwd
+   45  mkdir tmp
+   46  cd tmp
+   47  touch foo
+   48  ls
+   49  cp foo bar
+   50  ls
+   51  mv bar baz
+   52  ls
+   53  pwd
+   54  ls
+   55  rm baz foo
+   56  ls
+   57  cd../
+   58  cd ..
+   59  cd ../
+   60  cd
+   61  rmdir tmp
+   62  man find
+   63  find /bin -name ls
+   64  find /home/razvan lab3.txt
+   65  ls
+   66  find /home/razvan/bin
+   67  find /home/razvan/out ls
+   68  find /home/razvan out ls
+   69  find /home/razvan l*
+   70  mkdir tmp
+   71  touch tmp/bar tmp/baz tmp/foo
+   72  ls tmp
+   73  find tmp b* rm
+   74  find tmp b* rm {} \;
+   75  man find
+   76  find tmp -name b* -exec rm {} \;
+   77  ls tmp
+   78  echo Tema
+   79  echo 1
+   80  mkdir uso
+   81  cd uso
+   82  touch plan
+   83  mkdir curs lab
+   84  cd curs
+   85  mkdir 1
+   86  cd 1
+   87  touch uso-cura-1.pdf
+   88  tocuh uso-curs-1.tex
+   89  touch uso-curs-1.tex
+   90  cd ..
+   91  cd lab
+   92  mkdir 1
+   93  cd 1
+   94  touch uso-lab-1.aux
+   95  touch uso-lab-1.tex
+   96  touch uso-lab-1.pdf
+   97  touch uso-lab-1.fls
+   98  touch uso-lab-1.log
+   99  touch uso-lab-1.fdb_latexmk
+  100  touch uso-lab-1.synctex.gz
+  101  cd
+  102  tree uso
+  103  cd $HOME
+  104  mkdir bin
+  105  cp bin $PATH
+  106  man cp
+  107  cp /home/razvan/bin $PATH
+  108  man cp
+  109  cp -r bin $PATH
+  110  which echo
+  111  cp /usr/bin/echo /home/razvan/bin
+  112  which echo
+  113  echo 3
+  114  echo -e "bab\nbaba\nbabab\nbababa\nbababab\nbabababa" > rat
+  115  grep -E 'baba(na)*' rat
+  116  grep -E 'baba(ba)*' rat
+  117  grep -E 'baba(ba)+' rat
+  118  grep -E 'baba(ba)?' rat
+  119  echo 4
+  120  mkdir orig backup
+  121  cd orig
+  122  touch foo bar baz
+  123  find orig
+  124  man find
+  125  find orig -exec cp backup
+  126  find orig -exec cp backup {} \;
+  127  cd
+  128  find orig -exec cp backup {} \;
+  129  find orig -exec cp backup/ {} \;
+  130  find orig/ -exec cp backup {} \;
+  131  find /home/razvan/orig -exec cp backup {} \;
+  132  find /home/razvan/orig -exec cp -r backup {} \;
+  133  find /home/razvan/orig -exec cp orig/ backup {} \;
+  134  man find
+  135  find orig -type f -exec cp {} backup/{}.orig \;
+  136  find orig -type f -exec cp {} backup/ \; 
+  137  find orig -type f -exec cp {} backup/.orig \;
+  138  find orig -type f -exec cp {} backup/ -exec mv {} .orig \;
+  139  find orig -type f -exec cp {} backup/ \;
+  140  find backup -type f -exec mv {} .orig \;
+  141  find orig -type f -exec cp {} backup/ \;
+  142  find orig -type f -exec cp {} backup/.orig \;
+  143  man mv
+  144  mv /backup/bar /backup/bar.orig
+  145  mv home/razvan/backup/bar home/razvan/backup/bar.orig
+  146  mv /home/razvan/backup/bar /home/razvan/backup/bar.orig
+  147  mv /home/razvan/backup/baz /home/razvan/backup/baz.orig
+  148  mv /home/razvan/backup/foo /home/razvan/backup/foo.orig
+  149  echo 5
+  150  rm -r /home/razvan/backup
+  151  echo gata tema
+  152  exit
+  153  script lab3.txt
+  154  script lab3nr2.txt
+  155  useradd -m -g users mihai
+  156  exit
+  157  script lab3.txt
+  158  sudo
+  159  sudo useradd -m -g users mihai
+  160  passwd mihai
+  161  sudo passwd mihai
+  162  sudo usermod -G wheel mihai
+  163  sudo groupadd wheel
+  164  sudo usermod -G wheel mihai
+  165  sudo userdel -r mihai
+  166  sudo groupdel wheel
+  167  sudo useradd -m -g users alex
+  168  touch foo bar baz
+  169  ls -l foo bar baz
+  170  sudo chown alex:users foo
+  171  sudo chown alex bar
+  172  sudo chown :users baz
+  173  ls -l bar baz foo
+  174  sudo chmod u-w bar
+  175  sudo chmod g+w baz
+  176  sudo chmod a+wx foo
+  177  ls -l foo bar baz
+  178  w
+  179  who -a
+  180  last -5
+  181  last -s 17:00 -t 17:40
+  182  ps
+  183  ps -o  pid ,group ,command
+  184  ps -o  pid , group , command
+  185  ps -o  pid, group, command
+  186  ps -a -o  pid, group, command
+  187  ps
+  188  pstree 8455
+  189  pstree 9350
+  190  sleep 60 &
+  191  sleep 70 &
+  192  pstree 8455
+  193  top
+  194  pgrep firefox
+  195  kill 7052
+  196  pgrep bc
+  197  exit
+  198  cd ; fuser .
+  199  sudo useradd -m -g users admin prof
+  200  sudo useradd -m -g users admin
+  201  sudo useradd -m -g users prof
+  202  sudo useradd -m -g users stud 151
+  203  sudo useradd -m -g users stud151
+  204  sudo useradd -m -g users stud152
+  205  sudo useradd -m -g users stud153
+  206  sudo useradd -m -g users stud154
+  207  sudo groupadd seria15
+  208  sudo groupadd gr151
+  209  sudo groupadd gr152
+  210  sudo groupadd gr153
+  211  sudo groupadd gr154
+  212  sudo groupadd wheel
+  213  sudo usermod -G wheel admin
+  214  man visudo
+  215  find /etc/sudoers
+  216  man visudo
+  217  sudo visudo
+  218  admin [200~ALL=(ALL:ALL) ALL
+  219  admin ALL=(ALL:ALL) ALL
+  220  sudo admin ALL=(ALL:ALL) ALL
+  221  sudo admin ALL = (ALL:ALL) ALL
+  222  sudo visudo
+  223  history
+  224  sudo visudo
+  225  mkdir seria 15
+  226  mkdir seria15
+  227  cd seria15
+  228  mkdir 151 152 153 154 catalog subiecte
+  229  cd subiecte
+  230  touch examen.txt
+  231  touch restanta.txt
+  232  cd ..
+  233  cd catalog
+  234  touch note151.txt
+  235  touch note152.txt
+  236  touch note153.txt
+  237  touch note154.txt
+  238  cd ..
+  239  cd 151
+  240  touch discutii.txt laborator.txt
+  241  cd ..
+  242  cd 152
+  243  touch discutii.txt laborator.txt
+  244  cd ..
+  245  cd 153
+  246  touch discutii.txt laborator.txt
+  247  cd ..
+  248  cd 154
+  249  touch discutii.txt laborator.txt
+  250  cd ..
+  251  tree seria15
+  252  su prof
+  253  man sudo
+  254  sudo -u prof u+w /home/razvan/seria15/catalog
+  255  sudo -u prof chmod u+w /home/razvan/seria15/catalog
+  256  man chmod
+  257  man sudo
+  258  sudo chown profesor:profesor seria15/catalog
+  259  sudo chown prof:prof seria15/catalog
+  260  sudo chown prof:users seria15/catalog
+  261  ls -l seria15/catalog
+  262  ls -l seria15
+  263  sudo chmod u+w seria15/catalog
+  264  ls -l seria15
+  265  sudo chmod a-w seria15/catalog
+  266  sudo chmod u+w seria15/catalog
+  267  ls -l seria15
+  268  sudo chown :seria15 
+  269  sudo chown :seria15 seria15/catalog
+  270  sudo chmod a-r seria15/catalog
+  271  sudo chmod g+r seria15/catalog
+  272  ls -l seria15
+  273  sudo chown :gr151 seria15/151
+  274  sudo chmod g+r seria15/151
+  275  sudo chmod g+w seria15/151
+  276  ls -l seria15
+  277  sudo chmod a-r seria15/151
+  278  sudo chmod a-w seria15/151
+  279  sudo chmod g+r seria15/151
+  280  sudo chmod g+w seria15/151
+  281  ls -l seria15
+  282  sudo chown :gr152 seria15/152
+  283  sudo chmod a-r seria15/152
+  284  sudo chmod a-w seria15/152
+  285  sudo chmod g+r seria15/152
+  286  sudo chmod g+w seria15/152
+  287  sudo chown :gr153 seria15/153
+  288  sudo chmod a-r seria15/153
+  289  sudo chmod a-w seria15/153
+  290  sudo chmod g+r seria15/153
+  291  sudo chmod g+w seria15/153
+  292  sudo chown a-r seria15/154
+  293  sudo chown :gr154
+  294  sudo chown :gr154 seria15/154
+  295  sudo chmod a-r seria15/154
+  296  sudo chmod a-w seria15/154
+  297  sudo chmod g-r seria15/154
+  298  sudo chmod g-w seria15/154
+  299  ls -l seria15
+  300  sudo chmod g+r seria15/154
+  301  sudo chmod g+w seria15/154
+  302  ls -l seria15
+  303  sudo chmod a+r seria15/151
+  304  sudo chmod a+r seria15/152
+  305  sudo chmod a+r seria15/153
+  306  sudo chmod a+r seria15/154
+  307  ls -l seria15
+  308  sudo chown prof seria15/subiecte
+  309  sudo chmod a-r seria15/subiecte
+  310  sudo chmod a-w seria15/subiecte
+  311  sudo chmod u+r seria15/subiecte
+  312  sudo chmod u+w seria15/subiecte
+  313  sudo chmod a-x seria15/subiecte
+  314  sudo chmod u+x seria15/subiecte
+  315  ls -l seria15
+  316  ps
+  317  sleep 200 &
+  318  pkill 13522
+  319  pkill 13523
+  320  pkill 13525
+  321  pstree
+  322  ps
+  323  pkill 13522
+  324  ps
+  325  ps -a -o user
+  326  ps -a -o user group
+  327  ps -a -o user, group
+  328  man ps
+  329  ps -a -o user,group
+  330  ps -a -o ps,pid
+  331  man ps
+  332  ps -p --ppid
+  333  ps -p -ppid
+  334  ps p,ppid
+  335  ps -a -o p,ppid
+  336  ps
+  337  ps -eo user,group,pid,ppid,rss,cmd
+  338  exit
+  339  a=2009
+  340  b=alex
+  341  [200~ c=” f a t a merge pe j o s ”
+  342  c="fata merge pe jos"
+  343  a = 2009
+  344  echo $a, $b, $cq
+  345  echo $a, $b, $c
+  346  d="$a: $b ($c)"
+  347  echo $d
+  348  echo $name
+  349  name=”james $name”
+  350  name="james $name"
+  351  echo $name
+  352  myname=John
+  353  echo ${myname}_Doe
+  354  a="some string"
+  355  expr $a + 1
+  356  b=2
+  357  expr $b + 1
+  358  read favorite_movie
+  359  echo $favorite_movie
+  360  read a b c
+  361  echo $a $b $c
+  362  read a b c
+  363  $a
+  364  $b
+  365  echo $a
+  366  echo $b
+  367  echo $c
+  368  echo ${mylongname:- John Doe}
+  369  echo $mylongname
+  370  read mylongname
+  371  echo $mylongname
+  372  echo ${mylongname:- John Doe}
+  373  echo cat > animals.txt
+  374  grep cat animals.txt
+  375  echo $?
+  376  grep dog animals.txt
+  377  echo $?
+  378  echo Ana > agenda.txt
+  379  grep Mara agenda.txt
+  380  echo Ana > agenda.txt
+  381  grep Ana agenda.txt || echo "Persoana nu exista!"
+  382  grep Mara agenda.txt || echo "Persoana nu exista!"
+  383  echo Maria > agenda.txt
+  384  grep Maria agenda.txt || grep Ana agenda.txt
+  385  cat -
+  386  cat − > hello.c
+  387  cat - > hello.c
+  388  cat − > hello.c
+  389  cat - > hello.c
+  390  cat hello.c
+  391  cat << END > hello.c
+  392  #include <stdio.h>
+  393  int main(){
+  394  printf("Hello, World!\n");
+  395  return 0;
+  396  }
+  397  END
+  398  cat hello.c
+  399  cat < ‘tty‘ > hello.c
+  400  cat < 'tty' > hello.c
+  401  cat << 'tty' > hello.c
+  402  #include <stdio.h>
+  403  int main(){
+  404  printf("Hello, World!\n");
+  405  return 0;
+  406  }
+  407  cat hello.c
+  408  cat < `tty` > hello.c
+  409  cat hello.c
+  410  cat < /dev/pts/1 > hello.c
+  411  cat  `tty` > hello.c
+  412  cat hello.c
+  413  cat - hello.c > new_hello.c
+  414  cat new_hello.c
+  415  mv new_hello.c hello.c
+  416  cat hello.c
+  417  sudo apt install gcc
+  418  cc hello.c −o hello
+  419  gcc hello.c −o hello
+  420  cc hello.c -o hello
+  421  ./hello
+  422  cat - > printenv.c
+  423  cc printenv.c -o printenv
+  424  ./printenv
+  425  echo Tema
+  426  echo 1. Am facut pana acum
+  427  echo 2
+  428  read a b c
+  429  expr $a + $b + $c
+  430  myusername=$whoami
+  431  echo myusername
+  432  man export
+  433  echo $myusername
+  434  myusername=${whoami}
+  435  echo $myusername
+  436  whoami
+  437  read whoami
+  438  whoami
+  439  export myusername=$whoami
+  440  echo $myusername
+  441  export myusername=$(whoami)
+  442  echo $myusername
+  443  echo ex 3 a fost
+  444  echo 4
+  445  exit
+  446  echo asta fost ex 4
+  447  echo acum ex 5
+  448  nano hello.c'
+  449  echo ex 4
+  450  nano hello.c
+  451  ./hello
+  452  nano hello.c
+  453  cc hello.c -o hello
+  454  ./hello
+  455  nano hello.c
+  456  cc hello.c -o hello
+  457  ./hello
+  458  echo ex 5
+  459  echo ups abia am fact ex 5
+  460  echo ex 6
+  461  nano printenv.c
+  462  cc printenv.c -o printenv
+  463  nano printenv.c
+  464  ./printenv
+  465  nano printenv.c
+  466  cc printenv.c -o printenv
+  467  nano printenv.c
+  468  cc printenv.c -o printenv
+  469  nano printenv.c
+  470  cc printenv.c -o printenv
+  471  ./printenv
+  472  nano printenv.c
+  473  cc printenv.c -o printenv
+  474  ./printenv
+  475  echo gata 6
+  476  echo 7 finalul
+  477  mkdir bin
+  478  find hello
+  479  history
+  480  which hello
+  481  cp /home/razvan/hello /home/razvan/bin
+  482  ls -l
+  483  which hello
+  484  /home/razvan/bin/hello
+  485  ls
+  486  find hello
+  487  man find
+  488  home
+  489  cp /home/razvan/bin $PATH
+  490  cp -r /home/razvan/bin $PATH
+  491  cd bin
+  492  hello
+  493  cd
+  494  echo gata tema
+  495  exit
+  496  touch myscript
+  497  chmod u+x myscript
+  498  ./myscript
+  499  #!/bin/bash
+  500  echo "Hello scripting world !"
+  501  exit (0)
+  502  exit 0
+  503  chmod u+x myscript
+  504  ./myscript
+  505  touch myscript.sh
+  506  ./myscript.sh
+  507  chmod u+x myscript.sh
+  508  ./myscript.sh
+  509  type test
+  510  type [
+  511  type type
+  512  X=4
+  513  [ "$X" -lt "0" ] && echo "X is less than zero " > || echo "X is greater than zero"
+  514  [ "$X" -lt "0" ] && echo "X is less than zero " \
+  515  > || echo "X is greater than zero"
+  516  [ "$X" -lt "0" ] && echo "X is less than zero " || echo "X is greater than zero"
+  517  X=-1
+  518  [ "$X" -lt "0" ] && echo "X is less than zero " || echo "X is greater than zero"
+  519  X=0
+  520  [ "$X" = "0" ] &&  echo "X is the string or number \"0\""
+  521  X=hello
+  522  [ "$X" = "hello" ] &&  echo "X matches the string \" hello \""
+  523  X=not hello
+  524  X="not hello"
+  525  echo $x
+  526  echo $X
+  527  [ -n "$X" ] && echo "X is of nonzero length"
+  528  X=somefile
+  529  [ -f "$X" ] && echo "X is the path of a real file" ||  echo "No such file: $X"
+  530  X=/etc/passwd
+  531  X=/bin/ls
+  532  X=.
+  533  [ "$X" -nt "/etc/passwd" ] && echo X is a file which is newer than /etc/passwd"
+
+"
+  534  [ "$X" -nt "/etc/passwd" ] && echo "X is a file which is newer than /etc/passwd"
+  535  X=hello
+  536  Y=bye
+  537  [ $X != $Y ] && echo "$X is not equal to $Y" || echo "$X is equal to $Y"
+  538  echo $X
+  539  echo $X $Y
+  540  Y=notbye
+  541  echo $X $Y
+  542  touch if.sh
+  543  chmod u+x if.sh
+  544  ./if.sh
+  545  history
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ history[K[K[K[K[K[K[Ki[K./if.sh
+[?2004l
+Please in put a filename: animasl  ls.txt
+./if.sh: line 4: ls -ld $filename 2> /dev/null : No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please in put a filename: animals.txt
+./if.sh: line 4: ls -ld $filename 2> /dev/null : No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please in put a filename: animals.txt
+./if.sh: line 4: ls -ld $filename 2> /dev/null : No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please in put a filename: animals.txt
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please in put a filename: animals.txt
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: animals.txt
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: out
+./if.sh: line 4:  ls -ld $filename 2> /dev/null : No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: out
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: out
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: out
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: out
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: out
+out is a regular file
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.shhistory./if.sh./[K[K
+[?2004l
+Please input a filename: /etc
+./if.sh: line 5: unexpected EOF while looking for matching ``'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: /etc
+/etc is a directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: /etc/passwd
+/etc/passwd is a regular file
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: . /dev/tty1
+/dev/tty1 is a character file
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: /dev/sda1
+/dev/sda1 is a blockfile
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: somefile
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: animals.txt
+animals.txt is a regular file
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: somefile
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if.sh
+[?2004l
+Please input a filename: somnefile      efile
+Sorry, I don't know any thing about somefile
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-10-30 14:07:37+00:00 [COMMAND_EXIT_CODE="0"]
+
+
+Script started on 2024-11-01 19:08:04+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./if,[K.sh
+[?2004l
+Please input a filename: /dev/sda1
+/dev/sda1 is a blockfile
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcat - > myfor-loop.sh[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat - > myfor-loop.sh
+[?2004l
+#!/bin/bash
+for i in 1 2 3 4 5
+do
+echo "Iteratia cu numarul $i"
+done
+
+q
+X
+x
+d
+"
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ^[[200~chmod u+x myfor-loop.sh ~[K[1P[1P[1P[1P[1P[2P 
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m./myfor-loop.sh[27m./myfor-loop.sh
+[?2004l
+Iteratia cu numarul 1
+Iteratia cu numarul 2
+Iteratia cu numarul 3
+Iteratia cu numarul 4
+Iteratia cu numarul 5
+./myfor-loop.sh: line 7: q: command not found
+/usr/lib/xorg/Xorg.wrap: Only console users are allowed to run the X server
+./myfor-loop.sh: line 9: x: command not found
+./myfor-loop.sh: line 10: d: command not found
+./myfor-loop.sh: line 11: unexpected EOF while looking for matching `"'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mcat - > myfor-loop.sh[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat - > myfor-loop.sh
+[?2004l
+#!/bin/bash
+for  i in 1 2 3 4 5 ; do
+echo "Iteratia cu numarul $i"
+done
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P./myfor-loop.sh
+[?2004l
+Iteratia cu numarul 1
+Iteratia cu numarul 2
+Iteratia cu numarul 3
+Iteratia cu numarul 4
+Iteratia cu numarul 5
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.shcat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P./myfor-loop.shcat - > myfor-loop.sh
+[?2004l
+#!/ bin / bash
+f o r i i n math 1. 5 ∗ 2 done
+do
+echo ” V al o a re a l u i i e s t e $ i ”
+done
+
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cat - > myfor-loop.sh
+[?2004l
+#!/bin/bash
+for i in math 1.5 ∗ 2 done
+do
+echo "Valoarea lui i este $i"
+done
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P./myfor-loop.sh
+[?2004l
+Valoarea lui i este math
+Valoarea lui i este 1.5
+Valoarea lui i este ∗
+Valoarea lui i este 2
+Valoarea lui i este done
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.shcat - > myfor-loop.sh
+[?2004l
+#!/bin/bash
+for i in math 1.5 ∗ 2 done
+do
+echo "Valoarea lui i este $i"
+done^[[D     [?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ 
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cat - > myfor-loop.sh
+[?2004l
+#!/bin/bash
+for i in math 1.5 * 2 done
+do
+echo "Valoarea lui i este $i"
+done
+^[[A^[[A        [?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P./myfor-loop.sh
+[?2004l
+Valoarea lui i este math
+Valoarea lui i este 1.5
+Valoarea lui i este agenda.txt
+Valoarea lui i este animals.txt
+Valoarea lui i este bar
+Valoarea lui i este baz
+Valoarea lui i este bin
+Valoarea lui i este Desktop
+Valoarea lui i este Documents
+Valoarea lui i este Downloads
+Valoarea lui i este foo
+Valoarea lui i este hello
+Valoarea lui i este hello.c
+Valoarea lui i este if.sh
+Valoarea lui i este lab5.txt
+Valoarea lui i este Music
+Valoarea lui i este myfor-loop.sh
+Valoarea lui i este myscript.sh
+Valoarea lui i este orig
+Valoarea lui i este out
+Valoarea lui i este Pictures
+Valoarea lui i este printenv
+Valoarea lui i este printenv.c
+Valoarea lui i este Public
+Valoarea lui i este rat
+Valoarea lui i este seria15
+Valoarea lui i este snap
+Valoarea lui i este Templates
+Valoarea lui i este tmp
+Valoarea lui i este tmpdir
+Valoarea lui i este uso
+Valoarea lui i este Videos
+Valoarea lui i este 2
+Valoarea lui i este done
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7mecho Valoarea lui i este $i[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho Valoarea lui i este $i
+[?2004l
+Valoarea lui i este
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo 3.2
+[?2004l
+3.2
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo 3.2Valoarea lui i este $i
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./myfor-loop.shcat - > myfor-loop.sh
+[?2004l
+#!/bin/bash
+while [ "${INPUT STRING:-hello}" != "bye" ] do
+echo "Introduceti date (bye pentru a iesi din bucla)" read INPUT STRING
+echo "Ati introdus : $INPUT STRING"
+done
+^[[A    [?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pecho 3.2Valoarea lui i este $i
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./myfor-loop.shcat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P./myfor-loop.sh
+[?2004l
+./myfor-loop.sh: line 5: syntax error near unexpected token `done'
+./myfor-loop.sh: line 5: `done'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.shcat - > myfor-loop.sh
+[?2004l
+#!/bin/bash
+while [ "${INPUT STRING:-hello}" != "bye" ] do
+echo "Introduceti date (bye pentru a iesi din bucla)" read INPUT STRING
+echo "Ati introdus : $INPUT STRING"
+done
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P./myfor-loop.sh
+[?2004l
+./myfor-loop.sh: line 5: syntax error near unexpected token `done'
+./myfor-loop.sh: line 5: `done'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+./myfor-loop.sh: line 5: syntax error near unexpected token `done'
+./myfor-loop.sh: line 5: `done'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+./myfor-loop.sh: line 5: syntax error near unexpected token `done'
+./myfor-loop.sh: line 5: `done'
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+Introduceti date (bye pentru a iesi din bucla)
+merg la magazin bye
+Ati introdus : merg la magazin bye
+Introduceti date (bye pentru a iesi din bucla)
+bye
+Ati introdus : bye
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+Introduceti date (Ctrl-C pen tru a iesi din bucla) 
+mihai
+Ati introdus: mihai STRING
+Introduceti date (Ctrl-C pen tru a iesi din bucla) 
+34
+Ati introdus: 34 STRING
+Introduceti date (Ctrl-C pen tru a iesi din bucla) 
+^C
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+Please input a filename: out
+out is a regular file
+Please input a filename: ^C
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+I was called with 0 parameters
+My name is ./myfor-loop.sh
+My nicer name is 'basename ./myfor-loop.sh'
+My first parameter is 
+My second parameter is 
+All parameters are 
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./run
+[?2004l
+bash: ./run: No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./runmyfor-loop.sh razc[Kvan
+[?2004l
+I was called with 1 parameters
+My name is ./myfor-loop.sh
+My nicer name is 'basename ./myfor-loop.sh'
+My first parameter is razvan
+My second parameter is 
+All parameters are razvan
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m$ ./param.sh[27m$ ./param.sh
+[?2004l
+$: command not found
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m$ ./param.sh[27m$ ./param.sh[1P./param.sh[1P./param.sh
+[?2004l
+bash: ./param.sh: No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./param.sh$ ./param.sh./myfor-loop.sh razvan[K[K[K[K[K[K
+[?2004l
+I was called with 0 parameters
+My name is ./myfor-loop.sh
+My nicer name is 'basename ./myfor-loop.sh'
+My first parameter is 
+My second parameter is 
+All parameters are 
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh razvan mihai
+[?2004l
+I was called with 2 parameters
+My name is ./myfor-loop.sh
+My nicer name is 'basename ./myfor-loop.sh'
+My first parameter is razvan
+My second parameter is mihai
+All parameters are razvan mihai
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh razvan mihai[K[K[K[K[K[K[K[K[K[K[K[K1 2 3 4 5
+[?2004l
+$1 is 1
+$1 is 2
+$1 is 3
+$1 is 4
+$1 is 5
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m#!/bin/sh[27m
+
+[7mwhile [ "$#" -gt "0" ][27m
+
+[7mdo[27m
+
+[7mecho "\$1 is $1"[27m
+
+[7mshift[27m
+
+[7mdone[27m[A[A[A[A[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ #!/bin/sh
+
+while [ "$#" -gt "0" ]
+
+do
+
+echo "\$1 is $1"
+
+shift
+
+[1Pdon[K[K
+[K[K[A[C[C[C[C[C[K[K[K[K
+[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[K[A[C[C[K
+[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh 1 2 3 4 5[K[K[K[K[K[K[K[K[K[K
+[?2004l
+somecmd
+./myfor-loop.sh: 4: [: 127: unexpected operator
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+echo
+
+./myfor-loop.sh: 4: [: 0: unexpected operator
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+echo
+
+./myfor-loop.sh: 4: [: 0: unexpected operator
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+echo
+
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+somecmd
+somecmd has failed !
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh
+[?2004l
+somecmd
+somecmd has failed !
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo i[KINECPE [K[K[K[K[KCEPE TEMA
+[?2004l
+INCEPE TEMA
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ECHO [K [K[K[K[K[Kecho EX 1 A D[KF[K[K FOST FACUT
+[?2004l
+EX 1 A FOST FACUT
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo EX 2
+[?2004l
+EX 2
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-11-01 19:56:54+00:00 [COMMAND_EXIT_CODE="0"]
+
+
+
+
+Script started on 2024-11-01 19:58:00+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ exitcho EX 21 A FOST FACUT[6PINCEPE TEMA[1P./myfor-loop.sh echo somecmd
+[?2004l
+./myfor-loop.sh: 9: Syntax error: end of file unexpected (expecting "done")
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh echo somecmd
+[?2004l
+
+
+
+
+
+someecmd
+^C
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh echo somecmd
+[?2004l
+somecmd has failed !
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo EX3
+[?2004l
+EX3
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-11-01 20:26:49+00:00 [COMMAND_EXIT_CODE="0"]
+
+
+Script started on 2024-11-02 14:48:41+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ exitcho EX3./myfor-loop.sh echo somecmd
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcho EX 21 A FOST FACUT[6PINCEPE TEMA[1P./myfor-loop.shecho INCEPE TEMAEX 1 A FOST FACUT2[K[5Pxit./myfor-loop.sh echo somecmd
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho EX3[K[4Pxit[K [7mcat - > myfor-loop.sh[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat - > myfor-loop.sh
+[?2004l
+#!/bin/sh
+for x in * ;
+do
+	echo "$x"
+done
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cat - > myfor-loop.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcho EX3./myfor-loop.sh echo somecmd
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcho EX 21 A FOST FACUT[6PINCEPE TEMA[1P./myfor-loop.sh
+[?2004l
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+Templates
+Videos
+agenda.txt
+animals.txt
+bar
+baz
+bin
+foo
+hello
+hello.c
+if.sh
+lab5.txt
+myfor-loop.sh
+myscript.sh
+orig
+out
+printenv
+printenv.c
+rat
+seria15
+snap
+tmp
+tmpdir
+uso
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ecg[Kho 4
+[?2004l
+4
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ^[[200~ps aux | grep "process_name" ~[K[C[C[C[1P[1P[1P[1P[1P[2P 
+[?2004l
+razvan      4925  0.0  0.0  17944  2304 pts/1    S+   14:52   0:00 grep --color=auto [01;31m[Kprocess_name[m[K
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ps auxs
+[?2004l
+error: conflicting format options
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ps auxs[K
+[?2004l
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  1.8  0.1  23236 13924 ?        Ss   14:30   0:24 /sbin/init sp
+root           2  0.1  0.0      0     0 ?        S    14:30   0:01 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    14:30   0:00 [pool_workque
+root           4  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-rc
+root           5  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-rc
+root           6  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-sl
+root           7  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-ne
+root           8  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/0:0-
+root          10  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/0:0H
+root          11  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u18:
+root          12  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-mm
+root          13  0.0  0.0      0     0 ?        I    14:30   0:00 [rcu_tasks_kt
+root          14  0.0  0.0      0     0 ?        I    14:30   0:00 [rcu_tasks_ru
+root          15  0.0  0.0      0     0 ?        I    14:30   0:00 [rcu_tasks_tr
+root          16  0.1  0.0      0     0 ?        S    14:30   0:02 [ksoftirqd/0]
+root          17  0.1  0.0      0     0 ?        I    14:30   0:02 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    14:30   0:01 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          20  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          23  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/1:0H
+root          27  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          29  0.1  0.0      0     0 ?        S    14:30   0:01 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/2:0H
+root          33  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          35  0.0  0.0      0     0 ?        S    14:30   0:01 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/3]
+root          38  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/3:0H
+root          39  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/4]
+root          40  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          41  0.0  0.0      0     0 ?        S    14:30   0:01 [migration/4]
+root          42  0.1  0.0      0     0 ?        S    14:30   0:01 [ksoftirqd/4]
+root          44  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/4:0H
+root          45  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/5]
+root          46  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          47  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/5]
+root          48  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/5]
+root          49  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/5:0-
+root          51  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/6]
+root          52  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          53  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/6]
+root          54  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/6]
+root          57  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/7]
+root          58  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          59  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/7]
+root          60  0.1  0.0      0     0 ?        S    14:30   0:01 [ksoftirqd/7]
+root          62  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/7:0H
+root          63  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/8]
+root          64  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/
+root          65  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/8]
+root          66  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/8]
+root          69  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u19:
+root          71  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u21:
+root          74  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u24:
+root          75  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u25:
+root          77  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u27:
+root          78  0.0  0.0      0     0 ?        S    14:30   0:00 [kdevtmpfs]
+root          79  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-in
+root          80  0.2  0.0      0     0 ?        I    14:30   0:03 [kworker/u21:
+root          81  0.0  0.0      0     0 ?        S    14:30   0:00 [kauditd]
+root          83  0.0  0.0      0     0 ?        S    14:30   0:00 [khungtaskd]
+root          84  0.0  0.0      0     0 ?        S    14:30   0:00 [oom_reaper]
+root          86  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-wr
+root          87  0.0  0.0      0     0 ?        S    14:30   0:00 [kcompactd0]
+root          89  0.0  0.0      0     0 ?        SN   14:30   0:00 [ksmd]
+root          91  0.0  0.0      0     0 ?        SN   14:30   0:00 [khugepaged]
+root          92  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-ki
+root          93  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-kb
+root          94  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-bl
+root          95  0.0  0.0      0     0 ?        S    14:30   0:00 [irq/9-acpi]
+root          99  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/3:1-
+root         100  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/7:1-
+root         101  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/8:1-
+root         104  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-tp
+root         105  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-at
+root         106  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-md
+root         107  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-md
+root         108  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ed
+root         109  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-de
+root         110  0.0  0.0      0     0 ?        S    14:31   0:00 [watchdogd]
+root         111  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u26:
+root         114  0.0  0.0      0     0 ?        S    14:31   0:00 [kswapd0]
+root         115  0.0  0.0      0     0 ?        S    14:31   0:00 [ecryptfs-kth
+root         116  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-kt
+root         117  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ac
+root         118  0.0  0.0      0     0 ?        S    14:31   0:00 [scsi_eh_0]
+root         119  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-sc
+root         120  0.0  0.0      0     0 ?        S    14:31   0:00 [scsi_eh_1]
+root         121  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-sc
+root         124  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u20:
+root         125  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ml
+root         128  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ip
+root         135  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ks
+root         138  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u28:
+root         139  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u29:
+root         140  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u30:
+root         141  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u31:
+root         142  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u32:
+root         143  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u33:
+root         144  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u34:
+root         145  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u35:
+root         146  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u36:
+root         147  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u37:
+root         161  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ch
+root         162  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u22:
+root         191  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/1:1H
+root         193  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/5:1H
+root         228  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u23:
+root         230  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/6:1H
+root         234  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/6:2-
+root         245  0.0  0.0      0     0 ?        S    14:31   0:00 [scsi_eh_2]
+root         246  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-sc
+root         247  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/7:2-
+root         251  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u23:
+root         292  0.0  0.0      0     0 ?        S    14:31   0:00 [jbd2/sda2-8]
+root         293  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ex
+root         342  0.1  0.1  50840 16900 ?        S<s  14:31   0:01 /usr/lib/syst
+root         392  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u18:
+root         400  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/5:3-
+root         412  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u26:
+root         420  0.1  0.0  30424  8260 ?        Ss   14:31   0:02 /usr/lib/syst
+root         460  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/1:2-
+systemd+     493  0.0  0.0  17556  7552 ?        Ss   14:31   0:00 /usr/lib/syst
+systemd+     508  0.0  0.1  21576 12672 ?        Ss   14:31   0:00 /usr/lib/syst
+root         547  0.0  0.0      0     0 ?        S    14:31   0:00 [psimon]
+root         553  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/2:2-
+root         631  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/8:2H
+avahi        671  0.0  0.0   8664  4096 ?        Ss   14:31   0:00 avahi-daemon:
+message+     672  0.4  0.0  12204  6656 ?        Ss   14:31   0:06 @dbus-daemon 
+gnome-r+     683  0.0  0.1 512804 15324 ?        Ssl  14:31   0:01 /usr/libexec/
+polkitd      694  0.3  0.1 325696 11392 ?        Ssl  14:31   0:04 /usr/lib/polk
+root         709  0.0  0.0 322116  7040 ?        Ssl  14:31   0:00 /usr/libexec/
+root         723  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/6:2H
+root         724  0.4  0.3 2064788 31508 ?       Ssl  14:31   0:06 /usr/lib/snap
+root         733  0.0  0.0 322028  7368 ?        Ssl  14:31   0:00 /usr/libexec/
+root         735  0.0  0.0  18092  2688 ?        Ss   14:31   0:00 /usr/sbin/cro
+root         738  0.0  0.0 318568  6528 ?        Ssl  14:31   0:00 /usr/libexec/
+root         740  0.0  0.0      0     0 ?        S    14:31   0:00 [irq/18-vmwgf
+root         741  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-tt
+root         744  0.0  0.0  18252  8576 ?        Ss   14:31   0:01 /usr/lib/syst
+root         745  0.1  0.1 469452 13776 ?        Ssl  14:31   0:01 /usr/libexec/
+syslog       755  0.1  0.0 222564  5760 ?        Ssl  14:31   0:01 /usr/sbin/rsy
+avahi        774  0.0  0.0   8476  1416 ?        S    14:31   0:00 avahi-daemon:
+root         775  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/7:2H
+root         796  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u27:
+root         802  0.1  0.1 345076 18516 ?        Ssl  14:31   0:02 /usr/sbin/Net
+root         814  0.0  0.0  17376  6144 ?        Ss   14:31   0:00 /usr/sbin/wpa
+root         830  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/3:2H
+root         855  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u22:
+root         918  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-cr
+root        1018  0.0  0.1 318296 11932 ?        Ssl  14:31   0:00 /usr/sbin/Mod
+root        1083  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/4:2H
+root        1086  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/4:3-
+root        1192  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u24:
+root        1299  0.0  0.1  46904 11904 ?        Ss   14:31   0:00 /usr/sbin/cup
+root        1304  0.0  0.2 120908 22912 ?        Ssl  14:31   0:00 /usr/bin/pyth
+lp          1310  0.0  0.0  16836  6912 ?        S    14:31   0:00 /usr/lib/cups
+cups-br+    1316  0.0  0.1 268392 19584 ?        Ssl  14:31   0:00 /usr/sbin/cup
+kernoops    1319  0.0  0.0  12744  2452 ?        Ss   14:31   0:00 /usr/sbin/ker
+kernoops    1322  0.0  0.0  12744  2448 ?        Ss   14:31   0:00 /usr/sbin/ker
+root        2010  0.1  0.0 350060  2048 ?        Sl   14:31   0:01 /usr/bin/VBox
+root        2012  0.0  0.0 290196  3336 ?        Sl   14:31   0:00 /usr/sbin/VBo
+root        2266  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u29:
+root        2768  0.0  0.0 323492  8832 ?        Ssl  14:32   0:00 /usr/sbin/gdm
+root        2780  0.0  0.0      0     0 ?        S    14:32   0:00 [psimon]
+rtkit       2823  0.0  0.0  22940  3072 ?        SNsl 14:32   0:00 /usr/libexec/
+colord      2935  0.0  0.1 328684 14124 ?        Ssl  14:32   0:00 /usr/libexec/
+root        2982  0.1  0.0 325348  8704 ?        Ssl  14:32   0:01 /usr/libexec/
+root        3255  0.0  0.0      0     0 ?        I<   14:32   0:00 [kworker/u36:
+root        3328  0.0  0.1 398720 10368 ?        Sl   14:32   0:00 gdm-session-w
+razvan      3338  0.1  0.1  21128 12968 ?        Ss   14:32   0:02 /usr/lib/syst
+razvan      3343  0.0  0.0  21456  3724 ?        S    14:32   0:00 (sd-pam)
+razvan      3357  0.0  0.1 123980 14080 ?        S<sl 14:32   0:01 /usr/bin/pipe
+razvan      3358  0.0  0.0 106404  5888 ?        Ssl  14:32   0:00 /usr/bin/pipe
+razvan      3360  0.0  0.1 415580 18304 ?        S<sl 14:32   0:00 /usr/bin/wire
+razvan      3362  0.0  0.1 124140 12528 ?        S<sl 14:32   0:00 /usr/bin/pipe
+razvan      3370  0.4  0.0  10868  6400 ?        Ss   14:32   0:05 /usr/bin/dbus
+razvan      3371  0.0  0.0 325176  9600 ?        SLsl 14:32   0:00 /usr/bin/gnom
+razvan      3402  0.0  0.0 693724  7040 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3408  0.0  0.0 317976  5888 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3423  0.0  0.0 244336  6144 tty2     Ssl+ 14:32   0:00 /usr/libexec/
+root        3430  0.0  0.0   2704  1792 ?        Ss   14:32   0:00 fusermount3 -
+razvan      3431  0.0  0.1 306876 16512 tty2     Sl+  14:32   0:00 /usr/libexec/
+razvan      3510  0.0  0.0 162652  6784 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3512  0.0  0.0 100216  5504 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3529  0.0  0.0 322936  7680 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3541  0.0  0.0 468380  6784 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3544  0.1  0.1 742124 17792 ?        Ssl  14:32   0:01 /usr/libexec/
+razvan      3589  0.0  0.0 382940  7552 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3591 15.0  3.8 6019304 391876 ?      Ssl  14:32   3:04 /usr/bin/gnom
+razvan      3603  0.0  0.0   9608  4992 ?        S    14:32   0:00 /usr/bin/dbus
+razvan      3671  0.0  0.0 236068  7680 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3689  0.0  0.1 654776 17024 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3707  0.1  0.4 586816 41600 ?        Ssl  14:32   0:01 /usr/libexec/
+razvan      3711  0.0  0.2 2613936 26476 ?       Sl   14:32   0:00 /usr/bin/gjs 
+razvan      3719  0.2  0.1 397312 11960 ?        Ssl  14:32   0:03 /usr/bin/ibus
+razvan      3721  0.0  0.0 392188  6400 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3726  0.0  0.1 421568 20100 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3730  0.0  0.1 440336 12032 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3732  0.0  0.0 467540  7680 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3735  0.0  0.1 420424 19204 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3738  0.0  0.2 602616 24580 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3743  0.0  0.2 532168 23556 ?        Ssl  14:32   0:01 /usr/libexec/
+razvan      3746  0.0  0.1 332312 11264 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3748  0.0  0.0 539752  6400 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3752  0.0  0.0 318228  6272 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3759  0.0  0.1 551864 11392 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3767  0.0  0.0 394488  7936 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3769  0.0  0.0 402308  9600 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3772  0.0  0.1 495132 20228 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      3778  0.0  0.0 305624  7040 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3800  0.1  0.5 817788 58548 ?        Sl   14:32   0:01 /usr/libexec/
+razvan      3887  0.0  0.5 216420 59144 ?        S    14:32   0:01 /usr/bin/Xway
+razvan      3907  0.0  0.0 319136  7040 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3908  0.5  0.2 430212 28996 ?        Sl   14:32   0:06 /usr/libexec/
+razvan      3912  0.1  0.1  39128 12032 ?        Ss   14:32   0:01 /snap/snapd-d
+razvan      3915  0.0  0.0 319096  6784 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3960  0.0  0.2 555324 23680 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3963  0.0  0.1 424872 14848 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      3976  0.0  0.1 471724 11008 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4002  0.0  0.0 471528  8960 ?        Sl   14:32   0:00 /usr/libexec/
+root        4008  0.0  0.0      0     0 ?        I    14:32   0:00 [kworker/u19:
+razvan      4025  0.0  0.2 899404 23808 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4033  0.0  0.0 398044  7808 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4051  0.0  0.0 318440  6144 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4052  0.0  0.2 429604 30100 ?        Sl   14:32   0:00 /snap/snapd-d
+razvan      4060  0.0  0.0 319428  6656 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4085  0.0  0.2 760360 29824 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4087  0.0  0.0 318460  6400 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4122  0.0  0.0 245440  7040 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      4145  0.0  0.0 230224  5376 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4155  0.0  0.0 245008  6272 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4156  0.0  0.0 544380  8320 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      4193  0.1  0.2 743248 27944 ?        SNsl 14:32   0:01 /usr/libexec/
+razvan      4194  0.0  0.1 710388 14004 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4205  0.1  0.3 917904 40696 ?        Ssl  14:32   0:01 /usr/libexec/
+razvan      4217  0.0  0.7 622576 75100 ?        Ssl  14:32   0:01 /usr/libexec/
+razvan      4253  0.0  0.2 2679472 27228 ?       Sl   14:32   0:00 /usr/bin/gjs 
+razvan      4332  0.0  0.2 426420 25964 ?        Ssl  14:32   0:00 /usr/libexec/
+razvan      4340  0.0  0.2 275776 24252 ?        Sl   14:32   0:00 /usr/libexec/
+razvan      4356  0.0  0.8 2130816 89588 ?       Sl   14:32   0:00 /usr/libexec/
+razvan      4361  0.0  0.0  28120  1448 ?        S    14:32   0:00 /usr/bin/VBox
+razvan      4363  0.0  0.0 226928  4264 ?        Sl   14:32   0:00 /usr/bin/VBox
+razvan      4386  0.0  0.0  28120  1448 ?        S    14:32   0:00 /usr/bin/VBox
+razvan      4388  0.0  0.0 160224  2216 ?        Sl   14:32   0:00 /usr/bin/VBox
+razvan      4479  0.0  0.3 577892 33028 ?        Sl   14:33   0:00 /usr/bin/upda
+root        4553  0.0  0.0      0     0 ?        I    14:36   0:00 [kworker/u22:
+root        4557  0.0  0.0      0     0 ?        I    14:37   0:00 [kworker/1:0-
+root        4559  0.0  0.0      0     0 ?        I    14:37   0:00 [kworker/2:0-
+root        4560  0.0  0.0      0     0 ?        I    14:38   0:00 [kworker/u27:
+root        4561  0.0  0.0      0     0 ?        I    14:38   0:00 [kworker/u21:
+root        4562  0.0  0.0      0     0 ?        I    14:38   0:00 [kworker/u20:
+root        4576  0.0  0.0      0     0 ?        I    14:40   0:00 [kworker/6:3]
+root        4599  0.0  0.0      0     0 ?        I    14:41   0:00 [kworker/8:0-
+root        4608  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/u24:
+razvan      4630  0.1  0.6 3157920 65032 ?       Sl   14:42   0:01 gjs /usr/shar
+razvan      4693  0.4  0.5 632648 54872 ?        Ssl  14:42   0:02 /usr/libexec/
+razvan      4700  0.0  0.0  19692  5120 pts/0    Ss   14:42   0:00 bash
+razvan      4716  2.9  2.3 3034428 234308 ?      Sl   14:42   0:19 /usr/bin/naut
+root        4726  0.0  0.0      0     0 ?        I<   14:42   0:00 [kworker/5:0H
+root        4727  0.0  0.0      0     0 ?        I<   14:42   0:00 [kworker/2:1H
+razvan      4757  0.0  0.0 396900  8192 ?        Sl   14:42   0:00 /usr/libexec/
+root        4767  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/u26:
+root        4768  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/u19:
+razvan      4770 23.6  2.4 3000808 245748 ?      Sl   14:42   2:30 /usr/bin/gnom
+root        4810  0.0  0.0      0     0 ?        I<   14:42   0:00 [kworker/0:1H
+root        4811  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/u25:
+root        4815  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/3:0-
+root        4822  0.1  0.0      0     0 ?        I    14:45   0:00 [kworker/0:1-
+root        4834  0.0  0.0      0     0 ?        I    14:45   0:00 [kworker/u20:
+root        4844  0.0  0.0      0     0 ?        I<   14:45   0:00 [kworker/8:1H
+root        4848  0.0  0.0      0     0 ?        I    14:46   0:00 [kworker/4:0]
+root        4877  0.0  0.0      0     0 ?        I    14:47   0:00 [kworker/u23:
+razvan      4879  0.0  0.0  16972  2304 pts/0    S+   14:48   0:00 script lab5.t
+razvan      4880  0.0  0.0  19692  5248 pts/1    Ss   14:48   0:00 bash -i
+root        4897  0.0  0.0      0     0 ?        I    14:48   0:00 [kworker/u25:
+root        4911  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/0:2H
+root        4918  0.0  0.0      0     0 ?        I    14:50   0:00 [kworker/8:2]
+root        4919  0.0  0.0      0     0 ?        I    14:50   0:00 [kworker/8:3]
+root        4921  0.0  0.0      0     0 ?        I    14:52   0:00 [kworker/2:1-
+razvan      4927  200  0.0  22416  4480 pts/1    R+   14:53   0:00 ps aux
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ps auxw
+[?2004l
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  1.8  0.1  23236 13924 ?        Ss   14:30   0:24 /sbin/init splash
+root           2  0.1  0.0      0     0 ?        S    14:30   0:01 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    14:30   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-netns]
+root           8  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/0:0-ata_sff]
+root          10  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/0:0H-kblockd]
+root          11  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u18:0-ext4-rsv-conversion]
+root          12  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    14:30   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    14:30   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    14:30   0:00 [rcu_tasks_trace_kthread]
+root          16  0.1  0.0      0     0 ?        S    14:30   0:02 [ksoftirqd/0]
+root          17  0.1  0.0      0     0 ?        I    14:30   0:02 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    14:30   0:01 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/1:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/2]
+root          29  0.1  0.0      0     0 ?        S    14:30   0:01 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/2:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/3]
+root          35  0.0  0.0      0     0 ?        S    14:30   0:01 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/3]
+root          38  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/3:0H-events_highpri]
+root          39  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/4]
+root          40  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/4]
+root          41  0.0  0.0      0     0 ?        S    14:30   0:01 [migration/4]
+root          42  0.1  0.0      0     0 ?        S    14:30   0:01 [ksoftirqd/4]
+root          44  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/4:0H-events_highpri]
+root          45  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/5]
+root          46  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/5]
+root          47  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/5]
+root          48  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/5]
+root          49  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/5:0-cgroup_destroy]
+root          51  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/6]
+root          52  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/6]
+root          53  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/6]
+root          54  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/6]
+root          57  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/7]
+root          58  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/7]
+root          59  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/7]
+root          60  0.1  0.0      0     0 ?        S    14:30   0:01 [ksoftirqd/7]
+root          62  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/7:0H-kblockd]
+root          63  0.0  0.0      0     0 ?        S    14:30   0:00 [cpuhp/8]
+root          64  0.0  0.0      0     0 ?        S    14:30   0:00 [idle_inject/8]
+root          65  0.0  0.0      0     0 ?        S    14:30   0:00 [migration/8]
+root          66  0.0  0.0      0     0 ?        S    14:30   0:00 [ksoftirqd/8]
+root          69  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u19:0-events_unbound]
+root          71  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u21:0-events_unbound]
+root          74  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u24:0-events_unbound]
+root          75  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u25:0-flush-8:0]
+root          77  0.0  0.0      0     0 ?        I    14:30   0:00 [kworker/u27:0-events_unbound]
+root          78  0.0  0.0      0     0 ?        S    14:30   0:00 [kdevtmpfs]
+root          79  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-inet_]
+root          80  0.2  0.0      0     0 ?        I    14:30   0:03 [kworker/u21:1-events_power_efficient]
+root          81  0.0  0.0      0     0 ?        S    14:30   0:00 [kauditd]
+root          83  0.0  0.0      0     0 ?        S    14:30   0:00 [khungtaskd]
+root          84  0.0  0.0      0     0 ?        S    14:30   0:00 [oom_reaper]
+root          86  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-write]
+root          87  0.0  0.0      0     0 ?        S    14:30   0:00 [kcompactd0]
+root          89  0.0  0.0      0     0 ?        SN   14:30   0:00 [ksmd]
+root          91  0.0  0.0      0     0 ?        SN   14:30   0:00 [khugepaged]
+root          92  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-kinte]
+root          93  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-kbloc]
+root          94  0.0  0.0      0     0 ?        I<   14:30   0:00 [kworker/R-blkcg]
+root          95  0.0  0.0      0     0 ?        S    14:30   0:00 [irq/9-acpi]
+root          99  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/3:1-events]
+root         100  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/7:1-events]
+root         101  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/8:1-mm_percpu_wq]
+root         104  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-tpm_d]
+root         105  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ata_s]
+root         106  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-md]
+root         107  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-md_bi]
+root         108  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-edac-]
+root         109  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-devfr]
+root         110  0.0  0.0      0     0 ?        S    14:31   0:00 [watchdogd]
+root         111  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u26:1-events_power_efficient]
+root         114  0.0  0.0      0     0 ?        S    14:31   0:00 [kswapd0]
+root         115  0.0  0.0      0     0 ?        S    14:31   0:00 [ecryptfs-kthread]
+root         116  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-kthro]
+root         117  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-acpi_]
+root         118  0.0  0.0      0     0 ?        S    14:31   0:00 [scsi_eh_0]
+root         119  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-scsi_]
+root         120  0.0  0.0      0     0 ?        S    14:31   0:00 [scsi_eh_1]
+root         121  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-scsi_]
+root         124  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u20:4-events_unbound]
+root         125  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-mld]
+root         128  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ipv6_]
+root         135  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-kstrp]
+root         138  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u28:0]
+root         139  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u29:0-ttm]
+root         140  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u30:0]
+root         141  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u31:0]
+root         142  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u32:0]
+root         143  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u33:0]
+root         144  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u34:0]
+root         145  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u35:0]
+root         146  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u36:0-ttm]
+root         147  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u37:0]
+root         161  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-charg]
+root         162  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u22:1-events_unbound]
+root         191  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/1:1H-kblockd]
+root         193  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/5:1H-kblockd]
+root         228  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u23:1-flush-8:0]
+root         230  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/6:1H-kblockd]
+root         234  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/6:2-events]
+root         245  0.0  0.0      0     0 ?        S    14:31   0:00 [scsi_eh_2]
+root         246  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-scsi_]
+root         247  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/7:2-cgroup_destroy]
+root         251  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u23:2-flush-8:0]
+root         292  0.0  0.0      0     0 ?        S    14:31   0:00 [jbd2/sda2-8]
+root         293  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ext4-]
+root         342  0.1  0.1  50840 16900 ?        S<s  14:31   0:01 /usr/lib/systemd/systemd-journald
+root         392  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u18:1-ext4-rsv-conversion]
+root         400  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/5:3-mm_percpu_wq]
+root         412  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u26:2-events_power_efficient]
+root         420  0.1  0.0  30424  8260 ?        Ss   14:31   0:02 /usr/lib/systemd/systemd-udevd
+root         460  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/1:2-rcu_gp]
+systemd+     493  0.0  0.0  17556  7552 ?        Ss   14:31   0:00 /usr/lib/systemd/systemd-oomd
+systemd+     508  0.0  0.1  21576 12672 ?        Ss   14:31   0:00 /usr/lib/systemd/systemd-resolved
+root         547  0.0  0.0      0     0 ?        S    14:31   0:00 [psimon]
+root         553  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/2:2-events]
+root         631  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/8:2H-kblockd]
+avahi        671  0.0  0.0   8664  4096 ?        Ss   14:31   0:00 avahi-daemon: running [Ubuntu.local]
+message+     672  0.4  0.0  12204  6656 ?        Ss   14:31   0:06 @dbus-daemon --system --address=systemd: --nofork --nopidfile --s
+gnome-r+     683  0.0  0.1 512804 15324 ?        Ssl  14:31   0:01 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd      694  0.3  0.1 325696 11392 ?        Ssl  14:31   0:04 /usr/lib/polkit-1/polkitd --no-debug
+root         709  0.0  0.0 322116  7040 ?        Ssl  14:31   0:00 /usr/libexec/power-profiles-daemon
+root         723  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/6:2H]
+root         724  0.4  0.3 2064788 31508 ?       Ssl  14:31   0:06 /usr/lib/snapd/snapd
+root         733  0.0  0.0 322028  7368 ?        Ssl  14:31   0:00 /usr/libexec/accounts-daemon
+root         735  0.0  0.0  18092  2688 ?        Ss   14:31   0:00 /usr/sbin/cron -f -P
+root         738  0.0  0.0 318568  6528 ?        Ssl  14:31   0:00 /usr/libexec/switcheroo-control
+root         740  0.0  0.0      0     0 ?        S    14:31   0:00 [irq/18-vmwgfx]
+root         741  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-ttm]
+root         744  0.0  0.0  18252  8576 ?        Ss   14:31   0:01 /usr/lib/systemd/systemd-logind
+root         745  0.1  0.1 469452 13776 ?        Ssl  14:31   0:01 /usr/libexec/udisks2/udisksd
+syslog       755  0.1  0.0 222564  5760 ?        Ssl  14:31   0:01 /usr/sbin/rsyslogd -n -iNONE
+avahi        774  0.0  0.0   8476  1416 ?        S    14:31   0:00 avahi-daemon: chroot helper
+root         775  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/7:2H-kblockd]
+root         796  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u27:3-flush-8:0]
+root         802  0.1  0.1 345076 18516 ?        Ssl  14:31   0:02 /usr/sbin/NetworkManager --no-daemon
+root         814  0.0  0.0  17376  6144 ?        Ss   14:31   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=n
+root         830  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/3:2H-kblockd]
+root         855  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u22:3-writeback]
+root         918  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/R-crypt]
+root        1018  0.0  0.1 318296 11932 ?        Ssl  14:31   0:00 /usr/sbin/ModemManager
+root        1083  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/4:2H-kblockd]
+root        1086  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/4:3-ata_sff]
+root        1192  0.0  0.0      0     0 ?        I    14:31   0:00 [kworker/u24:3-events_unbound]
+root        1299  0.0  0.1  46904 11904 ?        Ss   14:31   0:00 /usr/sbin/cupsd -l
+root        1304  0.0  0.2 120908 22912 ?        Ssl  14:31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrad
+lp          1310  0.0  0.0  16836  6912 ?        S    14:31   0:00 /usr/lib/cups/notifier/dbus dbus://
+cups-br+    1316  0.0  0.1 268392 19584 ?        Ssl  14:31   0:00 /usr/sbin/cups-browsed
+kernoops    1319  0.0  0.0  12744  2452 ?        Ss   14:31   0:00 /usr/sbin/kerneloops --test
+kernoops    1322  0.0  0.0  12744  2448 ?        Ss   14:31   0:00 /usr/sbin/kerneloops
+root        2010  0.1  0.0 350060  2048 ?        Sl   14:31   0:01 /usr/bin/VBoxDRMClient
+root        2012  0.0  0.0 290196  3336 ?        Sl   14:31   0:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root        2266  0.0  0.0      0     0 ?        I<   14:31   0:00 [kworker/u29:1]
+root        2768  0.0  0.0 323492  8832 ?        Ssl  14:32   0:00 /usr/sbin/gdm3
+root        2780  0.0  0.0      0     0 ?        S    14:32   0:00 [psimon]
+rtkit       2823  0.0  0.0  22940  3072 ?        SNsl 14:32   0:00 /usr/libexec/rtkit-daemon
+colord      2935  0.0  0.1 328684 14124 ?        Ssl  14:32   0:00 /usr/libexec/colord
+root        2982  0.1  0.0 325348  8704 ?        Ssl  14:32   0:01 /usr/libexec/upowerd
+root        3255  0.0  0.0      0     0 ?        I<   14:32   0:00 [kworker/u36:1]
+root        3328  0.0  0.1 398720 10368 ?        Sl   14:32   0:00 gdm-session-worker [pam/gdm-password]
+razvan      3338  0.1  0.1  21128 12968 ?        Ss   14:32   0:02 /usr/lib/systemd/systemd --user
+razvan      3343  0.0  0.0  21456  3724 ?        S    14:32   0:00 (sd-pam)
+razvan      3357  0.0  0.1 123980 14080 ?        S<sl 14:32   0:01 /usr/bin/pipewire
+razvan      3358  0.0  0.0 106404  5888 ?        Ssl  14:32   0:00 /usr/bin/pipewire -c filter-chain.conf
+razvan      3360  0.0  0.1 415580 18304 ?        S<sl 14:32   0:00 /usr/bin/wireplumber
+razvan      3362  0.0  0.1 124140 12528 ?        S<sl 14:32   0:00 /usr/bin/pipewire-pulse
+razvan      3370  0.4  0.0  10868  6400 ?        Ss   14:32   0:05 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopi
+razvan      3371  0.0  0.0 325176  9600 ?        SLsl 14:32   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,se
+razvan      3402  0.0  0.0 693724  7040 ?        Ssl  14:32   0:00 /usr/libexec/xdg-document-portal
+razvan      3408  0.0  0.0 317976  5888 ?        Ssl  14:32   0:00 /usr/libexec/xdg-permission-store
+razvan      3423  0.0  0.0 244336  6144 tty2     Ssl+ 14:32   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubu
+root        3430  0.0  0.0   2704  1792 ?        Ss   14:32   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype
+razvan      3431  0.0  0.1 306876 16512 tty2     Sl+  14:32   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+razvan      3510  0.0  0.0 162652  6784 ?        Ssl  14:32   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+razvan      3512  0.0  0.0 100216  5504 ?        Ssl  14:32   0:00 /usr/libexec/gnome-session-ctl --monitor
+razvan      3529  0.0  0.0 322936  7680 ?        Ssl  14:32   0:00 /usr/libexec/gvfsd
+razvan      3541  0.0  0.0 468380  6784 ?        Sl   14:32   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+razvan      3544  0.1  0.1 742124 17792 ?        Ssl  14:32   0:01 /usr/libexec/gnome-session-binary --systemd-service --session=ubu
+razvan      3589  0.0  0.0 382940  7552 ?        Sl   14:32   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+razvan      3591 15.2  3.8 6019304 391876 ?      Ssl  14:32   3:10 /usr/bin/gnome-shell
+razvan      3603  0.0  0.0   9608  4992 ?        S    14:32   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/ac
+razvan      3671  0.0  0.0 236068  7680 ?        Sl   14:32   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+razvan      3689  0.0  0.1 654776 17024 ?        Sl   14:32   0:00 /usr/libexec/gnome-shell-calendar-server
+razvan      3707  0.1  0.4 586816 41600 ?        Ssl  14:32   0:01 /usr/libexec/evolution-source-registry
+razvan      3711  0.0  0.2 2613936 26476 ?       Sl   14:32   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notificati
+razvan      3719  0.2  0.1 397312 11960 ?        Ssl  14:32   0:03 /usr/bin/ibus-daemon --panel disable
+razvan      3721  0.0  0.0 392188  6400 ?        Ssl  14:32   0:00 /usr/libexec/gsd-a11y-settings
+razvan      3726  0.0  0.1 421568 20100 ?        Ssl  14:32   0:00 /usr/libexec/gsd-color
+razvan      3730  0.0  0.1 440336 12032 ?        Ssl  14:32   0:00 /usr/libexec/gsd-datetime
+razvan      3732  0.0  0.0 467540  7680 ?        Ssl  14:32   0:00 /usr/libexec/gsd-housekeeping
+razvan      3735  0.0  0.1 420424 19204 ?        Ssl  14:32   0:00 /usr/libexec/gsd-keyboard
+razvan      3738  0.0  0.2 602616 24580 ?        Ssl  14:32   0:00 /usr/libexec/gsd-media-keys
+razvan      3743  0.0  0.2 532168 23556 ?        Ssl  14:32   0:01 /usr/libexec/gsd-power
+razvan      3746  0.0  0.1 332312 11264 ?        Ssl  14:32   0:00 /usr/libexec/gsd-print-notifications
+razvan      3748  0.0  0.0 539752  6400 ?        Ssl  14:32   0:00 /usr/libexec/gsd-rfkill
+razvan      3752  0.0  0.0 318228  6272 ?        Ssl  14:32   0:00 /usr/libexec/gsd-screensaver-proxy
+razvan      3759  0.0  0.1 551864 11392 ?        Ssl  14:32   0:00 /usr/libexec/gsd-sharing
+razvan      3767  0.0  0.0 394488  7936 ?        Ssl  14:32   0:00 /usr/libexec/gsd-smartcard
+razvan      3769  0.0  0.0 402308  9600 ?        Ssl  14:32   0:00 /usr/libexec/gsd-sound
+razvan      3772  0.0  0.1 495132 20228 ?        Ssl  14:32   0:00 /usr/libexec/gsd-wacom
+razvan      3778  0.0  0.0 305624  7040 ?        Sl   14:32   0:00 /usr/libexec/gsd-disk-utility-notify
+razvan      3800  0.1  0.5 817788 58548 ?        Sl   14:32   0:01 /usr/libexec/evolution-data-server/evolution-alarm-notify
+razvan      3887  0.0  0.5 216420 59144 ?        S    14:32   0:01 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run
+razvan      3907  0.0  0.0 319136  7040 ?        Sl   14:32   0:00 /usr/libexec/ibus-dconf
+razvan      3908  0.5  0.2 430212 28996 ?        Sl   14:32   0:06 /usr/libexec/ibus-extension-gtk3
+razvan      3912  0.1  0.1  39128 12032 ?        Ss   14:32   0:01 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integra
+razvan      3915  0.0  0.0 319096  6784 ?        Sl   14:32   0:00 /usr/libexec/ibus-portal
+razvan      3960  0.0  0.2 555324 23680 ?        Sl   14:32   0:00 /usr/libexec/goa-daemon
+razvan      3963  0.0  0.1 424872 14848 ?        Sl   14:32   0:00 /usr/libexec/gsd-printer
+razvan      3976  0.0  0.1 471724 11008 ?        Ssl  14:32   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+razvan      4002  0.0  0.0 471528  8960 ?        Sl   14:32   0:00 /usr/libexec/goa-identity-service
+root        4008  0.0  0.0      0     0 ?        I    14:32   0:00 [kworker/u19:3-events_unbound]
+razvan      4025  0.0  0.2 899404 23808 ?        Ssl  14:32   0:00 /usr/libexec/evolution-calendar-factory
+razvan      4033  0.0  0.0 398044  7808 ?        Ssl  14:32   0:00 /usr/libexec/gvfs-afc-volume-monitor
+razvan      4051  0.0  0.0 318440  6144 ?        Ssl  14:32   0:00 /usr/libexec/gvfs-goa-volume-monitor
+razvan      4052  0.0  0.2 429604 30100 ?        Sl   14:32   0:00 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integra
+razvan      4060  0.0  0.0 319428  6656 ?        Ssl  14:32   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+razvan      4085  0.0  0.2 760360 29824 ?        Ssl  14:32   0:00 /usr/libexec/evolution-addressbook-factory
+razvan      4087  0.0  0.0 318460  6400 ?        Ssl  14:32   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+razvan      4122  0.0  0.0 245440  7040 ?        Sl   14:32   0:00 /usr/libexec/ibus-engine-simple
+razvan      4145  0.0  0.0 230224  5376 ?        Ssl  14:32   0:00 /usr/libexec/dconf-service
+razvan      4155  0.0  0.0 245008  6272 ?        Ssl  14:32   0:00 /usr/libexec/gvfsd-metadata
+razvan      4156  0.0  0.0 544380  8320 ?        Sl   14:32   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/
+razvan      4193  0.1  0.3 964444 33448 ?        SNsl 14:32   0:01 /usr/libexec/tracker-miner-fs-3
+razvan      4194  0.0  0.1 710388 14004 ?        Ssl  14:32   0:00 /usr/libexec/xdg-desktop-portal
+razvan      4205  0.1  0.3 917904 40696 ?        Ssl  14:32   0:01 /usr/libexec/xdg-desktop-portal-gnome
+razvan      4217  0.0  0.7 622576 75100 ?        Ssl  14:32   0:01 /usr/libexec/gsd-xsettings
+razvan      4253  0.0  0.2 2679472 27228 ?       Sl   14:32   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+razvan      4332  0.0  0.2 426420 25964 ?        Ssl  14:32   0:00 /usr/libexec/xdg-desktop-portal-gtk
+razvan      4340  0.0  0.2 275776 24252 ?        Sl   14:32   0:00 /usr/libexec/ibus-x11
+razvan      4356  0.0  0.8 2130816 89588 ?       Sl   14:32   0:00 /usr/libexec/mutter-x11-frames
+razvan      4361  0.0  0.0  28120  1448 ?        S    14:32   0:00 /usr/bin/VBoxClient --clipboard
+razvan      4363  0.0  0.0 226928  4264 ?        Sl   14:32   0:00 /usr/bin/VBoxClient --clipboard
+razvan      4386  0.0  0.0  28120  1448 ?        S    14:32   0:00 /usr/bin/VBoxClient --vmsvga-session
+razvan      4388  0.0  0.0 160224  2216 ?        Sl   14:32   0:00 /usr/bin/VBoxClient --vmsvga-session
+razvan      4479  0.0  0.3 577892 33028 ?        Sl   14:33   0:00 /usr/bin/update-notifier
+root        4553  0.0  0.0      0     0 ?        I    14:36   0:00 [kworker/u22:0-events_power_efficient]
+root        4557  0.0  0.0      0     0 ?        I    14:37   0:00 [kworker/1:0-mm_percpu_wq]
+root        4559  0.0  0.0      0     0 ?        I    14:37   0:00 [kworker/2:0-events]
+root        4560  0.0  0.0      0     0 ?        I    14:38   0:00 [kworker/u27:1-events_unbound]
+root        4561  0.0  0.0      0     0 ?        I    14:38   0:00 [kworker/u21:2-events_unbound]
+root        4562  0.0  0.0      0     0 ?        I    14:38   0:00 [kworker/u20:0-events_unbound]
+root        4576  0.0  0.0      0     0 ?        I    14:40   0:00 [kworker/6:3]
+root        4599  0.0  0.0      0     0 ?        I    14:41   0:00 [kworker/8:0-cgroup_destroy]
+root        4608  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/u24:1-events_unbound]
+razvan      4630  0.1  0.6 3157920 65032 ?       Sl   14:42   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/din
+razvan      4693  0.5  0.5 632648 54872 ?        Ssl  14:42   0:03 /usr/libexec/gnome-terminal-server
+razvan      4700  0.0  0.0  19692  5120 pts/0    Ss   14:42   0:00 bash
+razvan      4716  2.9  2.3 3034428 234308 ?      Sl   14:42   0:19 /usr/bin/nautilus --gapplication-service
+root        4726  0.0  0.0      0     0 ?        I<   14:42   0:00 [kworker/5:0H-kblockd]
+root        4727  0.0  0.0      0     0 ?        I<   14:42   0:00 [kworker/2:1H-kblockd]
+razvan      4757  0.0  0.0 396900  8192 ?        Sl   14:42   0:00 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw
+root        4767  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/u26:0-events_power_efficient]
+root        4768  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/u19:1-events_unbound]
+razvan      4770 23.0  2.4 3000808 245748 ?      Sl   14:42   2:30 /usr/bin/gnome-text-editor /home/razvan/myfor-loop.sh
+root        4810  0.0  0.0      0     0 ?        I<   14:42   0:00 [kworker/0:1H]
+root        4811  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/u25:1-writeback]
+root        4815  0.0  0.0      0     0 ?        I    14:42   0:00 [kworker/3:0-mm_percpu_wq]
+root        4822  0.2  0.0      0     0 ?        I    14:45   0:01 [kworker/0:1-events]
+root        4834  0.0  0.0      0     0 ?        I    14:45   0:00 [kworker/u20:1-events_unbound]
+root        4844  0.0  0.0      0     0 ?        I<   14:45   0:00 [kworker/8:1H-kblockd]
+root        4848  0.0  0.0      0     0 ?        I    14:46   0:00 [kworker/4:0]
+root        4877  0.0  0.0      0     0 ?        I    14:47   0:00 [kworker/u23:0-events_freezable_power_]
+razvan      4879  0.0  0.0  16972  2304 pts/0    S+   14:48   0:00 script lab5.txt
+razvan      4880  0.0  0.0  19692  5248 pts/1    Ss   14:48   0:00 bash -i
+root        4897  0.0  0.0      0     0 ?        I    14:48   0:00 [kworker/u25:2-events_unbound]
+root        4911  0.0  0.0      0     0 ?        I<   14:49   0:00 [kworker/0:2H]
+root        4918  0.0  0.0      0     0 ?        I    14:50   0:00 [kworker/8:2]
+root        4919  0.0  0.0      0     0 ?        I    14:50   0:00 [kworker/8:3]
+root        4921  0.0  0.0      0     0 ?        I    14:52   0:00 [kworker/2:1-mm_percpu_wq]
+root        4941  0.0  0.0      0     0 ?        I    14:53   0:00 [kworker/u24:2-events_unbound]
+razvan      4942  0.0  0.0  22416  4608 pts/1    R+   14:53   0:00 ps auxw
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo 5
+[?2004l
+5
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ echo 5ps auxw[Ks | grep "process_name"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho 4[K./myfor-loop.sh
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m./myfind /path/to/documents -name "report.txt" -type f -exec ec[27m[7mh[27m[7mo "Found: {}"[27m[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfind /path/to/documents -name "report.txt" -type f -exec echo "Found: {}"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- /path/to/documents -name "report.txt" -type f -exec ec[1@h[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[Cl /path/to/documents -name "report.txt" -type f -exec e[1@c[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[Co /path/to/documents -name "report.txt" -type f -exec [1@e[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[Co /path/to/documents -name "report.txt" -type f -exec[1@ [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cp /path/to/documents -name "report.txt" -type f -exe[1@c[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C. /path/to/documents -name "report.txt" -type f -ex[1@e[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cs /path/to/documents -name "report.txt" -type f -e[1@x[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch /path/to/documents -name "report.txt" -type f -[1@e[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -e[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -ex[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exe[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec e[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec ec[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec ech[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo "[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo "F[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo "Fo[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo "Fou[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo "Foun[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo "Found[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo "Found:[1P {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "report.txt" -type f -exec echo "Found: [1P{}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-name "report.txt" -type f -exec echo "Found: {[1P}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt" -type f -exec echo "Found: {}[1P"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt" -type f -exec echo "Found: {}"[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt" -type f -exec echo "Found: {}" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[C[C[C[C[1P[1P[1P[1P[1@o[1@u[1@t
+[?2004l
+bash: ./myfind-loop.sh: No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfind-loop.sh -name "out" -type f -exec echo "Found: {}"[1P[1P[1P[1@o[1@r
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh -name "out" -type f -exec echo "Found: {}"[C[C[1P[1P[1P[1@i[1@f[1@.[1@s[1@h
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh -name "if.sh" -type f -exec echo "Found: {}"[1P[1P[1P[1P[1P[1@o[1@u[1@t
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh -name "out" -type f -exec echo "Found: {}"[1P[1P[1P[1@o[1@t[1@i[1@g[1P[1P[1P[1@r[1@i[1@g
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m./myfind /path/to/documents -name "report.txt" -type f -exec ec[27m[7mh[27m[7mo "Found: {}"[27m[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfind /path/to/documents -name "report.txt" -type f -exec echo "Found: {}"[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "F[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Fo[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Fou[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Foun[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Found[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Found:[1P {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Found: [1P{}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct" -type f -exec echo "Foun[1@d[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "out" -type f -exec echo "Found[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "out" -type f -exec echo "Found:[1P {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "out" -type f -exec echo "Found: [1P{}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "out" -type f -exec echo "Found: {[1P}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "out" -type f -exec echo "Found: {}[1P"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "out" -type f -exec echo "Found: {}"[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name "out" -type f -exec echo "Found: {}" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@H[1@I[1P[1@O[1@M[1@E[1@/[1@r[1@a[1@z[1@va -name "out" -type f -exec echo "Found: {}" [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /HOME/razvan -name "out" -type f -exec echo "Found: {}" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@ot /HOME/razvan -name "out" -type f -exec echo "Found: {}" [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C- /HOME/razvan -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[Cl /HOME/razvan -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[Co /HOME/razvan -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[Co /HOME/razvan -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[Cp /HOME/razvan -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C. /HOME/razvan -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cs /HOME/razvan -name "out" -type f -exec echo "Foun[1@d[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ch /HOME/razvan -name "out" -type f -exec echo "Fou[1@n[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+bash: ./myfot-loop.sh: No such file or directory
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfot-loop.sh /HOME/razvan -name "out" -type f -exec echo "Found: {}"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-loop.sh /HOME/razvan -name "out" -type f -exec echo "Foun[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[Cr-loop.sh /HOME/razvan -name "out" -type f -exec echo "Fou[1@n[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/razvan -name "out" -type f -exec echo "Foun[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/razvan -name "out" -type f -exec echo "Found[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/razvan -name "out" -type f -exec echo "Found:[1P {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/razvan -name "out" -type f -exec echo "Found: [1P{}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch/razvan -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co/razvan -name "out" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm/razvan -name "out" -type f -exec echo "Foun[1@d[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce/razvan -name "out" -type f -exec echo "Fou[1@n[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+./myfor-loop.sh: line 12: eval: -e: invalid option
+eval: usage: eval [arg ...]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh /home/razvan -name "out" -type f -exec echo "Found: {}"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Foun[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Found[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "Found:[1P {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch" -type f -exec echo "Found: {}"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce" -type f -exec echo "Foun[1@d[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl" -type f -exec echo "Fou[1@n[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl" -type f -exec echo "Fo[1@u[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co" -type f -exec echo "F[1@o[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C." -type f -exec echo "[1@F[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc" -type f -exec echo [1@"[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "F[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+./myfor-loop.sh: line 12: eval: -e: invalid option
+eval: usage: eval [arg ...]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [7m./myfind /cale/catre/director -name nume_fisier -type f -exec e[27m[7mc[27m[7mho "{}" ;[27m[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfind /cale/catre/director -name nume_fisier -type f -exec echo "{}" ;
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec ech[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo [1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo "[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo "{[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo "{}[1P[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo "{}"[1P ;[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo "{}" [1P;[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo "{}" ;[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -type f -exec echo "{}" ; 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co -type f -exec echo "{}" ; [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu -type f -exec echo "{}" ;[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -type f -exec echo "{}" ;[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name out -type f -exec echo "{}" ;[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -name out -type f -exec echo "{}" ; 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@h[1@o[1@m[1@e[1@/[1@r[1@a[1@z[1@v[1@a[1@n[1P[1P[1P[1P[1P[1P[1@m[1@y[1@f[1@o[1@t[1@-[1@l[1@o[1@o[1@p[1P[1@r[C[C[C[C[C[1@.s /home/razvan -name out -type f -exec echo "{}" ; [A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ch /home/razvan -name out -type f -exec echo "{}" ;[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+./myfor-loop.sh: 26: Convert: not found
+./myfor-loop.sh: 35: Syntax error: newline unexpected (expecting ")")
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh /home/razvan -name out -type f -exec echo "{}" ;
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" -type f -exec echo "{}" ;[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct" -type f -exec echo "{}" ;[K[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"ot" -type f -exec echo "{}" ;[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cut" -type f -exec echo "{}" ;[A
+]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+./myfor-loop.sh: 26: Convert: not found
+./myfor-loop.sh: 35: Syntax error: newline unexpected (expecting ")")
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh /home/razvan -name "out" -type f -exec echo "{}" ;
+[?2004l
+./myfor-loop.sh: 34: Syntax error: newline unexpected (expecting ")")
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh /home/razvan -name "out" -type f -exec echo "{}" ;
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ ./myfor-loop.sh /home/razvan -name "out" -type f -exec echo "{}" ;
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-11-02 15:16:44+00:00 [COMMAND_EXIT_CODE="0"]

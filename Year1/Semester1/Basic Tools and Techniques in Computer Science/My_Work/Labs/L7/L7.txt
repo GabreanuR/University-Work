@@ -1,0 +1,1055 @@
+Script started on 2024-11-13 12:08:18+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ mdir[K[K[Kkdir testrepo
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cd testrepo
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git init
+[?2004l
+Command 'git' not found, but can be installed with:
+sudo apt install git
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ sudo apt install git
+[?2004l
+[sudo] password for razvan: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+The following additional packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb
+  git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 63 not upgraded.
+Need to get 4,804 kB of archives.
+After this operation, 24.5 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m
+            
+Get:1 http://ro.archive.ubuntu.com/ubuntu noble/main amd64 liberror-perl all 0.17029-2 [25.6 kB]
+[33m
+0% [1 liberror-perl 5,280 B/25.6 kB 21%][0m[33m
+                                        
+7% [Waiting for headers][0m
+                        
+Get:2 http://ro.archive.ubuntu.com/ubuntu noble-updates/main amd64 git-man all 1:2.43.0-1ubuntu7.1 [1,100 kB]
+[33m
+7% [2 git-man 2,206 B/1,100 kB 0%][0m[33m
+15% [2 git-man 447 kB/1,100 kB 41%][0m
+                                   
+Get:3 http://ro.archive.ubuntu.com/ubuntu noble-updates/main amd64 git amd64 1:2.43.0-1ubuntu7.1 [3,679 kB]
+[33m
+                                   
+32% [3 git 3,576 B/3,679 kB 0%][0m[33m
+48% [3 git 961 kB/3,679 kB 26%][0m[33m
+67% [3 git 2,071 kB/3,679 kB 56%][0m[33m
+91% [3 git 3,519 kB/3,679 kB 96%][0m[33m
+                                 
+100% [Working][0m
+              
+Fetched 4,804 kB in 3s (1,636 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package liberror-perl.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 189662 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17029-2_all.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  8%][49m[39m [####......................................................] 8Unpacking liberror-perl (0.17029-2) ...
+7[24;0f[42m[30mProgress: [ 15%][49m[39m [########..................................................] 8Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.43.0-1ubuntu7.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 23%][49m[39m [#############.............................................] 8Unpacking git-man (1:2.43.0-1ubuntu7.1) ...
+7[24;0f[42m[30mProgress: [ 31%][49m[39m [#################.........................................] 8Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.43.0-1ubuntu7.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 38%][49m[39m [######################....................................] 8Unpacking git (1:2.43.0-1ubuntu7.1) ...
+7[24;0f[42m[30mProgress: [ 46%][49m[39m [##########################................................] 8Setting up liberror-perl (0.17029-2) ...
+7[24;0f[42m[30mProgress: [ 54%][49m[39m [###############################...........................] 87[24;0f[42m[30mProgress: [ 62%][49m[39m [###################################.......................] 8Setting up git-man (1:2.43.0-1ubuntu7.1) ...
+7[24;0f[42m[30mProgress: [ 69%][49m[39m [########################################..................] 87[24;0f[42m[30mProgress: [ 77%][49m[39m [############################################..............] 8Setting up git (1:2.43.0-1ubuntu7.1) ...
+7[24;0f[42m[30mProgress: [ 85%][49m[39m [#################################################.........] 87[24;0f[42m[30mProgress: [ 92%][49m[39m [#####################################################.....] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+7[0;24r8[1A[J[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ sudo apt install git[12Pgit init
+[?2004l
+[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/razvan/testrepo/.git/
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ vi .git/description
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H".git/description" 1 line, 73 bytes[1;1HUnnamed repository; edit this file 'description' to name the repository.
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?4m[mUnna[?25l$[?2004l[>4;m[?25h[?25lt[?25h[?25l[1;6H[K[2;1Hed repository; edit this file 'description' to name the repository.[2;68H[K[2;1H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[24;1H[K[2;2H[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?25l[?25h   [?2004h[>4;2m[?25l[2;1H[K[2;1H[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?25la[?25h[?25ls[?25h[?25ld[?25h[?25lf[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h [?2004h[>4;2m[?25l[2;1H[K[2;1H[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HD[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[?4m[?25h[?25l[34m^Z[?25h[?2004h[>4;2m[?4m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[m[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HA[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HD[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HB[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hed repository; edit this file 'description' to name the repository.
+[?25h  [?25l
+[1mrecording @d[23;1H[?25h[?25l[md repository; edit this file 'description' to name the repository.[23;67H[K[23;1H[?25h  [?25l[?25h[?25l[?25h
+
+[?2004l[?1l>[?1049l[23;0;0t[>4;m
+[1]+  Stopped                 vi .git/description
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ vi .git/description
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".git/.description.swp"
+[10Cowned by: razvan   dated: Wed Nov 13 12:11:05 2024
+[9Cfile name: ~razvan/testrepo/.git/description
+[10Cmodified: YES
+[9Cuser name: razvan   host name: Ubuntu
+[8Cprocess ID: 15033 (STILL RUNNING)
+While opening file ".git/description"
+[13Cdated: Wed Nov 13 12:09:13 2024
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r .git/description"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".git/.description.swp"
+    to avoid this message.
+
+".git/description"[23;1H".git/description" 1 line, 73 bytes[24;1H[K[24;1H[32mPress ENTER or type command to continue[?25h[m[1;1H[19L[?25l[1;1HUnnamed repository; edit this file 'description' to name the repository.
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H[K[1;1H[?25h[?4m[?25l[24;1HType  :qa  and press <Enter> to exit Vim [1;1H[?25h  [?25l[24;1H[1mrecording @a[m[24;13H[K[1;1H[?25h [?25l[24;1HType  :qa  and press <Enter> to exit Vim 
+[1mrecording @a[m[24;13H[K[1;1H[?25h[?25l[24;1HType  :qa  and press <Enter> to exit Vim 
+[1mrecording @a[m[24;13H[K[1;1H[?25h[?25l[?25h [?25l[?25h [?25l[?25h[?25l[24;1H[K[1;1H[?25h[?25lnnamed repository; edit this file 'description' to name the repository.[1;72H[K[1;1H[?25h    [?25l[24;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[1;1H[?25h[?25l[?25h[?25l[24;1H[1mrecording @a[m[24;13H[K[1;1H[?25h[?25l[24;1H[K[24;1H:'<,'>![?25h
+[?25l[1mrecording @a[1;1H[?25h  [?2004l[>4;m[mn[?25ladnamed repository; edit this file 'description' to name the repository.
+nad[?25h[?25ldnamed repository; edit this file 'description' to name the repository.
+nadd[?25h[?25lfnamed repository; edit this file 'description' to name the repository.
+naddf[?25h[?25lgnamed repository; edit this file 'description' to name the repository.[1;7H[?25h[?25lgnamed repository; edit this file 'description' to name the repository.[1;8H[?25h[?25lrnamed repository; edit this file 'description' to name the repository.[1;9H[?25h[?25ltnamed repository; edit this file 'description' to name the repository.[1;10H[?25h[?25lenamed repository; edit this file 'description' to name the repository.[1;11H[?25h[?25ltnamed repository; edit this file 'description' to name the repositoryy[2;1H.[2;2H[K[1;12H[?25h[?25lrnamed repository; edit this file 'description' to name the repositorr[2;1Hy.[1;13H[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l
+B[1;2H[K[2;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[3;1Hy.[3;3H[K[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l
+B[2;2H[K[3;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[4;1Hy.[4;3H[K[1;1H[?25h[?2004l[>4;m[?25l
+
+B[3;2H[K[4;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[5;1Hy.[5;3H[K[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l
+
+
+B[4;2H[K[5;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[6;1Hy.[6;3H[K[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[5;1HB[5;2H[K[6;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[7;1Hy.[7;3H[K[1;1H[?25h[?2004l[>4;m[?25l[6;1HB[6;2H[K[7;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[8;1Hy.[8;3H[K[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[7;1HB[7;2H[K[8;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[9;1Hy.[9;3H[K[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[8;1HB[8;2H[K[9;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[10;1Hy.[10;3H[K[1;1H[?25h[?2004l[>4;m[?25l[9;1HB[9;2H[K[10;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[11;1Hy.[11;3H[K[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[10;1HB[10;2H[K[11;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[12;1Hy.[12;3H[K[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[11;1HB[11;2H[K[12;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[13;1Hy.[13;3H[K[1;1H[?25h[?2004l[>4;m[?25l[12;1HB[12;2H[K[13;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[14;1Hy.[14;3H[K[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[13;1HB[13;2H[K[14;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[15;1Hy.[15;3H[K[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[14;1HB[14;2H[K[15;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[16;1Hy.[16;3H[K[1;1H[?25h[?2004l[>4;m[?25l[15;1HB[15;2H[K[16;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[17;1Hy.[17;3H[K[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[16;1HB[16;2H[K[17;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[18;1Hy.[18;3H[K[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[17;1HB[17;2H[K[18;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[19;1Hy.[19;3H[K[1;1H[?25h[?2004l[>4;m[?25l[18;1HB[18;2H[K[19;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[20;1Hy.[20;3H[K[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[19;1HB[19;2H[K[20;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[21;1Hy.[21;3H[K[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[20;1HB[20;2H[K[21;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[22;1Hy.[22;3H[K[1;1H[?25h[?2004l[>4;m[?25l[21;1HB[21;2H[K[22;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositorr[23;1Hy.[23;3H[K[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[22;1HB[22;2H[K[23;1Hnaddfggrtetrnamed repository; edit this file 'description' to name the repositor[23;1H[94m@                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[m[23;1HB[23;2H[K[1;1H[?25h[?2004l[>4;m[?25lB[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25lB[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25lB[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25lB[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25lB[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25lB[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25lB[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25lA[?25h[?2004l[>4;m[?2004h[>4;2m[?25l
+A[1;1H[?25h[?2004l[>4;m[?25l
+
+A[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l
+
+
+A[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[5;1HA[1;1H[?25h[?2004l[>4;m[?25l[6;1HA[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[7;1HA[1;1H[?25h[?2004l[>4;m[?25l[8;1HA[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[9;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[10;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[11;1HA[1;1H[?25h[?2004l[>4;m[?25l[12;1HA[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[13;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[14;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[15;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[16;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[17;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[18;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[19;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[20;1HA[1;1H[?25h[?2004l[>4;m[?25l[21;1HA[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[22;1HA[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[23;1HA[1;1H[?25h[?2004l[>4;m[?25lA[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25lA[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25lB[?25h[?2004l[>4;m[?2004h[>4;2m[?25l
+B[1;1H[?25h[?2004l[>4;m[?25l
+
+B[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l
+
+
+B[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[5;1HB[1;1H[?25h[?2004l[>4;m[?25l[6;1HB[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[7;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[8;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[9;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[10;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[11;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[12;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[13;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[14;1HB[1;1H[?25h[?2004l[>4;m[?25l[15;1HB[1;2H[?4m[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[16;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[17;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[18;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[19;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[20;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[21;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[22;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[23;1HB[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25lB[?4m[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?2004h[>4;2m[?25h[?4m [?25l[24;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim
+[1mrecording @a[m[24;13H[K[1;1H[?25h[?25l[?25h[?25l[?25h [?25l[24;1HEntering Ex mode.  Type "visual" to go to Normal mode.[?25h
+:WZXC
+[?25l[97m[41mE492: Not an editor command: WZXC[?25h[m
+:
+[23;1HB
+:qa! 
+[?2004l[>4;m[23;2t[23;1t[?2004l[?1l>[?1049l[23;0;0t[>4;m[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ ^[[200~g i t c o n f i g u s e r . name ” Alex Alex and re scu ”
+[?2004l
+[200~g: command not found
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$  ~[7mg i t c o n f i g u s e r . name ” Alex Alex and re s[27m[7mc[27m[7mu ”\00[27m
+
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg i t c o n f i g u s e r . name ” Alex Alex and re scu ”
+
+[K[A[C[C[C[C[K[K"[1P"
+[1P"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[C"G"a"b"r"e"a"n"u"R"[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[1@ [1P
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git config user.name "GabreanuR"[1P "GabreanuR"[1P "GabreanuR"[1P "GabreanuR"[1P "GabreanuR"e "GabreanuR"m "GabreanuR"a "GabreanuR"i "GabreanuR"l "GabreanuR"[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"g"a"b"r"e"a"n"u"r"@"g"m"a"i"l"."c"o"m"
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git addd[K ,[Kmyfile.c
+[?2004l
+fatal: pathspec 'myfile.c' did not match any files
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ touch myfile.c
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ touch myfile.c[2@git add[C[C[C[C[C[C[C[C[C
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git add myfile.c[1P myfile.c[1P myfile.c[1P myfile.cc myfile.co myfile.cm myfile.cm myfile.ci myfile.ct myfile.c
+[?2004l
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 7.2        /home/razvan/testrepo/.git/COMMIT_EDITMSG                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[3d[36m# Please enter the commit message for your changes. Lines starting
+[4d# with '#' will be ignored, and an empty message aborts the commit.
+[5d#[6d# On branch master
+[7d#[8d# Initial commit
+[9d#[10d# Changes to be committed:
+[11d#[38;5;208m       [36mnew file:   myfile.c
+[12d#[2d[39m(B[m[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l
+[KAborting commit due to empty commit message.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git commit myfile.c[3Padd[C[C[C[C[C[C[C[C[C[2Ptouch[C[C[C[C[C[C[C[C[C[2@git add[C[C[C[C[C[C[C[C[Cconfig user.email "gabreanur@gmail.com"[11Pname "GabreanuR"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^[[200~g i t c o n f i g u s e r . name ” Alex Alex and re scu ”[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [35Pvi .git/description
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".git/.description.swp"
+[10Cowned by: razvan   dated: Wed Nov 13 12:11:05 2024
+[9Cfile name: ~razvan/testrepo/.git/description
+[10Cmodified: YES
+[9Cuser name: razvan   host name: Ubuntu
+[8Cprocess ID: 15033 (STILL RUNNING)
+While opening file ".git/description"
+[13Cdated: Wed Nov 13 12:09:13 2024
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r .git/description"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".git/.description.swp"
+    to avoid this message.
+
+".git/description"[23;1H".git/description" 1 line, 73 bytes[24;1H[K[24;1H[32mPress ENTER or type command to continue[?25h[m[1;1H[19L[?25l[1;1HUnnamed repository; edit this file 'description' to name the repository.
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H[K[1;1H[?25h[?4m[?25lnnamed repository; edit this file 'description' to name the repository.[1;72H[K[1;1H[?25h[?25lnamed repository; edit this file 'description' to name the repository.[1;71H[K[1;1H[?25h[?25lamed repository; edit this file 'description' to name the repository.[1;70H[K[1;1H[?25h[?25lmed repository; edit this file 'description' to name the repository.[1;69H[K[1;1H[?25h[?25led repository; edit this file 'description' to name the repository.[1;68H[K[1;1H[?25h[?25ld repository; edit this file 'description' to name the repository.[1;67H[K[1;1H[?25h[?25l repository; edit this file 'description' to name the repository.[1;66H[K[1;1H[?25h[?25lrepository; edit this file 'description' to name the repository.[1;65H[K[1;1H[?25h[?25lepository; edit this file 'description' to name the repository.[1;64H[K[1;1H[?25h[?25lpository; edit this file 'description' to name the repository.[1;63H[K[1;1H[?25h[?25lository; edit this file 'description' to name the repository.[1;62H[K[1;1H[?25h[?25lsitory; edit this file 'description' to name the repository.[1;61H[K[1;1H[?25h[?25litory; edit this file 'description' to name the repository.[1;60H[K[1;1H[?25h[?25ltory; edit this file 'description' to name the repository.[1;59H[K[1;1H[?25h[?25lory; edit this file 'description' to name the repository.[1;58H[K[1;1H[?25h[?25lry; edit this file 'description' to name the repository.[1;57H[K[1;1H[?25h[?25ly; edit this file 'description' to name the repository.[1;56H[K[1;1H[?25h[?25l; edit this file 'description' to name the repository.[1;55H[K[1;1H[?25h[?25l edit this file 'description' to name the repository.[1;54H[K[1;1H[?25h[?25ledit this file 'description' to name the repository.[1;53H[K[1;1H[?25h[?25ldit this file 'description' to name the repository.[1;52H[K[1;1H[?25h[?25lit this file 'description' to name the repository.[1;51H[K[1;1H[?25h[?25lt this file 'description' to name the repository.[1;50H[K[1;1H[?25h[?25l this file 'description' to name the repository.[1;49H[K[1;1H[?25h[?25lthis file 'description' to name the repository.[1;48H[K[1;1H[?25h[?25lhis file 'description' to name the repository.[1;47H[K[1;1H[?25h[?25lis file 'description' to name the repository.[1;46H[K[1;1H[?25h[?25ls file 'description' to name the repository.[1;45H[K[1;1H[?25h[?25l file 'description' to name the repository.[1;44H[K[1;1H[?25h[?25lfile 'description' to name the repository.[1;43H[K[1;1H[?25h[?25lile 'description' to name the repository.[1;42H[K[1;1H[?25h[?25lle 'description' to name the repository.[1;41H[K[1;1H[?25h[?25le 'description' to name the repository.[1;40H[K[1;1H[?25h[?25l 'description' to name the repository.[1;39H[K[1;1H[?25h[?25l'description' to name the repository.[1;38H[K[1;1H[?25h[?25ldescription' to name the repository.[1;37H[K[1;1H[?25h[?25lescription' to name the repository.[1;36H[K[1;1H[?25h[?25lscription' to name the repository.[1;35H[K[1;1H[?25h[?25lcription' to name the repository.[1;34H[K[1;1H[?25h[?25lription' to name the repository.[1;33H[K[1;1H[?25h[?25liption' to name the repository.[1;32H[K[1;1H[?25h[?25lption' to name the repository.[1;31H[K[1;1H[?25h[?25ltion' to name the repository.[1;30H[K[1;1H[?25h[?25lion' to name the repository.[1;29H[K[1;1H[?25h[?25lon' to name the repository.[1;28H[K[1;1H[?25h[?25ln' to name the repository.[1;27H[K[1;1H[?25h[?25l' to name the repository.[1;26H[K[1;1H[?25h[?25l to name the repository.[1;25H[K[1;1H[?25h[?25lto name the repository.[1;24H[K[1;1H[?25h[?25lo name the repository.[1;23H[K[1;1H[?25h[?25l name the repository.[1;22H[K[1;1H[?25h[?25lname the repository.[1;21H[K[1;1H[?25h[?25lame the repository.[1;20H[K[1;1H[?25h[?25lme the repository.[1;19H[K[1;1H[?25h[?25le the repository.[1;18H[K[1;1H[?25h[?25l the repository.[1;17H[K[1;1H[?25h[?25lthe repository.[1;16H[K[1;1H[?25h[?25lhe repository.[1;15H[K[1;1H[?25h[?25le repository.[1;14H[K[1;1H[?25h[?25l repository.[1;13H[K[1;1H[?25h[?25lrepository.[1;12H[K[1;1H[?25h[?25lepository.[1;11H[K[1;1H[?25h[?25lpository.[1;10H[K[1;1H[?25h[?25lository.[1;9H[K[1;1H[?25h[?25lsitory.[1;8H[K[1;1H[?25h[?25litory.[1;7H[K[1;1H[?25h[?25ltory.[1;6H[K[1;1H[?25h[?25lory.[1;5H[K[1;1H[?25h[?25lry.[1;4H[K[1;1H[?25h[?25ly.[1;3H[K[1;1H[?25h[?25l.[1;2H[K[1;1H[?25h[?25l[1;1H[K[1;1H[?25h [?2004l[>4;m[?2004h[>4;2m[?4m    [?25l[?25h[?25l[24;1H[1mrecording @x[1;1H[?25h [?25l[?25h  [?2004l[>4;m[?25l[mt[?25h[?25l[2;1H[K[2;1H[?25h[?25le[?25h[?25lx[?25h[?25li[?25h[?25lt[?25h[?25l[3;1H[K[3;1H[?25h[?2004h[>4;2m[?25l[?25h[?4m[?25l[?25h [?25l[?25h[?25l[24;1H[K[3;1H[?25h   [24;1H
+[?2004l[?1l>[?1049l[23;0;0t[>4;m
+[2]+  Stopped                 vi .git/description
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ vi .git/description[1P .git/description[1P .git/descriptionn .git/descriptiona .git/descriptionn .git/descriptiono .git/description
+[?2004l
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22d(B[0;7mFile ...ption is being edited by razvan (with VIM 9.1, PID 15033); open anyway? [23;1H Y(B[m Yes
+[24d(B[0;7m N(B[m No[24;17H(B[0;7m^C(B[m Cancel[22;80H[?12l[?25h[?25l [?12l[?25h[?25l[22;33H[1K (B[0;7m[ Reading... ](B[m[K[22;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 7.2                    .git/description                              [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2dUnnamed repository; edit this file 'description' to name the repository.
+[?12l[?25h[?25l[1;52H(B[0;7m*[79G(B[m[?12l[?25h
+[2d[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[22d[K[?12l[?25h[2d[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25htory.[K
+[?25l[?12l[?25hory.[K
+[?25l[?12l[?25hry.[K
+[?25l[?12l[?25hy.[K
+[?25l[?12l[?25h.[K[?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hT[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hc[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hp[?25l[?12l[?25ht[?25l[?12l[?25hu[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25h.[?25l
+[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse
+[22d(B[0;7mFile Name to Write: .git/description(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;52H(B[0;7m [79G(B[m[22;33H(B[0;7m[ Wrote 1 line ](B[m
+[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ nano .git/description[2Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit myfile.c[3Padd[C[C[C[C[C[C[C[C[C[3@commit[C[C[C[C[C[C[C[C[C
+[?2004l
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 7.2        /home/razvan/testrepo/.git/COMMIT_EDITMSG                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[3d[36m# Please enter the commit message for your changes. Lines starting
+[4d# with '#' will be ignored, and an empty message aborts the commit.
+[5d#[6d# On branch master
+[7d#[8d# Initial commit
+[9d#[10d# Changes to be committed:
+[11d#[38;5;208m       [36mnew file:   myfile.c
+[12d#[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l
+[KAborting commit due to empty commit message.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ ls -a
+[?2004l
+[0m[01;34m.[0m  [01;34m..[0m  [01;34m.git[0m  myfile.c
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ ls -agit commit myfile.c
+[?2004l
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m  GNU nano 7.2        /home/razvan/testrepo/.git/COMMIT_EDITMSG                 [1;79H(B[m
+[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[3d[36m# Please enter the commit message for your changes. Lines starting
+[4d# with '#' will be ignored, and an empty message aborts the commit.
+[5d#[6d# On branch master
+[7d#[8d# Initial commit
+[9d#[10d# Changes to be committed:
+[11d#[38;5;208m       [36mnew file:   myfile.c
+[12d#[2d[39m(B[m[?12l[?25h[?25l[1;65H(B[0;7m*[79G(B[m[?12l[?25h
+[2da[?25l[?12l[?25hd[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25hy[?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hc[?25l[22;32H  (B[0;7m[ Writing... ](B[m[K[1;65H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 11 lines ](B[m[?12l[?25h[2;15H[?25l
+[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l
+[K[master (root-commit) 05b5fb3] added myfile.c
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 myfile.c
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [7m g i t remote add o r i g i n h t t p s : / / gi thub [27m[7m.[27m[7m com/ u s e r / rep o . g i t[27m[A g i t remote add o r i g i n h t t p s : / / gi thub . com/ u s e r / rep o . g i t[1Pt[1Pit[1Pgit[1P.git[1Po.git[1Prepo.git[1P/repo.git[1Pr/repo.git[1Per/repo.git[1Pser/repo.git
+[C[C[C[C[C[C[C[C[1Puser/repo.git
+[C[C[C[C[C[C[1Pcom/user/repo.git
+[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.c[1Pom/user/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthub.co[1Pm/user/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgithub.com[1P/user/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/github.com/[1Puser/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C//github.com/u[1Pser/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C://github.com/us[1Per/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs://github.com/use[1Pr/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps://github.com/user[1P/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctps://github.com/user/[1Prepo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cttps://github.com/user/r[1Pepo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn https://github.com/user/re[1Ppo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cin https://github.com/user/rep[1Po.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgin https://github.com/user/repo[1P.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cigin https://github.com/user/repo.[1Pgit[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crigin https://github.com/user/repo.g[1Pit[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct remote add origin https://github.com/user/repo.gi[1Pt[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[Cit remote add origin https://github.com/user/repo.git[K[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/user/repo.git 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://github.com/user/repo.git
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://github.com/user/repo.git[1P https://github.com/user/repo.git[1P https://github.com/user/repo.git[1P https://github.com/user/repo.gitt https://github.com/user/repo.gite https://github.com/user/repo.gits https://github.com/user/repo.gitt https://github.com/user/repo.gitr https://github.com/user/repo.git [A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce https://github.com/user/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp https://github.com/user/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co https://github.com/user/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/repo.gi[1Pt[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/repo.git[K[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/repo.git 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/repo.git
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CG/repo.git [A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/repo.git 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CR/repo.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[C[C[C[C
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git commit myfile.cls -a[Kgit commit myfile.c[K  git commit myfile.cls -a[Kgit commit myfile.c[K[7mgit remote add testrepo https://github.com/GabreanuR/r[27m[7me[27m[7mpo.git[27m[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git remote add testrepo https://github.com/GabreanuR/repo.git[1P.git
+[C[C[1P.git
+[C
+[1P.git
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.g[1Pit[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl.git
+a.git
+[Cb.git
+[C[C1.git[1P.git
+[C[C[1P.git
+[C
+[1P.git
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.g[1Pit[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.gi[1Pt[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI.git
+t.git
+[Cb.git
+[C[Ci.git-.git1.git
+[?2004l
+error: remote testrepo already exists.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ ^C[?2004l
+[?2004h[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git remo[Kote remove testrepo
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git remote remove testrepoadd testrepo https://github.com/GabreanuR/Itbi-1.git
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git push testrepo
+[?2004l
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream testrepo master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [7mssh-keygen -t rsa -b 4096 -C "your_email@example.com"[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t rsa -b 4096 -C "your_email@example.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"g.com"a.com"b.com"r.com"e.com"a.com"n.com"u.com"r.com"@.com"g.com"m.com"a.com"i.com"l.com"
+
+[?2004l
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/razvan/.ssh/id_rsa): 1
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in 1
+Your public key has been saved in 1.pub
+The key fingerprint is:
+SHA256:GtwFneN3tDTHyKYd0k4vT3Ddv1wO9GY4lnfcujIZ6es gabreanur@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|        .. . o oo|
+|         .+ . & *|
+|         ... @ &o|
+|     . . .. o % &|
+|      o S  . +.%+|
+|       o    o .oo|
+|      .    . o . |
+|            = .  |
+|           .E+   |
++----[SHA256]-----+
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [7mcat ~/.ssh/id_rsa.pub[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat ~/.ssh/id_rsa.pub
+
+[?2004l
+cat: /home/razvan/.ssh/id_rsa.pub: No such file or directory
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ cat ~/.ssh/id_rsa.pub[1P.pub[1P.pub[1P.pub[1P.pub[1P.pub[1P.pub1.pub
+[?2004l
+cat: /home/razvan/.ssh/1.pub: No such file or directory
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ cat ~/.ssh/1.pubid_rsa.pub/.pub1.pub
+[?2004l
+cat: /home/razvan/.ssh/id_rsa/1.pub: No such file or directory
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ cat ~/.ssh/id_rsa/1.pub[1P/.ssh/id_rsa/1.pub[C/.ssh/id_rsa/1.pubh/.ssh/id_rsa/1.pubo/.ssh/id_rsa/1.pubn/.ssh/id_rsa/1.pube/.ssh/id_rsa/1.pub[1P/.ssh/id_rsa/1.pub[1P/.ssh/id_rsa/1.pubm/.ssh/id_rsa/1.pube/.ssh/id_rsa/1.pub[C/.ssh/id_rsa/1.pubr/.ssh/id_rsa/1.puba/.ssh/id_rsa/1.pubz/.ssh/id_rsa/1.pubv/.ssh/id_rsa/1.puba/.ssh/id_rsa/1.pubn/.ssh/id_rsa/1.pub
+[?2004l
+cat: /home/razvan/.ssh/id_rsa/1.pub: No such file or directory
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ cat [7m/home/razvan/testrepo/[27m/home/razvan/testrepo/1.pub
+[?2004l
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCl73djKM/LW9sUgpgp7qDpPs6r7gzK5h1RdqfYpcaRWFLBWnaZDsg29SteNGhtz8xBgs+NV/WLRX28JNY/l3j2eqcWSFmht3uCNpHFcI6+nbcSFPaKi31T1O/l91Hlnbsj+9GZRac/IPUo+vn9HgmMyDlBxkb9gP78Ymnkc1Fk7qzAmGVtI6TI5IRkNjs+6SvaqPlb3ax1Vv96AXGy9lj9JXJ6HQS/nZDG9svE+gEObWgeVQmG1nwAs9aTwHUbs7zOmo2fyDUn3aB11L+F6IL64YEhX3uS/G06kq2UbyhEDtpIao9EmN+8mjFacfULEL8trjws/V4o7JTAcVNb4EEucgbkE9x49NNKsfgZdTK5mUCoyiiyQXqyzMtYCU/7akYOh47qjQPT04J2VX5yOurH8I2ioRQq2tHi5XAmfd3CyV8bjBRgNeWzFp2v9KcfgRnsEQpCYvEIElWGI0qDgliTM47YUTVtGY5f9GpuRTzyL86SgLqNmQl4gGoWLsnoqME5RjjSAR0FtZ6mPpDUN6er2sgZOZFW5tA78eFQJeIjIm2ihv9mYpJQGTzB16FgkQKASHW3svXtyNypMclKpTNjPRrpqtQcoIikHNfDJlI2NRIWVHUxoSsIdiuxbP3WOXvun66DW56Ttyu5ZYtWKGkqXU5bHhbRcLglwj9Tj8SZ1w== gabreanur@gmail.com
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [7mgit clone git@github.com:username/repo.git[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:username/repo.git[1P/repo.git[1P/repo.git[1P/repo.git[1P/repo.git[1P/repo.git[1P/repo.git[1P/repo.git[1P/repo.gitG/repo.gita/repo.gitb/repo.gitr/repo.gite/repo.gita/repo.gitn/repo.gitu/repo.gitR/repo.git[C[C[C[C[C[1P.git[1P.git[1P.git[1P.gitI.gitt.gitb.giti.git-.git1.git
+
+[?2004l
+Cloning into 'Itbi-1'...
+
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git clone git@github.com:GabreanuR/Itbi-1.git
+[?2004l
+Cloning into 'Itbi-1'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ 
+[K
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [7mssh -T git@github.com[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh -T git@github.com
+
+[A
+[?2004l
+git@github.com: Permission denied (publickey).
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gpg --fi[Ki[Kull-genereate[K[K[K[Kate-key
+[?2004l
+gpg (GnuPG) 2.4.4; Copyright (C) 2024 g10 Code GmbH
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Please select what kind of key you want:
+   (1) RSA and RSA
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+   (9) ECC (sign and encrypt) *default*
+  (10) ECC (sign only)
+  (14) Existing key from card
+[?2004hYour selection? 1
+[?2004l
+RSA keys may be between 1024 and 4096 bits long.
+[?2004hWhat keysize do you want? (3072) 2048
+[?2004l
+Requested keysize is 2048 bits
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+[?2004hKey is valid for? (0) Y[K
+[?2004l
+Key does not expire at all
+[?2004hIs this correct? (y/N) Y
+[?2004l
+GnuPG needs to construct a user ID to identify your key.
+
+[?2004hReal name: [7mRazvan-George Gabreanu[27m
+[C[C[C[C[C[C[C[C[C[C[CRazvan-George Gabreanu
+[?2004l
+[?2004hEmail address: gb[Kabreanur@gmail.com
+[?2004l
+[?2004hComment: yay
+[?2004l
+You selected this USER-ID:
+    "Razvan-George Gabreanu (yay) <gabreanur@gmail.com>"
+
+[?2004hChange (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
+[?2004l
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+gpg: directory '/home/razvan/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/razvan/.gnupg/openpgp-revocs.d/EF996A29B9C1EAEA2C30EAB3F852FD922DA2D8F6.rev'
+public and secret key created and signed.
+
+pub   rsa2048 2024-11-13 [SC]
+      EF996A29B9C1EAEA2C30EAB3F852FD922DA2D8F6
+uid                      Razvan-George Gabreanu (yay) <gabreanur@gmail.com>
+sub   rsa2048 2024-11-13 [E]
+
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gpg --list-secret-keys --keyid-format=long
+[?2004l
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+/home/razvan/.gnupg/pubring.kbx
+-------------------------------
+sec   rsa2048/F852FD922DA2D8F6 2024-11-13 [SC]
+      EF996A29B9C1EAEA2C30EAB3F852FD922DA2D8F6
+uid                 [ultimate] Razvan-George Gabreanu (yay) <gabreanur@gmail.com>
+ssb   rsa2048/C6EDFCC82E8830C8 2024-11-13 [E]
+
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gpg --armot --export [7mF852FD922DA2D8F6[27mF852FD922DA2D8F6
+[?2004l
+gpg: invalid option "--armot"
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gpg --armot --export F852FD922DA2D8F6[1P[1@r
+[?2004l
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBGc0pywBCADDuOmjys3gAL6s9rFT5r3NLcNNnewDdZnGtEU2ApZ5i/1QSI+9
+u4e7bbUeVVd0s8M2YKRBdK29WTBxRy6t2lHQDs6d5qcAzsdSSEzqLPcJglUpk4Ro
+t7OY0JQQ0Dbcnd4EfOeZJpIwfeG/SXTGVWlcyvoymAQ0uf2WY2r+ny+nuk+vsCFt
+T7jptTUO3LwE8ul7a/ZofJLq4iKfzguRfv8bjh0oYz3iBgf6XE0JN38HvZifdj7I
+mgZCmlGuqvF2KJc4gtWLd1+LAajtY9IxQyGS1BCsAav98FuoYdfO8u28IQFD9iEK
+3GrzbelPfYYCBhzJmMUCYT2VhsN5/IVwlqmjABEBAAG0MlJhenZhbi1HZW9yZ2Ug
+R2FicmVhbnUgKHlheSkgPGdhYnJlYW51ckBnbWFpbC5jb20+iQFRBBMBCgA7FiEE
+75lqKbnB6uosMOqz+FL9ki2i2PYFAmc0pywCGwMFCwkIBwICIgIGFQoJCAsCBBYC
+AwECHgcCF4AACgkQ+FL9ki2i2PZqsQf+PxyhuQQZUF6Rz6PNZ5iFQCqMhGc1xBjG
+mTbMT+mrfhCDDu2fhV333KHV66X9aFagsQrSo06X9TSTK8Yae+o37gH4vJcb2U/M
+5Qb+bNJ1gFm37FWE/xTi5OsmaiE9arKNuqKtmbq1nMPTBRDuKcyOt42eDFglS4wX
+dgj0KCYgAIKBlsHK4og/8e/sVmxZUVfghat9vGngO4A43Ufd2rWAd9uKCnF0q2BI
+uzSWlEX92Or1vumH99IAch8mM/86yG32x/8G3xl/22WJwfb9dHWgbgVTdpvrNY6E
+5zSbY4+yTvtsBv6/WkTrKbyQndldFz+PV9atG2isIuBg2zaGzMwEv7kBDQRnNKcs
+AQgAovCzQOh3HwfRxjNiTIOKWL3PrBVoJ+rWc710CEfk23B6/SpKdUd6YUCY8hkf
+p9kozd1FcfSLgbP10q4RH9SnDnO+b1TUWTYtIvtI4nKJEe/ShBdLne3Gj8jdTRY+
+0D1XrED+tUigVcjtBdAbd4mxQ6XPm2ce6XP6JQpajKp6EJeYRXCza2/AuPcWkaUY
+FW4nu0vmqb9HZhtm7Zapt0nPklXoLVIMLgb4y0W+dGYsBxDkcg+hvAUdtSleMmvm
+ZtGwQ7oOQGKaHSNHy2vdLiZyXdL9thWE6I/WjJ7SlaH5xqeFg1aG1Z1P5KF7QMHY
+bOgsW2xW/1i4s9f+gm5ND0f5dwARAQABiQE2BBgBCgAgFiEE75lqKbnB6uosMOqz
++FL9ki2i2PYFAmc0pywCGwwACgkQ+FL9ki2i2PYVVQf/TvxObrz4rHoI3uIoxM34
+HQCnOupQfwmQPKbFA7IH5SV0zZDBuqhZjPRv2iSb/Xwpj6F/M4CzNcGVAMaxIiWr
+8QgBMuRr5qcvBUMz54FBPXaI7EAnhCKjcHrKZFXQU2jYSDB8QPc/Ye3b2wvnI7xK
+L0groDrrxgU8dAflciOYpkfpXn+ynxURc12i7Fe9sP3Zrrh6bVN82r9XY/QVpMfG
+V5UTOlndK7yp4cuKBqtcc9Xe+gL9afVWSqn93QhuhZkqAwMGx4crRIAOVGfiCTZy
+Ynew9CYK2CupJLBGw2ABT/YPWUtXrwW7hv+X1+YTJAIq3+4mENOzap/8iicWjRni
+lg==
+=Cfkj
+-----END PGP PUBLIC KEY BLOCK-----
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gpg --armor --export F852FD922DA2D8F6 >> gpg.key
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gpg --armor --export F852FD922DA2D8F6 >> gpg.key[Kt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist-secret-keys --keyid-format=long
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pfull-generate-key[2Pssh -T git@github.comgit clone git@github.com:GabreanuR/Itbi-1.git
+[?2004l
+Cloning into 'Itbi-1'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git clone git@github.com:GabreanuR/Itbi-1.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpg --armor --export F852FD922DA2D8F6 >> gpg.key[Kt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist-secret-keys --keyid-format=long
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pfull-generate-key[2Pssh -T git@github.comgit clone git@github.com:GabreanuR/Itbi-1.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pcat /home/razvan/testrepo/1.pub.ssh/id_rsa/1.pub[11P~/.ssh/id_rsa/1.pub[7P1.pubid_rsa.pubssh-keygen -t rsa -b 4096 -C "gabreanur@gmail.com"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pgit push testreporemote add testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[Cremove testrepo[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd testrepo https://github.com/GabreanuR/Itbi-1.git
+[?2004l
+error: remote testrepo already exists.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git remote add testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[12Pclone git@github.com:GabreanuR/Itbi-1.git
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpg --armor --export F852FD922DA2D8F6 >> gpg.key[Kt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist-secret-keys --keyid-format=long
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pfull-generate-key[2Pssh -T git@github.comgit clone git@github.com:GabreanuR/Itbi-1.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pcat /home/razvan/testrepo/1.pub.ssh/id_rsa/1.pub[11P~/.ssh/id_rsa/1.pub[7P1.pubid_rsa.pubssh-keygen -t rsa -b 4096 -C "gabreanur@gmail.com"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pgit push testreporemote add testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[Cremove testrepo[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git remote remove testrepoadd testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[12Pclone git@github.com:GabreanuR/Itbi-1.git
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add testrepo https://github.com/GabreanuR/Itbi-1.git
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git branch -M main
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git push -u origin   [K[K[K[K[K[Ktestrepo main
+[?2004l
+Username for 'https://github.com': gabreanur@gmail, .com                   GabreanuR
+Password for 'https://GabreanuR@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GabreanuR/Itbi-1.git/'
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gir[Kt config user.signingkey[7mF852FD922DA2D8F6[27mF852FD922DA2D8F6 yF852FD922DA2D8F6[1PyF852FD922DA2D8F6[C F852FD922DA2D8F6
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git comi[Kmit[K[K[K[K[K[Kconfig commit.gpgsign true
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git pusg[Kh -u testrepo main
+[?2004l
+Username for 'https://github.com': GabreanuR
+Password for 'https://GabreanuR@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GabreanuR/Itbi-1.git/'
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git push -u testrepo mainconfig commit.gpgsign trueuser.signingkey F852FD922DA2D8F6
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Ppush -u testrepo mainconfig user.signingkey F852FD922DA2D8F6[13Pcommit.gpgsign true[5Ppush -u testrepo main[K git push -u testrepo mainconfig commit.gpgsign trueuser.signingkey F852FD922DA2D8F6
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Ppush -u testrepo main[7Pbranch -M[C[C[C[C[Cremote add testrepo https://github.com/GabreanuR/Itbi-1.git
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C testrepo https://github.com/GabreanuR/Itbi-1[1P.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C testrepo https://github.com/GabreanuR/Itbi-1.[1Pgit[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C testrepo https://github.com/GabreanuR/Itbi-1.g[1Pit[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[Cs testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[Ce testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ct testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C_ testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C testrepo https://github.com/GabreanuR/It[1Pbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C testrepo https://github.com/GabreanuR/Itb[1Pi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C testrepo https://github.com/GabreanuR/Itbi[1P-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C testrepo https://github.com/GabreanuR/Itbi-[1P1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C- testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git remote set-url testrepo https://github.com/GabreanuR/Itbi-1.git[A
+]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [C[C[C[C[32Ppush -u testrepo main
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig commit.gpgsign true[5Ppush -u testrepo main
+[?2004l
+Username for 'https://github.com': GabreanuR
+Password for 'https://GabreanuR@github.com': 
+remote: Support for password
+
+
+
+Script started on 2024-11-15 16:53:37+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;razvan@Ubuntu: ~ [01;32mrazvan@Ubuntu[00m:[01;34m~[00m$ cd terstrepo[1Pstrepo
+[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ cd testreposcript lab6.txtls[Kexitcho ex6ftp ftp.vim.org[7Pecho ex5more /etc/init.d/sshless[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pecho ex4sudo nano /etc/hosts[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push testrepo main
+[?2004l
+Username for 'https://github.com': GabreanuT R
+Password for 'https://GabreanuR@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GabreanuR/Itbi-1.git/'
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ ^C[?2004l
+[?2004h[?2004l
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git push testrepo main
+[?2004l
+Username for 'https://github.com': GabreanuR
+Password for 'https://GabreanuR@github.com': 
+To https://github.com/GabreanuR/Itbi-1.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'https://github.com/GabreanuR/Itbi-1.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do not[m
+[33mhint: have locally. This is usually caused by another repository pushing to[m
+[33mhint: the same ref. If you want to integrate the remote changes, use[m
+[33mhint: 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git pull
+[?2004l
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[K
+remote: Counting objects:  66% (2/3)[K
+remote: Counting objects: 100% (3/3)[K
+remote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  33% (1/3)
+Unpacking objects:  66% (2/3)
+Unpacking objects: 100% (3/3)
+Unpacking objects: 100% (3/3), 858 bytes | 85.00 KiB/s, done.
+From https://github.com/GabreanuR/Itbi-1
+ * [new branch]      main       -> testrepo/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=testrepo/<branch> main
+
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ git pullsh testrepo main
+[?2004l
+Username for 'https://github.com': GabreanuR
+Password for 'https://GabreanuR@github.com': 
+To https://github.com/GabreanuR/Itbi-1.git
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/GabreanuR/Itbi-1.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. If you want to integrate the remote changes,[m
+[33mhint: use 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ [7mgh repo clone GabreanuR/Itbi-1[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgh repo clone GabreanuR/Itbi-1
+[?2004l
+Command 'gh' not found, but can be installed with:
+sudo snap install gh  # version 2.6.0-15-g1a10fd5a, or
+sudo apt  install gh  # version 2.45.0-1ubuntu0.1
+See 'snap info gh' for additional versions.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ sudo snap intasll[K[K[K[K[Kstall gh
+[?2004l
+[sudo] password for razvan: 
+
+Ensure prerequisites for "gh" are available                                    /
+Ensure prerequisites for "core18" are available                                -
+Download snap "core18" (2846) from channel "stable"                            \
+Download snap "core18" (2846) from channel "stable"                            |
+Download snap "core18" (2846) from channel "stable"                            /
+Download snap "core18" (2846) from channel "stable"                            -[?25l
+[7m[0mDownload snap "core18" (2846) from channel "stable"            0% 1.61MB/s 36.0s
+[7mD[0mownload snap "core18" (2846) from channel "stable"            2% 3.30MB/s 17.3s
+[7mDo[0mwnload snap "core18" (2846) from channel "stable"            3% 3.44MB/s 16.3s
+[7mDow[0mnload snap "core18" (2846) from channel "stable"            4% 3.47MB/s 16.0s
+[7mDownl[0moad snap "core18" (2846) from channel "stable"            7% 4.58MB/s 11.7s
+[7mDownlo[0mad snap "core18" (2846) from channel "stable"            8% 4.24MB/s 12.6s
+[7mDownloa[0md snap "core18" (2846) from channel "stable"            9% 4.62MB/s 11.4s
+[7mDownload[0m snap "core18" (2846) from channel "stable"           11% 4.78MB/s 10.8s
+[7mDownload sn[0map "core18" (2846) from channel "stable"           15% 5.40MB/s 9.17s
+[7mDownload snap[0m "core18" (2846) from channel "stable"           17% 5.85MB/s 8.25s
+[7mDownload snap "[0mcore18" (2846) from channel "stable"           19% 6.13MB/s 7.65s
+[7mDownload snap "co[0mre18" (2846) from channel "stable"           21% 6.25MB/s 7.30s
+[7mDownload snap "core[0m18" (2846) from channel "stable"           25% 6.57MB/s 6.67s
+[7mDownload snap "core18[0m" (2846) from channel "stable"           27% 6.79MB/s 6.28s
+[7mDownload snap "core18[0m" (2846) from channel "stable"           27% 6.63MB/s 6.35s
+[7mDownload snap "core18" [0m(2846) from channel "stable"           29% 6.61MB/s 6.21s
+[7mDownload snap "core18" (2[0m846) from channel "stable"           32% 6.99MB/s 5.62s
+[7mDownload snap "core18" (284[0m6) from channel "stable"           34% 7.15MB/s 5.33s
+[7mDownload snap "core18" (2846[0m) from channel "stable"           36% 7.10MB/s 5.26s
+[7mDownload snap "core18" (2846) [0mfrom channel "stable"           38% 7.33MB/s 4.89s
+[7mDownload snap "core18" (2846) fr[0mom channel "stable"           40% 7.26MB/s 4.79s
+[7mDownload snap "core18" (2846) fro[0mm channel "stable"           42% 7.25MB/s 4.64s
+[7mDownload snap "core18" (2846) from c[0mhannel "stable"           45% 7.49MB/s 4.25s
+[7mDownload snap "core18" (2846) from ch[0mannel "stable"           47% 7.37MB/s 4.19s
+[7mDownload snap "core18" (2846) from chan[0mnel "stable"           49% 7.57MB/s 3.87s
+[7mDownload snap "core18" (2846) from channel[0m "stable"           53% 7.71MB/s 3.55s
+[7mDownload snap "core18" (2846) from channel [0m"stable"           54% 7.60MB/s 3.52s
+[7mDownload snap "core18" (2846) from channel "[0mstable"           56% 7.63MB/s 3.33s
+[7mDownload snap "core18" (2846) from channel "s[0mtable"           57% 7.50MB/s 3.32s
+[7mDownload snap "core18" (2846) from channel "sta[0mble"           60% 7.54MB/s 3.11s
+[7mDownload snap "core18" (2846) from channel "stab[0mle"           60% 7.49MB/s 3.06s
+[7mDownload snap "core18" (2846) from channel "stable[0m"           63% 7.64MB/s 2.80s
+[7mDownload snap "core18" (2846) from channel "stable" [0m          65% 7.72MB/s 2.60s
+[7mDownload snap "core18" (2846) from channel "stable"  [0m         67% 7.70MB/s 2.49s
+[7mDownload snap "core18" (2846) from channel "stable"   [0m        68% 7.67MB/s 2.39s
+[7mDownload snap "core18" (2846) from channel "stable"       [0m    73% 7.88MB/s 2.02s
+[7mDownload snap "core18" (2846) from channel "stable"        [0m   75% 7.94MB/s 1.85s
+[7mDownload snap "core18" (2846) from channel "stable"          [0m 76% 7.96MB/s 1.72s
+[7mDownload snap "core18" (2846) from channel "stable"           [0m78% 7.87MB/s 1.65s
+[7mDownload snap "core18" (2846) from channel "stable"           7[0m9% 7.83MB/s 1.56s
+[7mDownload snap "core18" (2846) from channel "stable"           81[0m% 7.91MB/s 1.38s
+[7mDownload snap "core18" (2846) from channel "stable"           82%[0m 7.81MB/s 1.37s
+[7mDownload snap "core18" (2846) from channel "stable"           83% [0m7.78MB/s 1.29s
+[7mDownload snap "core18" (2846) from channel "stable"           85% 7[0m.82MB/s 1.15s
+[7mDownload snap "core18" (2846) from channel "stable"           86% 7.8[0m0MB/s 1.01s
+[7mDownload snap "core18" (2846) from channel "stable"           89% 7.71[0mMB/s 858ms
+[7mDownload snap "core18" (2846) from channel "stable"           90% 7.73MB[0m/s 720ms
+[7mDownload snap "core18" (2846) from channel "stable"           93% 7.80MB/s[0m 513ms
+[7mDownload snap "core18" (2846) from channel "stable"           95% 7.84MB/s 3[0m44ms
+[7mDownload snap "core18" (2846) from channel "stable"           97% 7.86MB/s 19[0m3ms
+[7mDownload snap "core18" (2846) from channel "stable"           99% 7.89MB/s  60m[0ms
+[7mDownload snap "core18" (2846) from channel "stable"          100% 7.80MB/s 0.0ns[0m
+Fetch and check assertions for snap "core18" (2846)                            \
+Fetch and check assertions for snap "core18" (2846)                            |
+Fetch and check assertions for snap "core18" (2846)                            /
+Mount snap "core18" (2846)                                                     -
+Mount snap "core18" (2846)                                                     \
+Mount snap "core18" (2846)                                                     |
+Mount snap "core18" (2846)                                                     /
+Mount snap "core18" (2846)                                                     -
+Mount snap "core18" (2846)                                                     \
+Mount snap "core18" (2846)                                                     |
+Download snap "gh" (502) from channel "stable"                                 /
+Download snap "gh" (502) from channel "stable"                                 -
+Download snap "gh" (502) from channel "stable"                                 \[?25l
+[7m[0mDownload snap "gh" (502) from channel "stable"                 0%  385kB/s 1m41s
+[7m[0mDownload snap "gh" (502) from channel "stable"                 0%  410kB/s 1m34s
+[7m[0mDownload snap "gh" (502) from channel "stable"                 1%  816kB/s 47.1s
+[7mD[0mownload snap "gh" (502) from channel "stable"                 1%  947kB/s 40.4s
+[7mDo[0mwnload snap "gh" (502) from channel "stable"                 3% 1.42MB/s 26.7s
+[7mDo[0mwnload snap "gh" (502) from channel "stable"                 4% 1.61MB/s 23.2s
+[7mDownl[0moad snap "gh" (502) from channel "stable"                 6% 2.47MB/s 14.7s
+[7mDownlo[0mad snap "gh" (502) from channel "stable"                 8% 2.68MB/s 13.4s
+[7mDownlo[0mad snap "gh" (502) from channel "stable"                 8% 2.44MB/s 14.7s
+[7mDownlo[0mad snap "gh" (502) from channel "stable"                 8% 2.29MB/s 15.6s
+[7mDownlo[0mad snap "gh" (502) from channel "stable"                 8% 2.18MB/s 16.4s
+[7mDownload[0m snap "gh" (502) from channel "stable"                10% 2.61MB/s 13.3s
+[7mDownload s[0mnap "gh" (502) from channel "stable"                13% 2.83MB/s 12.0s
+[7mDownload snap [0m"gh" (502) from channel "stable"                18% 3.67MB/s 8.68s
+[7mDownload snap "g[0mh" (502) from channel "stable"                20% 3.97MB/s 7.78s
+[7mDownload snap "gh" [0m(502) from channel "stable"                24% 4.35MB/s 6.80s
+[7mDownload snap "gh" (502)[0m from channel "stable"                30% 4.71MB/s 5.76s
+[7mDownload snap "gh" (502) fro[0mm channel "stable"                36% 5.21MB/s 4.77s
+[7mDownload snap "gh" (502) from c[0mhannel "stable"                39% 5.46MB/s 4.33s
+[7mDownload snap "gh" (502) from cha[0mnnel "stable"                42% 5.65MB/s 3.98s
+[7mDownload snap "gh" (502) from chan[0mnel "stable"                43% 5.50MB/s 4.00s
+[7mDownload snap "gh" (502) from channe[0ml "stable"                45% 5.50MB/s 3.88s
+[7mDownload snap "gh" (502) from channel[0m "stable"                47% 5.60MB/s 3.65s
+[7mDownload snap "gh" (502) from channel "s[0mtable"                50% 5.74MB/s 3.37s
+[7mDownload snap "gh" (502) from channel "sta[0mble"                53% 5.90MB/s 3.09s
+[7mDownload snap "gh" (502) from channel "stabl[0me"                56% 6.05MB/s 2.83s
+[7mDownload snap "gh" (502) from channel "stable" [0m               59% 6.17MB/s 2.58s
+[7mDownload snap "gh" (502) from channel "stable"    [0m            63% 6.36MB/s 2.28s
+[7mDownload snap "gh" (502) from channel "stable"      [0m          66% 6.49MB/s 2.04s
+[7mDownload snap "gh" (502) from channel "stable"       [0m         67% 6.32MB/s 2.03s
+[7mDownload snap "gh" (502) from channel "stable"        [0m        69% 6.24MB/s 1.95s
+[7mDownload snap "gh" (502) from channel "stable"              [0m  75% 6.52MB/s 1.48s
+[7mDownload snap "gh" (502) from channel "stable"              [0m  75% 6.32MB/s 1.52s
+[7mDownload snap "gh" (502) from channel "stable"                80[0m% 6.56MB/s 1.16s
+[7mDownload snap "gh" (502) from channel "stable"                83% [0m6.64MB/s 990ms
+[7mDownload snap "gh" (502) from channel "stable"                83% [0m6.50MB/s 1.01s
+[7mDownload snap "gh" (502) from channel "stable"                85% 6[0m.48MB/s 926ms
+[7mDownload snap "gh" (502) from channel "stable"                87% 6.4[0m8MB/s 799ms
+[7mDownload snap "gh" (502) from channel "stable"                90% 6.57M[0mB/s 615ms
+[7mDownload snap "gh" (502) from channel "stable"                93% 6.67MB/s[0m 410ms
+[7mDownload snap "gh" (502) from channel "stable"                96% 6.75MB/s 2[0m23ms
+[7mDownload snap "gh" (502) from channel "stable"               100% 6.87MB/s  18m[0ms
+Fetch and check assertions for snap "gh" (502)                                 |
+Fetch and check assertions for snap "gh" (502)                                 /
+Fetch and check assertions for snap "gh" (502)                                 -
+Fetch and check assertions for snap "gh" (502)                                 \
+Mount snap "gh" (502)                                                          |
+Mount snap "gh" (502)                                                          /
+Mount snap "gh" (502)                                                          -
+Mount snap "gh" (502)                                                          \
+Mount snap "gh" (502)                                                          |
+Setup snap "gh" (502) security profiles                                        /
+Setup snap "gh" (502) security profiles                                        -
+Setup snap "gh" (502) security profiles                                        \
+Setup snap "gh" (502) security profiles                                        |
+Setup snap "gh" (502) security profiles for auto-connections                   /
+Setup snap "gh" (502) security profiles for auto-connections                   -
+Setup snap "gh" (502) security profiles for auto-connections                   \
+Run install hook of "gh" snap if present                                       |
+[0m[?25h[Kgh 2.6.0-15-g1a10fd5a from Casper (casper-dcl[32m[0m) installed
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ sudo snap install ghgh repo clone GabreanuR/Itbi-1
+[?2004l
+[0;1;39mWelcome to GitHub CLI![0m
+
+To authenticate, please run `gh auth login`.
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gh auth login
+[?2004l
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> GitHub.com[0m
+[0;39m  GitHub Enterprise Server[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  GitHub.com[0m
+[0;1;36m> GitHub Enterprise Server[0m
+7[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> GitHub.com[0m
+[0;39m  GitHub Enterprise Server[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m[0;36m GitHub.com[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> HTTPS[0m
+[0;39m  SSH[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  HTTPS[0m
+[0;1;36m> SSH[0m
+7[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> HTTPS[0m
+[0;39m  SSH[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  HTTPS[0m
+[0;1;36m> SSH[0m
+7[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> HTTPS[0m
+[0;39m  SSH[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations?[0m[0;36m HTTPS[0m
+[0G[2K[0;1;92m? [0m[0;1;99mAuthenticate Git with your GitHub credentials? [0m[38;5;242m(Y/n) [0m[?25l7[999;999f[6n8[?25h[6nY[1D[1B[0G[1A[0G[0G[2K[0;1;92m? [0m[0;1;99mAuthenticate Git with your GitHub credentials? [0m[0;36mYes[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  Login with a web browser[0m
+[0;1;36m> Paste an authentication token[0m
+7[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m[0;36m Paste an authentication token[0m
+Tip: you can generate a Personal Access Token here https://github.com/settings/tokens
+The minimum required scopes are 'repo', 'read:org', 'workflow'.
+[0;1;92m? [0m[0;1;99mPaste your authentication token: [0m[?25l7[999;999f[6n8[?25h[6n****************************************[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D
+[1B[0G- gh config set -h github.com git_protocol https
+[0;32m✓[0m Configured git protocol
+[0;32m✓[0m Logged in as [0;1;39mGabreanuR[0m
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ gh auth loginrepo clone GabreanuR/Itbi-1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Psudo snap install ghgh repo clone GabreanuR/Itbi-1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pit push testrepo mainll[Ksh testrepo main[11Pcd testreposcript lab6.txtls[Kexitcho ex6ftp ftp.vim.org[7Pecho ex5more /etc/init.d/sshless[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pecho ex4sudo nano /etc/hosts[12P./ex3.shchmod u+x ex3.sh[2P[C[C[C[C[C[C[C[C[2Ptouch[C[C[C[C[C[C[C[3Pecho ex 3ping google.comsudo nano /etc/hosts[11Pecho ex 2sudo nano /etc/hosts[2Pping wikipedia.org[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K sudo nano /etc/hosts[2Pping fmi.unibuc.ro[3Pgoogle.com[4@ifconfi[C[C[C[C[C[C[C[C[C[C[C[Cp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install net-tools[7Pipconfig google.comsudo apt install net-tools[7Pipconfig google.comf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Ppin[C[C[C[C[C[C[C[C[C[C[C[Cfmi.unibuc.rosudo nano /etc/hosts[Ksudo nano /etc/hosts[11Pecho ex 2sudo nano /etc/hosts[5Pping google.com[6Pecho ex 3touch ex3.sh[2@chmod x[C[C[C[C[C[C[C[2@u+[C[C[C[C[C[C[C[C[8P./ex3.shsudo nano /etc/hosts[12Pecho ex4less /etc/init.d/sshmore[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pecho ex5ftp ftp.vim.org[7Pecho ex6[4Pxit[2Plsscript lab6.txt[4Pcd testrepogit push testrepo mainll[Ksh testrepo mainh repo clone GabreanuR/Itbi-1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Psudo snap install ghgh repo clone GabreanuR/Itbi-1[17Pauth login[K              gh auth loginrepo clone GabreanuR/Itbi-1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Psudo snap install ghgh repo clone GabreanuR/Itbi-1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pit push testrepo main
+[?2004l
+Username for 'https://github.com': GabreanuR
+Password for 'https://GabreanuR@github.com': 
+To https://github.com/GabreanuR/Itbi-1.git
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/GabreanuR/Itbi-1.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. If you want to integrate the remote changes,[m
+[33mhint: use 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;razvan@Ubuntu: ~/testrepo [01;32mrazvan@Ubuntu[00m:[01;34m~/testrepo[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-11-15 17:30:23+00:00 [COMMAND_EXIT_CODE="1"]
