@@ -1,0 +1,83 @@
+#PRINT INT AND STRING
+
+.data
+a: .long 5
+s: .asciz "\nAna are mere"
+.text
+.global main
+main:
+#Print a
+li a7, 1
+lw a0, a
+ecall
+#Print s v1
+li a7, 4
+lui a0, %hi(s)
+addi a0, a0, %lo(s)
+ecall
+#Print s V2
+li a7, 4
+la a0, s
+ecall
+#SistemExit
+li a7, 93
+li a0, 0
+ecall
+
+
+#EX2
+
+.data
+n: .long 20
+s: .long 0
+v: .long 1, 2, 3, 4, 5
+.text
+.global main
+main:
+lw a0, 0(gp) # se incarca n in a0
+addi a1, gp, 8 # se pune adresa lui v in a1
+li a2, 0 # in a2 vom calcula suma
+li a3, 0 # in a3 vom mentine indexul
+begin:
+bge a3, a0, final
+addi a4, a3, 0 
+add a4, a4, a1 # a4 = adresa lui v + 4 * index
+lw a4, 0(a4) # a4 = *(adresa lui v + 4 * index)
+add a2, a2, a4 # adunam elementul la suma totala
+addi a3, a3, 4 # incrementam indexul
+j begin
+final:
+sw a2, 4(gp)
+li a7, 93
+li a0, 0
+ecall
+
+#EX3
+
+.data
+n: .long 5
+s: .long 0
+v: .long 1, 2, 3, 4, 5
+.text
+.global main
+main:
+c.li a0, 0 # se incarca n in a0
+addi a1, gp, 8 # se pune adresa lui v in a1
+c.li a2, 0 # in a2 vom calcula suma
+c.li a3, 0 # in a3 vom mentine indexul
+lw a3, 0(gp)
+c.addi a3, -1
+c.slli a3, 2
+begin:
+blt a3, a0, final
+addi a4, a3, 0 # a4 = 4 * index
+c.add a4, a1 # a4 = adresa lui v + 4 * index
+lw a4, 0(a4) # a4 = *(adresa lui v + 4 * index)
+c.add a2, a4 # adunam elementul la suma totala
+c.addi a3, -4 # incrementam indexul
+c.j begin
+final:
+sw a2, 4(gp)
+li a7, 93
+c.li a0, 0
+ecall

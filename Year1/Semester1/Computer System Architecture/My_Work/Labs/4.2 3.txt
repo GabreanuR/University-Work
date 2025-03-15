@@ -1,0 +1,41 @@
+ .data
+a: .long 12
+b: .long 10
+c: .long 6
+min: .space 4
+.text
+.global main
+
+main:
+
+    movl a, %eax
+    movl b, %ebx
+    movl c, %ecx
+    cmp %eax,%ebx         ;// b>a ?
+    jge et1
+    cmp %ebx,%ecx         ;// c>b ?
+    jge et3
+    movl %ecx, min
+    jmp etexit
+
+et1:
+
+    cmp %eax,%ecx 
+    jge et2
+    movl %ecx,min
+    jmp etexit
+
+et2:
+
+    movl %eax,min
+    jmp etexit
+
+et3:
+
+    movl %ebx,min
+
+etexit:
+
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80

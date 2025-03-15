@@ -1,0 +1,39 @@
+.data
+s: .asciz "Ana are mere"
+t: .space 12
+.text
+.global main
+
+main:
+
+    lea s, %esi
+    movl $0, %ebx   
+    lea t, %edi
+    movl $11, %ecx
+    movl $12, %eax
+
+etloop:
+
+    movl (%esi, %ebx, 1), %edx      ;// s[i] -> edx
+    movb %dl, (%edi, %ecx, 1)       ;// s[i] -> t[11-i]
+    inc %ebx
+    dec %ecx
+    cmp %eax, %ebx
+    je etw
+    jmp etloop
+
+    movl (%edi, %ecx, 1), %edx
+
+etw:
+
+    mov $4, %eax
+    mov $1, %ebx
+    mov $t, %ecx
+    mov $12, %edx
+    int $0x80
+
+etexit:
+
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80

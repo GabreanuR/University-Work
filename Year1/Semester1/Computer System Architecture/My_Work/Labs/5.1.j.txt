@@ -1,0 +1,47 @@
+.data
+n: .long 14
+m: .long 13
+r: .long 0
+.text
+.global main
+
+main:
+
+    ;//   14 = 1110   13=1101    12=1100
+    ;//    not 0001 not  0010
+    ;//          13   ^    ((3)    &     (0))
+    ;// EAX ← EAX ˆ ((EAX ˆ EBX) & −(EAX < EBX))
+
+    mov n, %eax
+    mov m, %ebx
+    xor %ebx, %eax
+
+    mov %eax, %ecx
+
+    mov n, %eax
+    mov m, %ebx
+    cmp %ebx, %eax
+    jle et1
+    mov $0, %edx
+    jmp et2
+
+et1:
+
+    mov $0, %edx
+    not %edx
+
+et2:
+
+    and %ecx, %edx
+
+    mov %edx, %eax
+
+    mov n, %ebx
+    xor %ebx, %eax
+
+
+etexit:
+
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80

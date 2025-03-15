@@ -1,0 +1,54 @@
+.data
+n: .long 7
+v: .long 34, 56, 47, 56, 17, 56 ,34
+s: .long 0
+maxi: .long 0
+sp: .asciz " "
+.text
+.global main
+
+main:
+
+    movl $0, %ebx
+
+    lea v, %edi
+    mov $0, %ecx
+    movl n, %esi
+    movl $0, %eax
+
+etloop:   
+
+    cmp %esi, %ecx
+    je etw
+    movl (%edi, %ecx, 4), %edx
+
+    cmp %eax, %edx
+    je eteq
+    cmp %eax, %edx
+    jg etgr
+    inc %ecx
+    jmp etloop
+
+eteq:
+
+    inc %ebx
+    inc %ecx
+    jmp etloop
+
+etgr:
+
+    movl $1, %ebx
+    movl %edx, %eax
+    inc %ecx
+    jmp etloop
+
+etw:
+
+    movl %eax, maxi
+    movl %ebx, s
+
+etexit:
+
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80

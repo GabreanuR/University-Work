@@ -1,0 +1,70 @@
+.data
+x: .long 32
+y: .long 4
+rez1: .space 4
+rez2: .space 4
+pas: .asciz "PASS\n"
+fal: .asciz "FAIL\n"
+.text
+.global main
+ 
+main:
+ 
+    movl x, %eax
+    movl $0, %edx
+    movl $16, %ecx
+    div %ecx
+    movl %eax, %ebx     ;// x/16
+ 
+    movl y, %eax
+    movl $0, %edx 
+    movl $16, %ecx
+    mul %ecx            ;// y*16
+    add %ebx, %eax   
+ 
+    movl %eax, rez1
+ 
+    mov $16, %ecx
+    mov $0, %eax
+ 
+etloop:
+    add y, %eax         ;// inmultire v2
+    loop etloop
+    movl %eax, rez2
+    movl x, %eax
+    movl $0, %ecx
+ 
+etloop2:
+ 
+    sub $16, %eax
+    inc %ecx
+    movl $0, %edi
+    cmp %eax, %edi
+    jne etloop2         ;//impartire v2
+ 
+    add %ecx, rez2
+
+    movl rez1, %eax
+    movl rez2, %ebx
+    cmp %eax, %ebx
+    je etDA
+    mov $4, %eax
+    mov $1, %ebx
+    mov $fal, %ecx
+    mov $5, %edx
+    int $0x80
+    jmp etexit
+
+etDA:
+
+    mov $4, %eax
+    mov $1, %ebx
+    mov $pas, %ecx
+    mov $5, %edx
+    int $0x80
+
+etexit:
+ 
+    mov $1, %eax
+    mov $0, %ebx
+    int $0x80

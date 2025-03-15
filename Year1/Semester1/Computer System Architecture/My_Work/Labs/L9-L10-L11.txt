@@ -1,0 +1,331 @@
+L9
+
+1. Se dau doua numere naturale x si y. Sa se scrie un program care sa realizeze interschimbarea lor.
+
+.data
+    x: .long 5
+    y: .long 6
+.text
+.global main
+main:
+    lw a0, x
+    lw a1, y
+    sw a1, 0(gp)
+    sw a0, 4(gp)
+    lw a0, x
+    lw a1, y
+
+2. Se dau 4 numere a, b, c si d. Sa se calculeze rezultatul operatiei (((a + b + 5) ∗ 2) ≪ c)|d) si
+sa se afiseze pe ecran.
+
+.data
+    a: .long 5
+    b: .long 6
+    c: .long 2
+    d: .long 0
+.text
+.global main
+main:
+    lw a0, a
+    lw a1, b
+    lw a2, c
+    lw a3, d
+    add a5, a0, a1
+    addi a5, a5, 5
+    li a6, 2
+    mul a6, a5, a6
+    sll a6, a6, a2
+    or a6, a6, a3
+exit:
+    li a7, 1
+    addi a0, a6, 0
+    ecall
+    
+
+3. Sa se indice encodarea pentru instructiunea and t0, s1, a5.
+
+00f4f2b3        and x5 x9 x15
+00 F4 F2 B3
+		5 9 15
+
+
+0000000		01111	01001	111 	00101	0110011
+
+
+
+L10
+
+1. Afisati numarul de divizori ai unui intreg stocat in memorie si apoi o lista cu acestia. 
+("Numarul 6 are 4 divizori: 1, 2, 3, 6").
+
+.data
+    x: .long 6
+    s1: .asciz "Numarul "
+    s2: .asciz " are "
+    s3: .asciz " divizori: "
+    s4: .asciz ", "
+    v: .long 0
+.text
+.global main
+main:
+    li a7, 4
+    la a0, s1
+    ecall
+    
+    li a7, 1
+    lw a0, x
+    ecall
+    
+    li a7, 4
+    la a0, s2
+    ecall
+    
+    lw a6, x    #valoarea initiala
+    li a1, 0    #contor divizori
+    li a2, 1    #contor 1 -> x
+    li a4, 0    #comparator
+    la a5, v
+    la a0, v
+et_loop:
+    bgt a2, a6, et_write
+    
+    rem a3, a6, a2
+    bne a3, a4, et_loop_continue
+    addi a1, a1, 1
+    sw a2, 0(a5)
+    addi a5, a5, 4
+    et_loop_continue:
+    
+    addi a2, a2, 1
+    j et_loop
+et_write:
+    addi a5, a0, 0    #adresa initiala a vectorului
+    li a7, 1
+    addi a0, a1, 0
+    ecall
+    
+    li a7, 4
+    la a0, s3
+    ecall
+    
+    li a4, 1    #comparator
+et_write_loop:
+    lw a0, 0(a5)
+    li a7, 1
+    ecall
+    
+    bge a4, a1, et_exit
+    
+    li a7, 4
+    la a0, s4
+    ecall
+    
+    addi a5, a5, 4
+    addi a4, a4, 1
+    j et_write_loop
+et_exit:
+    li a7, 93
+    li a0, 0
+    ecall
+
+2. Realizati o procedura divizori(int x) care realizeaza afisarea de mai sus si intoarce numarul
+de divizori.
+
+.data
+    x: .long 24
+    s1: .asciz "Numarul "
+    s2: .asciz " are "
+    s3: .asciz " divizori: "
+    s4: .asciz ", "
+    v: .long 0
+.text
+.global main
+main:
+        li a7, 4
+        la a0, s1
+        ecall            #"Numarul "
+    
+        li a7, 1
+        lw a0, x
+        ecall            #x
+    
+        li a7, 4
+        la a0, s2
+        ecall            #" are "
+    
+        la a2, v         #adresa vector 
+        la a1, v         #adresa vector 
+        lw a0, x
+        call divizori    #apel procedura
+    et_exit:
+        li a7, 93
+        li a0, 0
+        ecall
+divizori:
+        addi sp, sp, -8
+        sw ra, 4(sp)
+        sw s0, 0(sp)
+        addi s0, sp, 0
+        #
+        addi a6, a0, 0        #a6 = x
+        li a5, 1              #contor 1 -> x 
+        li a3, 0              #nr divizori
+    et_loop:
+        bgt a5, a6, et_write 
+        
+        rem a4, a6, a5        #a4 = a6 % a5
+        bnez a4, et_loop_continue
+        
+        addi a3, a3, 1        #nrdiv += 1
+        sw a5, 0(a1)
+        addi a1, a1, 4
+        
+        et_loop_continue:
+        
+        addi a5, a5, 1
+        j et_loop
+    et_write:
+        li a7, 1
+        addi a0, a3, 0        #nr divizori
+        ecall
+        
+        li a7, 4
+        la a0, s3
+        ecall                 #" divizori: "
+        
+        li a4, 1    #comparator
+    et_write_loop:
+        lw a0, 0(a2)
+        li a7, 1
+        ecall
+    
+        bge a4, a3, et_exit_divizori
+    
+        li a7, 4
+        la a0, s4
+        ecall
+    
+        addi a2, a2, 4
+        addi a4, a4, 1
+        j et_write_loop
+    et_exit_divizori:
+        #
+        lw s0, 0(sp)
+        lw ra, 4(sp)
+        addi sp, sp, 8
+        ret
+
+3. Realizati o procedura divizori_elemente(int *v, int n, int k) care parcurge vectorul v
+cu n elemente si returneaza numarul de elemente ce au exact k divizori. Afisati in main un
+mesaj de tipul "Sunt nr elemente cu exact k divizori". Folositi-va de procedura din exercitiul
+anterior.
+
+.data
+    x: .long 5
+    k: .long 2
+    s1: .asciz "Sunt "
+    s2: .asciz " elemente cu exact "
+    s3: .asciz " divizori."
+    v2: .long 5, 7, 9, 11, 16
+    v: .long 0
+.text
+.global main
+main:
+        la a0, v2           #adresa vector
+        lw a1, x            #dim vector
+        lw a2, k            #nrdiv   
+        call divizori_elemente
+    et_exit:
+        li a7, 93
+        li a0, 0
+        ecall
+divizori:
+        addi sp, sp, -8
+        sw ra, 4(sp)
+        sw s0, 0(sp)
+        addi s0, sp, 0
+        #
+        addi a6, a0, 0        #a6 = x
+        li a5, 1              #contor 1 -> x 
+        li a3, 0              #nr divizori
+    et_loop:
+        bgt a5, a6, et_exit_divizori 
+        
+        rem a4, a6, a5        #a4 = a6 % a5
+        bnez a4, et_loop_continue
+        
+        addi a3, a3, 1        #nrdiv += 1
+        sw a5, 0(a1)
+        addi a1, a1, 4
+        
+        et_loop_continue:
+        
+        addi a5, a5, 1
+        j et_loop
+    et_exit_divizori:
+        addi a0, a3, 0
+        #
+        lw s0, 0(sp)
+        lw ra, 4(sp)
+        addi sp, sp, 8
+        ret
+divizori_elemente:
+        addi sp, sp, -8
+        sw ra, 4(sp)
+        sw s0, 0(sp)
+        addi s0, sp, 0
+        addi sp, sp, -12
+        #
+        addi a6, a0, 0    #adresa v2
+        addi a5, a1, 0    #dim vector
+        addi a4, a2, 0    #nrdiv
+        addi s2, s2, 0    #cate numere au k div
+    loop_vector:
+        beqz a5, exit_loop_vector
+        ###########
+        sw a6, -4(s0)
+        sw a5, -8(s0)
+        sw a4, -12(s0)
+        
+        la a2, v         #adresa vector 
+        la a1, v         #adresa vector 
+        lw a0, 0(a6)
+        call divizori    #apel procedura
+        
+        lw a4, -12(s0)
+        lw a5, -8(s0)
+        lw a6, -4(s0)
+        #################
+        addi a6, a6, 4
+        
+        bne a3, a4 et_skip
+        addi s2, s2, 1
+    et_skip:
+        addi a5, a5, -1
+        j loop_vector
+    exit_loop_vector:
+        li a7, 4
+        la a0, s1
+        ecall                #"Sunt "
+         
+        addi a0, s2, 0
+        li a7, 1
+        ecall                #nr
+        
+        li a7, 4
+        la a0, s2
+        ecall                #" elemente cu exact "
+        
+        lw a0, k
+        li a7, 1
+        ecall                #k
+        
+        li a7, 4
+        la a0, s3
+        ecall                #" divizori."
+        #
+        addi sp, sp, 12
+        lw s0, 0(sp)
+        lw ra, 4(sp)
+        addi sp, sp, 8
+        ret

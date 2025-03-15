@@ -1,0 +1,66 @@
+.data
+n: .long 20
+ok: .long 1
+d: .space 4
+da: .asciz "Da\n"
+nu: .asciz "Nu\n"
+.text
+.global main
+
+main:
+
+    movl n, %eax
+    movl $2, %edi
+    cmp %eax, %edi
+    jg etnu
+
+    movl n, %eax
+    movl $3, %edi
+    cmp %eax, %edi
+    jge etda
+
+    movl n, %eax
+    movl $0, %edx
+    movl $2, %ebx
+    div %ebx
+    movl %eax, %ecx     ;// n/2
+
+etloop:
+
+    movl n, %eax
+    movl $0, %edx
+    movl %ecx, %ebx
+    div %ebx
+
+    movl $0, %edi
+    cmp %edx, %edi
+    je etnu
+
+    movl $2, %edi
+    cmp %ecx, %edi
+    je etda
+
+    loop etloop
+
+etnu:
+
+    mov $4, %eax
+    mov $1, %ebx
+    mov $nu, %ecx
+    mov $3, %edx
+    int $0x80
+    jmp etexit
+
+etda:
+
+    mov $4, %eax
+    mov $1, %ebx
+    mov $da, %ecx
+    mov $3, %edx
+    int $0x80
+
+etexit:
+
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80

@@ -1,0 +1,46 @@
+.data
+n: .long 14
+m: .long 13
+s: .long 15
+r: .long 0
+.text
+.global main
+
+main:
+
+    ;//   14 = 1110   13=1101    12=1100
+    ;//    not 0001 not  0010
+    ;//          13   ^    ((3)    &     (0))
+    ;// ECX ← EAX + EBX - ECX
+
+    movl n,%eax
+    movl m,%ebx
+    movl s,%ecx 
+
+    add %ebx, %eax 
+    sub %ecx, %eax
+
+    ;//EBX ← ((EAX × 2 + EBX) × 2 + ECX)/2
+
+    movl n,%eax
+    movl m,%ebx
+
+    movl $0, %edx
+    movl $2, %ecx
+    mul %ecx
+    add %ebx, %eax
+    mul %ecx
+
+    movl s,%ecx
+    
+    add %ecx, %eax
+    movl $0, %edx
+    movl $2, %ecx
+    div %ecx
+    movl %eax, %ebx
+
+etexit:
+
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80
