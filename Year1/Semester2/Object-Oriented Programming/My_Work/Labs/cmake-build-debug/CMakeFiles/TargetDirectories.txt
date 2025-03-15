@@ -1,0 +1,3 @@
+C:/Users/gabre/Desktop/Facultate/Anul 1/Programare Orientata pe Obiecte/Lab/cmake-build-debug/CMakeFiles/Lab.dir
+C:/Users/gabre/Desktop/Facultate/Anul 1/Programare Orientata pe Obiecte/Lab/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gabre/Desktop/Facultate/Anul 1/Programare Orientata pe Obiecte/Lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
