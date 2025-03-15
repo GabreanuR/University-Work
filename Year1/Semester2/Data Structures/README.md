@@ -4,6 +4,6 @@ This folder contains all resources, assignments, projects, notes, and other mate
 
 ## Course Overview
 
-- **Professorr**: Marin Letitia
+- **Professorr**: Istrate Gabriel
 - **Credits**: 5
 - **Description**: C++
