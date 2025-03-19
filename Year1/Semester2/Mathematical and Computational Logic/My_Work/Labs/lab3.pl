@@ -19,3 +19,7 @@ sc(X,[H|T],[V|Rez]) :- V is X*H, sc(X,T,Rez).
 
 dot([],[],0).
 dot([X|Y],[A|B],Rez) :- dot(Y,B,Rezp), Rez is X*A+Rezp.
+
+max([],0).
+max([H|T],Y) :- max(T,Y), Y>=H.
+max([H|T],H) :- max(T,Y), Y<H.
