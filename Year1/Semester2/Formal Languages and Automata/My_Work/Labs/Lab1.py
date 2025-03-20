@@ -1,3 +1,4 @@
+#GABREANU RAZVAN-GEORGE
 #%%
 class DFA:
     def __init__(self):
