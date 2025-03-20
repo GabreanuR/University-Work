@@ -47,19 +47,16 @@ class NFA:
                 return False
             next_states = set()
             for state in current_state:
-                print(state)
                 if state in self.transitions and symbol in self.transitions[state]:
                     next_states.update(self.transitions[state][symbol])
             current_state = next_states
             if not current_state:
                 return False
-        print(current_state)
         return any(state in self.final_states for state in current_state)
 
 if __name__ == '__main__':
     nfa = NFA()
-    test_strings = ["0","1","01"]
-    #test_strings = ["0","1","01","10","101","010","1010","0101"]
+    test_strings = ["0","1","01","10","101","010","1010","0101"]
     for string in test_strings:
         result = nfa.process_string(string)
         print(f"String {string} is accepted: {result}")
