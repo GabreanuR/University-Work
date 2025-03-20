@@ -30,27 +30,36 @@ if __name__ == '__main__':
 class NFA:
     def __init__(self):
         # Definim starile
-        self.states = ['q1','q12','q13','q14']
-        self.alphabet = ['0','1']
+        self.states = ['q1', 'q2', 'q3', 'q4']
+        self.alphabet = ['0', '1']
         self.initial_state = 'q1'
-        self.final_states = ['q14']
+        self.final_states = ['q4']
         self.transitions = {
-            'q1':{'0':'q12','1':'q13'},
-            'q12':{'0':'q12','1':'q14'},
-            'q13':{'0':'q14','1':'q13'},
-            'q14':{'0':'q1','1':'q1'},
+            'q1': {'0': ['q1', 'q2'], '1': ['q1', 'q3']},
+            'q2': {'0': [], '1': ['q4']},
+            'q3': {'0': ['q4'], '1': []},
+            'q4': {'0': [], '1': []},
         }
     def process_string(self, input_string):
-        current_state = self.initial_state
+        current_state = {self.initial_state}
         for symbol in input_string:
             if symbol not in self.alphabet:
                 return False
-            current_state = self.transitions[current_state][symbol]
+            next_states = set()
+            for state in current_state:
+                print(state)
+                if state in self.transitions and symbol in self.transitions[state]:
+                    next_states.update(self.transitions[state][symbol])
+            current_state = next_states
+            if not current_state:
+                return False
         print(current_state)
-        return current_state in self.final_states
+        return any(state in self.final_states for state in current_state)
+
 if __name__ == '__main__':
     nfa = NFA()
-    test_strings = ["0","1","01","10","101","010","1010","0101"]
+    test_strings = ["0","1","01"]
+    #test_strings = ["0","1","01","10","101","010","1010","0101"]
     for string in test_strings:
         result = nfa.process_string(string)
         print(f"String {string} is accepted: {result}")
