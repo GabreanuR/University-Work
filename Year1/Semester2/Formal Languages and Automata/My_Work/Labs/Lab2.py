@@ -52,7 +52,7 @@ class lambdaNFAtoDFAdict:
         self.print_DFA()
 
     def lambda_closure(self, state):
-        closure = set([state])
+        closure = {state}
         stack = [state]
 
         while stack:
@@ -77,17 +77,14 @@ class lambdaNFAtoDFAdict:
                 reachable_states = set()
 
                 for lambda_state in self.lambda_closure_dict[state]:
-                    if symbol in self.transitions[lambda_state]:
-                        for next_state in self.transitions[lambda_state][symbol]:
-                            reachable_states.update(self.lambda_closure_dict[next_state])
+                    for next_state in self.transitions[lambda_state][symbol]:
+                        reachable_states.update(self.lambda_closure_dict[next_state])
 
                 self.nfa_transitions[state][symbol] = reachable_states
 
     def convert_nfa_to_dfa(self):
-
         new_initial_state = frozenset(self.lambda_closure_dict[self.initial_state])
         new_initial_name = "q" + "".join(sorted(state[1:] for state in new_initial_state))
-
         stack = [new_initial_state]
 
         dfa_states = {new_initial_state: new_initial_name}
@@ -102,7 +99,7 @@ class lambdaNFAtoDFAdict:
             for symbol in self.alphabet:
                 new_state = set()
                 for nfa_state in current_dfa_state:
-                    new_state.update(self.nfa_transitions[nfa_state].get(symbol, []))
+                    new_state.update(self.nfa_transitions[nfa_state][symbol])
 
                 new_state = frozenset(new_state)
 
@@ -118,12 +115,6 @@ class lambdaNFAtoDFAdict:
 
         self.dfa_final_states = {dfa_name for nfa_set, dfa_name in dfa_states.items()
                                  if any(state in self.final_states for state in nfa_set)}
-
-        for state in self.dfa_transitions:
-            for symbol in self.alphabet:
-                if symbol not in self.dfa_transitions[state]:
-                    self.dfa_transitions[state][symbol] = frozenset()
-
 
     def print_NFA(self):
         print(f"\nTabela de tranzitie de la Lambda-NFA la NFA:\n")
