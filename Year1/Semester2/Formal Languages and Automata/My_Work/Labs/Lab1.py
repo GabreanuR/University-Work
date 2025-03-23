@@ -47,8 +47,7 @@ class NFA:
                 return False
             next_states = set()
             for state in current_state:
-                if state in self.transitions and symbol in self.transitions[state]:
-                    next_states.update(self.transitions[state][symbol])
+                next_states.update(self.transitions[state][symbol])
             current_state = next_states
             if not current_state:
                 return False
