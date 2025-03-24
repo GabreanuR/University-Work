@@ -1,4 +1,0 @@
-ToolSet: 13.0 w64 (local)@C:\Program Files\MSYS2\mingw64
-Options: 
-
-Options:-DCMAKE_MAKE_PROGRAM=C:/Program Files/Ninja/ninja.exe
