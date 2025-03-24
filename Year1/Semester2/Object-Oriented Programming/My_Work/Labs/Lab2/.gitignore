@@ -1,0 +1,8 @@
+# Ignore build folders
+cmake-build-debug/
+build/
+install_dir/
+
+# Ignore other generated files
+*.swp
+*.log
