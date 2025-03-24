@@ -1,25 +1,64 @@
 #include <iostream>
+#include <cmath>
+#include <vector>
+using namespace std;
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the
-    // <b>lang</b> variable name to see how CLion can help you rename it.
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
+class Polinom {
+    vector<int> polinom;
+public:
+    Polinom() = default;
 
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code.
-        // We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/>
-        // breakpoint for you, but you can always add more by pressing
-        // <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
+    friend istream &operator>>(istream &in, Polinom &x) {
+        int n;
+        cout << "Introduceti gradul maxim: ";
+        in >> n;
+        x.polinom.resize(n);
+        cout << "Introduceti coeficientii: ";
+        for (int i = n; i >= 0; i--) {
+            in >> x.polinom[i];
+        }
+        return in;
     }
 
+    friend ostream &operator<<(ostream &out, const Polinom &x) {
+        for (int i = x.polinom.size(); i >= 0; i--) {
+            if (x.polinom[i] != 0) {
+                out << x.polinom[i];
+                if (i != 0) {
+                    out << "x^" << i << " + ";
+                }
+            }
+        }
+        return out;
+    }
+
+    Polinom operator+(const Polinom &y) {
+        Polinom p;
+        int aux_min = min(this->polinom.size(), y.polinom.size());
+        int aux_max = max(this->polinom.size(), y.polinom.size());
+        p.polinom.resize(aux_max);
+        for (int i = 0; i <= aux_min; i++) {
+            p.polinom[i] = this->polinom[i] + y.polinom[i];
+        }
+        for (int i = aux_min+1; i <= aux_max; i++) {
+            if (this->polinom.size() > y.polinom.size()) {
+                p.polinom[i] = this->polinom[i];
+            } else {
+                p.polinom[i] = y.polinom[i];
+            }
+        }
+        return p;
+    }
+
+
+};
+
+int main(){
+    Polinom p1, p2;
+    // cout << "Introduceti polinomul: \n";
+    // cin >> p1;
+    // cout << p1;
+    cin >> p1 >> p2;
+    cout << p1 + p2;
     return 0;
 }
-
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
