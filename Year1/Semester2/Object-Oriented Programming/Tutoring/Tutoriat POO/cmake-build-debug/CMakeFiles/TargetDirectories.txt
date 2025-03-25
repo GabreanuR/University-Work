@@ -1,3 +1,0 @@
-C:/Users/gabre/Desktop/Facultate/Anul 1/Tutoriat POO/cmake-build-debug/CMakeFiles/Tutoriat_POO.dir
-C:/Users/gabre/Desktop/Facultate/Anul 1/Tutoriat POO/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/gabre/Desktop/Facultate/Anul 1/Tutoriat POO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
