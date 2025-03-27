@@ -2,7 +2,6 @@
 #%%
 class lambdaNFAtoDFAdict:
     def __init__(self):
-
         # Date initiale
 
         # EXEMPLU LABORATOR
@@ -12,12 +11,12 @@ class lambdaNFAtoDFAdict:
         self.initial_state = 'q0'
         self.final_states = ['q6']
         self.transitions = {
-            'q0': {'lambda':['q1','q2','q3'],'f':[], 'd':[],'p':[],'r':[],'v':[],'e':[]},
+            'q0': {'lambda':['q2','q3'],'f':['q1'], 'd':[],'p':[],'r':[],'v':[],'e':[]},
             'q1': {'lambda':['q4'],'f':['q2'], 'd':['q3'],'p':[],'r':[],'v':[],'e':[]},
             'q2': {'lambda':[],'f':['q3','q5'], 'd':[],'p':['q4'],'r':[],'v':[],'e':[]},
             'q3': {'lambda':[],'f':['q2','q4'], 'd':['q5'],'p':[],'r':[],'v':[],'e':[]},
             'q4': {'lambda':[],'f':['q5'], 'd':[],'p':['q6'],'r':['q0'],'v':[],'e':[]},
-            'q5': {'lambda':[],'f':[], 'd':[],'p':[],'r':[],'v':[],'e':['q3','q1']},
+            'q5': {'lambda':[],'f':[], 'd':[],'p':[],'r':[],'v':['q6'],'e':['q3','q1']},
             'q6': {'lambda':['q0'],'f':[], 'd':[],'p':[],'r':[],'v':['q4'],'e':[]}
         }
 
@@ -221,6 +220,71 @@ class lambdaNFAtoDFAdict:
                 print("#", end="")
             print()
 
+#%%
+#LEMA DE POMPARE
+class LP:
+    def __init__(self):
+        # Date initiale
 
-if __name__ == '__main__':
-    proc = lambdaNFAtoDFAdict()     # Clasa
+        self.test = "aaabbb"
+        self.p = 3
+
+        # Date calculate
+
+        self.pumped_strings = []
+
+        # Functii pentru calculare
+
+        self.pumped_strings = self.PumpingLemmaRegular(self.test,self.p)
+        self.print_result(self.pumped_strings)
+
+    def PumpingLemmaRegular(self, test, p):
+        if len(test) < p:
+            return [self.test]
+
+        results = []
+
+        for i in range(1,p+1):
+            xy = test[:i]
+            z = test[i:]
+            for j in range(len(xy)):
+                x = xy[:j]
+                y = xy[j:]
+                for k in range(5):
+                    xyz = x + y * k + z
+                    results.append((x,y,z,k,xyz))
+
+        return results
+
+    def IsAnBn(self, string):
+        ok = -1
+        aux = 0
+        i = 0
+        for i in range(len(string)):
+            if string[i] != 'a':
+                aux = i
+                break
+            else:
+                ok = 0
+        aux2 = -1
+        for j in range(i, len(string)):
+            if string[j] != 'b':
+                aux2 = j
+                break
+        else:
+            if aux2 == -1 and ok != -1 and aux == len(string)/2 :
+                return True
+        return False
+
+    def print_result(self, pumped_strings):
+        for x, y, z, k, pumped in pumped_strings:
+            print(f"x = {x}, y = {y}, z = {z}, k = {k}")
+            print(f"Pumped strings: {pumped}")
+            print(f"Is in language: {self.IsAnBn(pumped)}\n")
+
+
+if __name__ == "__main__":
+    print("\nEX 1: ")
+    proc = lambdaNFAtoDFAdict()
+    print("\nEX 2: \n")
+    process = LP()
