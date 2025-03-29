@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 class serie
 {
     int x;
@@ -17,6 +17,8 @@ int main()
     serie B = A;
     cout<<B.get_x()<<" "<<A.get_x();
 }
+*/
+
 
 /*
 int f(int x){ cout<<"int ";return x;}
@@ -35,8 +37,8 @@ int f(int x){ return x;}
 float f(int x){return x;}
 int main()
 {
-///    f(12);
-///    f(12.34);
+    f(12);
+    f(12.34);
 }
 */
 
