@@ -25,7 +25,6 @@ This repository contains all my coursework for the Computer Science program at t
 
 ### Semester 2
 - **Mathematical and Computational Logic** - Logic and proof techniques for computer science.
-- **Competitive Programming (Elective)** - Solutions to competitive programming challenges.
 - **Object-Oriented Programming** - Understanding OOP principles in C++.
 - **Formal Languages and Automata** - The study of formal languages and automata theory.
 - **Geometry and Linear Algebra** - Mathematical concepts with applications in computer science.
