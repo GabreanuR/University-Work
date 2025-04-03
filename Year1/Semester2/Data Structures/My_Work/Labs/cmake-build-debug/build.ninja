@@ -49,14 +49,20 @@ cmake_ninja_workdir = C$:/Users/gabre/Desktop/University-Work/Year1/Semester2/Da
 
 build cmake_object_order_depends_target_Labs: phony || .
 
-build CMakeFiles/Labs.dir/main.cpp.obj: CXX_COMPILER__Labs_unscanned_Debug C$:/Users/gabre/Desktop/University-Work/Year1/Semester2/Data$ Structures/My_Work/Labs/main.cpp || cmake_object_order_depends_target_Labs
-  DEP_FILE = CMakeFiles\Labs.dir\main.cpp.obj.d
+build CMakeFiles/Labs.dir/Lab1.cpp.obj: CXX_COMPILER__Labs_unscanned_Debug C$:/Users/gabre/Desktop/University-Work/Year1/Semester2/Data$ Structures/My_Work/Labs/Lab1.cpp || cmake_object_order_depends_target_Labs
+  DEP_FILE = CMakeFiles\Labs.dir\Lab1.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Labs.dir
   OBJECT_FILE_DIR = CMakeFiles\Labs.dir
 
 build CMakeFiles/Labs.dir/Lab2.cpp.obj: CXX_COMPILER__Labs_unscanned_Debug C$:/Users/gabre/Desktop/University-Work/Year1/Semester2/Data$ Structures/My_Work/Labs/Lab2.cpp || cmake_object_order_depends_target_Labs
   DEP_FILE = CMakeFiles\Labs.dir\Lab2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labs.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labs.dir
+
+build CMakeFiles/Labs.dir/Lab2Ex.cpp.obj: CXX_COMPILER__Labs_unscanned_Debug C$:/Users/gabre/Desktop/University-Work/Year1/Semester2/Data$ Structures/My_Work/Labs/Lab2Ex.cpp || cmake_object_order_depends_target_Labs
+  DEP_FILE = CMakeFiles\Labs.dir\Lab2Ex.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Labs.dir
   OBJECT_FILE_DIR = CMakeFiles\Labs.dir
@@ -69,7 +75,7 @@ build CMakeFiles/Labs.dir/Lab2.cpp.obj: CXX_COMPILER__Labs_unscanned_Debug C$:/U
 #############################################
 # Link the executable Labs.exe
 
-build Labs.exe: CXX_EXECUTABLE_LINKER__Labs_Debug CMakeFiles/Labs.dir/main.cpp.obj CMakeFiles/Labs.dir/Lab2.cpp.obj
+build Labs.exe: CXX_EXECUTABLE_LINKER__Labs_Debug CMakeFiles/Labs.dir/Lab1.cpp.obj CMakeFiles/Labs.dir/Lab2.cpp.obj CMakeFiles/Labs.dir/Lab2Ex.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Labs.dir
