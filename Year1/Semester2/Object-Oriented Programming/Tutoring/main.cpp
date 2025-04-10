@@ -118,11 +118,11 @@ Calculator& Calculator::operator+(const Calculator& obj) {
 
 int main(){
     // What would this print and why?
-    // Calculator x;
-    // Calculator a("proc", 0, 10000, "5");
-    // Calculator b = a;
-    // x = a;
-    // cout << x.getId() << " " << a.getId() << " " << b.getId( ) << endl;
+    Calculator x;
+    Calculator a("proc", 0, 10000, "5");
+    Calculator b = a;
+    x = a;
+    cout << x.getId() << " " << a.getId() << " " << b.getId( ) << endl;
 
 
 }
