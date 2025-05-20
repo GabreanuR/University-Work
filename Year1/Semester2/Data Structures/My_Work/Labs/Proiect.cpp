@@ -117,8 +117,8 @@ public:
     [[nodiscard]] Node *findMinNode() const {
         if (head == nullptr) return nullptr;
 
-        Node* minNode = head;
-        Node* curr = head->immediateRightSibling;
+        Node *minNode = head;
+        Node *curr = head->immediateRightSibling;
 
         while (curr != nullptr) {
             if (curr->key < minNode->key)
@@ -130,9 +130,9 @@ public:
     }
 
     [[nodiscard]] int getMinKey() const {
-        const Node* minNode = findMinNode();
+        const Node *minNode = findMinNode();
         if (minNode == nullptr) {
-            cout << "Heap is empty";
+            cout << "Heap is empty\n";
             return 0;
         }
         return minNode->key;
@@ -145,10 +145,10 @@ public:
         }
 
         //Find min Node and the one before
-        Node* prevMin = nullptr;
-        Node* minNode = head;
-        Node* prev = nullptr;
-        Node* curr = head;
+        Node *prevMin = nullptr;
+        Node *minNode = head;
+        Node *prev = nullptr;
+        Node *curr = head;
 
         int minKey = curr->key;
         while (curr != nullptr) {
@@ -168,11 +168,11 @@ public:
             head = minNode->immediateRightSibling;
 
         //Reverse the list order of the children of the deleted Node
-        Node* child = minNode->leftmostChild;
-        Node* reversed = nullptr;
+        Node *child = minNode->leftmostChild;
+        Node *reversed = nullptr;
 
         while (child != nullptr) {
-            Node* next = child->immediateRightSibling;
+            Node *next = child->immediateRightSibling;
             child->immediateRightSibling = reversed;
             child->parent = nullptr;
             reversed = child;
@@ -189,41 +189,102 @@ public:
     }
 
     void insert(const int key) {
-        Node* newNode = new Node(key);
+        Node *newNode = new Node(key);
         head = unionHeap(head, newNode);
     }
 
-    void printTree(Node* node, int indent = 0) const {
-        while (node != nullptr) {
-            for (int i = 0; i < indent; ++i) cout << "  ";
-            cout << node->key << " (degree " << node->degree << ")\n";
+    static Node *findNode(Node *root, int key) {
+        if (root == nullptr) return nullptr;
+        if (root->key == key) return root;
 
-            if (node->leftmostChild)
-                printTree(node->leftmostChild, indent + 1);
+        Node *child = root->leftmostChild;
+        while (child) {
+            Node *found = findNode(child, key);
+            if (found) return found;
+            child = child->immediateRightSibling;
+        }
 
-            node = node->immediateRightSibling;
+        return findNode(root->immediateRightSibling, key);
+    }
+
+    static void goUp(Node* node) {
+        while (node->parent && node->key < node->parent->key) {
+            swap(node->key, node->parent->key);
+            node = node->parent;
+        }
+    }
+
+    void deleteNode(const int key) {
+        Node *Node = findNode(head, key);
+        if (Node == nullptr) return;
+        Node->key = -1000000;
+        goUp(Node);
+        extractMin();
+    }
+
+    static void printTree(Node *node, int indent) {
+        if (node == nullptr) return;
+
+        for (int i = 0; i < indent; ++i)
+            cout << "  ";
+
+        cout << node->key << " (degree " << node->degree << ")\n";
+
+        Node *child = node->leftmostChild;
+        while (child) {
+            printTree(child, indent + 1);
+            child = child->immediateRightSibling;
         }
     }
 
     void print() const {
-        if (head != nullptr) {
+        if (!head) {
             cout << "Heap is empty.\n";
             return;
         }
 
         cout << "Binomial Heap:\n";
-        Node* current = head;
+        Node *curr = head;
         int treeNum = 0;
 
-        while (current) {
-            cout << "Tree " << treeNum++ << " (B" << current->degree << "):\n";
-            printTree(current, 1);
-            current = current->immediateRightSibling;
+        while (curr) {
+            cout << "Tree " << treeNum++ << " (B" << curr->degree << "):\n";
+            printTree(curr, 1);
             cout << "\n";
+            curr = curr->immediateRightSibling;
         }
     }
 };
 
 int main() {
+    BinomialHeap heap;
+    heap.print();
+    cout << heap.getMinKey() << endl;
+    cout << endl;
+    heap.insert(5);
+    heap.print();
+    cout << heap.getMinKey() << endl;
+    heap.insert(7);
+    heap.insert(8);
+    heap.insert(9);
+    heap.insert(10);
+    heap.print();
+    cout << heap.getMinKey() << endl;
+    heap.insert(11);
+    heap.insert(12);
+    heap.print();
+    cout << heap.getMinKey() << endl;
+    heap.insert(13);
+    heap.print();
+    cout << heap.getMinKey() << endl;
+    heap.extractMin();
+    heap.print();
+    cout << heap.extractMin() << endl;
+    heap.print();
+    heap.insert(42);
+    heap.insert(43);
+    heap.print();
+    heap.deleteNode(12);
+    heap.print();
     return 0;
 }
