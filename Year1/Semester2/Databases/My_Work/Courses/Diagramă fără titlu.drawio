@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Pagină-1" id="GUe3kHNLrppPJOufhE7y">
+    <mxGraphModel dx="1281" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LKSZocIUMz2LyDG790iR-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;STRĂZI&lt;/font&gt;&lt;div&gt;Id_stradă#&lt;/div&gt;&lt;div&gt;Nume&lt;/div&gt;&lt;div&gt;Sector&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-1070" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CAMERE&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Id_cameră#&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Id_stradă#&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;&lt;div&gt;Status&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="-1070" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;VEHICULE&lt;/font&gt;&lt;div&gt;Id_vehicul#&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;&lt;div&gt;Număr_înmatriculare&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-1070" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TRECERE_VEHICUL&lt;/font&gt;&lt;div&gt;Id_cameră#&lt;/div&gt;&lt;div&gt;Id_vehicul#&lt;/div&gt;&lt;div&gt;Data_trecere&lt;/div&gt;&lt;div&gt;Viteză&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="-940" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;INCIDENTE&lt;/font&gt;&lt;div&gt;Id_incident#&lt;/div&gt;&lt;div&gt;Id_stradă#&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;&lt;div&gt;Dată&lt;/div&gt;&lt;div&gt;Gravitate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-900" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ECHIPE&lt;/font&gt;&lt;div&gt;Id_echipă#&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;&lt;div&gt;Nume_echipă&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="-910" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;PERSOANE&lt;/font&gt;&lt;div&gt;Id_persoană#&lt;/div&gt;&lt;div&gt;Nume&lt;/div&gt;&lt;div&gt;Funcție&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-810" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;INTERVENȚII&lt;/font&gt;&lt;div&gt;Id_intervenție#&lt;/div&gt;&lt;div&gt;Id_incident#&lt;/div&gt;&lt;div&gt;Id_echipă#&lt;/div&gt;&lt;div&gt;Dată_început&lt;/div&gt;&lt;div&gt;Dată_sfărșit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="-780" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-9" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;SESIZARE&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Id_sesizare#&lt;/div&gt;&lt;div&gt;Id_persoană#&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;&lt;div&gt;Descriere&lt;/div&gt;&lt;div&gt;Data_sesizării&lt;/div&gt;&lt;div&gt;Status&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="-720" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;STAȚII_TRANSPORT&lt;/font&gt;&lt;div&gt;Id_stație#&lt;/div&gt;&lt;div&gt;Nume&lt;/div&gt;&lt;div&gt;Sector&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-650" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TRASEE_TRANSPORT&lt;/font&gt;&lt;div&gt;Id_traseu#&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;&lt;div&gt;Linie&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-530" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LKSZocIUMz2LyDG790iR-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TRASEU_STAȚIE&lt;/font&gt;&lt;div&gt;Id_traseu#&lt;/div&gt;&lt;div&gt;Id_stație#&lt;/div&gt;&lt;div&gt;Ordine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="-520" width="126" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
