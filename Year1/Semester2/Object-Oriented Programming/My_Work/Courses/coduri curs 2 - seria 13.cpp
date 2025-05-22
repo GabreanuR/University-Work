@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-/*
+
 class serie
 {
     int nr;
@@ -25,7 +25,7 @@ int main()
     q = (student*)&A;
     delete p;
 }
-*/
+
 /**** referinta ca data membra intr-o clasa ****/
 /*
 class serie

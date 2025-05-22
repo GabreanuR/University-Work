@@ -9,4 +9,5 @@ add_executable(Labs Lab1.cpp
         Lab2Ex.h
         lab4.cpp
         Proiect.cpp
-        Proiect.h)
+        Proiect.h
+        lab5.cpp)

@@ -26,7 +26,7 @@ int main()
     p->afis();
 }
 */
-/*
+
 class test
 {
   int x,y,z;
@@ -46,9 +46,9 @@ int main()
 
     return 0;
 }
-*/
-/*****************/
 
+/*****************/
+/*
 class test
 {
  private:
@@ -82,4 +82,4 @@ int main()
 
     return 0;
 }
-
+*/
