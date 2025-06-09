@@ -1,3 +1,0 @@
-C:/Users/gabre/Desktop/University-Work/Year1/Semester2/Object-Oriented Programming/Tutoring/cmake-build-debug/CMakeFiles/Tutoring.dir
-C:/Users/gabre/Desktop/University-Work/Year1/Semester2/Object-Oriented Programming/Tutoring/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/gabre/Desktop/University-Work/Year1/Semester2/Object-Oriented Programming/Tutoring/cmake-build-debug/CMakeFiles/rebuild_cache.dir

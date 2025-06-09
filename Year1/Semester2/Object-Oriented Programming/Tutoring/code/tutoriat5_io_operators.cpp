@@ -102,6 +102,7 @@ Calculator& Calculator::operator=(const Calculator& obj){
         delete[] this->versiune;
         this->versiune = nullptr;
     }
+    this->pr
 
     this->versiune = new char[strlen(obj.versiune) + 1];
     strcpy(this->versiune, obj.versiune);
@@ -155,3 +156,4 @@ int main(){
     Calculator x;
 
 }
+
