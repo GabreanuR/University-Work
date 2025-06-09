@@ -10,4 +10,6 @@ add_executable(Labs Lab1.cpp
         lab4.cpp
         Proiect.cpp
         Proiect.h
-        lab5.cpp)
+        lab5.cpp
+        PregatireColocviu.cpp
+        Lab3.cpp)

@@ -207,7 +207,7 @@ public:
         return findNode(root->immediateRightSibling, key);
     }
 
-    static void goUp(Node* node) {
+    static void goUp(Node *node) {
         while (node->parent && node->key < node->parent->key) {
             swap(node->key, node->parent->key);
             node = node->parent;
