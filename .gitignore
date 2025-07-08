@@ -1,3 +1,36 @@
+# ---- C++ BUILD ARTIFACTS ----
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# ---- CLion & JetBrains ----
+.idea/
+cmake-build-*/
+*.iml
+
+# ---- CMake generated files ----
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# ---- Logs / temporary files ----
+*.log
+*.tmp
+*.swp
+
+# ---- General ----
+.DS_Store
+Thumbs.db
+
+# ---- Custom folders to ignore (if needed) ----
+build/
+
+
 .Template(for each course)/
 Year1/Semester2/Databases/My_Work/Labs/Laborator 6 - LDD, LCD/Laborator LCD si LDD.mp4
 Year1/Semester2/Databases/My_Work/Courses/Proiect/134_Găbreanu_Răzvan-George-proiect.pdf
