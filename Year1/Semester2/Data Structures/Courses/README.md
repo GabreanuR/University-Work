@@ -8,7 +8,7 @@ This section contains in-depth **theoretical explanations** of core data structu
 - Pseudocode and sometimes real code snippets
 - Comparisons with other structures
 
-The goal is to provide a solid theoretical foundation that complements practical implementations from the [Labs](.Data%20Structures/Labs) section and exercises in the [Seminars](.Data%20Structures/Seminars) section.
+The goal is to provide a solid theoretical foundation that complements practical implementations from the [Labs](Year1/Semester2/Data%20Structures/Labs) section and exercises in the [Seminars](Year1/Semester2/Data%20Structures/Seminars) section.
 
 ---
 
