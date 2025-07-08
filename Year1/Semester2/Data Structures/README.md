@@ -4,32 +4,32 @@ This folder contains all resources, assignments, projects, notes, and other mate
 
 ## Course Overview
 
-- **Professorr**: Istrate Gabriel
+- **Professor**: Istrate Gabriel
 - **Credits**: 5
 - **Description**: C++
 
 ## Folder Overview
 
-### `Courses/`
+### [Courses](./Courses)
 - Markdown notes for each data structure
 - Includes motivation, use cases, pseudocode, key operations, and time complexities
 - Will also include proofs and comparisons later
 
-### `Labs/`
+### [Labs](./Labs)
 - Hands-on implementations of data structures in C++
 - Organized by topic (e.g., Arrays, Stacks, Trees)
 - Includes sample problems and edge case handling
 
-### `Seminars/`
+### [Seminars](./Seminars)
 - Theoretical exercises from university seminar sessions
 - Focused on understanding the behavior, limits, and properties of data structures
 - Often asked in exams or technical interviews
 
-### `Other/`
+### [Other](./Other)
 - Exam models
 - Work of other students
 
-## ✅ Topics Covered (Work in Progress)
+## Topics Covered (Work in Progress)
 
 - Arrays & Vectors
 - Stacks & Queues
@@ -51,7 +51,7 @@ This repo is designed to serve as:
 - A reference point for revisiting data structures
 - A preparation hub for coding interviews (internships, jobs)
 
-## 🛠Technologies
+## Technologies
 
 - Language: C++
 - Documentation: Markdown (`.md`)
