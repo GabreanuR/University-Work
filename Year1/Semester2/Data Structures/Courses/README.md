@@ -12,7 +12,7 @@ The goal is to provide a solid theoretical foundation that complements practical
 
 ---
 
-## 📚 Available Topics
+## Available Topics
 
 | #   | Data Structure               | Link                                 |
 |-----|------------------------------|--------------------------------------|
@@ -35,29 +35,29 @@ The goal is to provide a solid theoretical foundation that complements practical
 
 ---
 
-## 🛠️ Writing Conventions
+## Writing Conventions
 
 Each file will generally follow this structure:
 
 ```markdown
 # [Title]
 
-## 🔍 Motivation
+## Motivation
 Short description of the problem this structure solves.
 
-## ⚙️ Core Operations
+## Core Operations
 - insert()
 - delete()
 - search()
 - ...
 
-## ⏱️ Time Complexities
+## Time Complexities
 | Operation | Best | Average | Worst |
 |-----------|------|---------|-------|
 | Insert    | O(1) | O(1)    | O(n)  |
 | ...
 
-## 📜 Pseudocode
+## Pseudocode
 ```pseudo
 function insert(x):
     ...
