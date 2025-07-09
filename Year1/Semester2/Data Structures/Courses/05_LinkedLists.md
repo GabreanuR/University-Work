@@ -95,3 +95,8 @@ function deleteAt(head, index):
 - Undo/Redo functionality
 - Adjacency lists in graph representations
 - Real-time systems (deterministic insert/delete)
+
+# Related Structures
+- [Arrays](./01_Arrays.md) – better for random access
+- [Vectors](./02_Vectors.md) – dynamic but contiguous
+- [Stacks](./03_Stacks.md) – can be implemented with SLL
