@@ -60,3 +60,19 @@ function push_back(vec, x):
         resize(vec)
     vec[vec.size] = x
     vec.size += 1
+```
+
+## Common Pitfalls
+- Confusing size vs. capacity
+- Assuming push_back() is always O(1) (true on average, not always)
+- Accessing elements beyond current size (undefined behavior)
+
+## Use Cases
+- Dynamic collections (e.g. lists of inputs, growing datasets)
+- Building blocks for higher-level structures (stacks, heaps, graphs)
+- Preferred default over arrays unless performance-critical
+
+## Related Structures
+- [Arrays](./01_Arrays.md) – fixed size, no automatic resizing
+- [Linked Lists](./05_LinkedLists.md) – better for frequent insertions/deletions
+- [Deques](./04_Queues.md) – efficient insertions/removals at both ends
