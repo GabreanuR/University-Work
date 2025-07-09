@@ -80,9 +80,9 @@ Each course in this repository includes links to relevant projects I have worked
 
 ## Structure of the Repository
 
-Each course folder contains:
+Each course folder may contain:
 - **My Work**: Notes, assignments, and projects that belong to me.
-- **Work of Others**: Resources, assignments, and exams shared by previous years (with proper credit).
+- **Work of Others**: Resources, assignments, and exams shared by previous years.
 - **Exam Models**: Examples of past exams, if available.
 - **Tutoring**: Resources and materials from the student association.
 
