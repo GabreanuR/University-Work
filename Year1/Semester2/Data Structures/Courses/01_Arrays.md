@@ -1,4 +1,4 @@
-# Arrays
+# Arrays (Static Arrays)
 
 ## Motivation
 
@@ -13,14 +13,14 @@ They are used when:
 
 ## Core Operations
 
-| Operation        | Description                            |
-|------------------|----------------------------------------|
-| Access by index  | `arr[i]`                               |
-| Update value     | `arr[i] = x`                           |
-| Traverse         | Iterate through all elements           |
-| Search (unsorted)| Linear scan                            |
-| Search (sorted)  | Binary search (if sorted)              |
-| Insert/Delete    | Not supported efficiently              |
+| Operation         | Description                  |
+|-------------------|------------------------------|
+| Access by index   | `arr[i]`                     |
+| Update value      | `arr[i] = x`                 |
+| Traverse          | Iterate through all elements |
+| Search (unsorted) | Linear scan                  |
+| Search (sorted)   | Binary search (if sorted)    |
+| Insert/Delete     | Not supported efficiently    |
 
 ---
 
@@ -35,15 +35,15 @@ They are used when:
 
 ## Complexity Summary
 
-| Operation     | Best Case | Average Case | Worst Case  | Space Complexity |
-|---------------|-----------|--------------|-------------|-------------------|
-| Access        | O(1)      | O(1)         | O(1)        | O(n)              |
-| Update        | O(1)      | O(1)         | O(1)        | O(n)              |
-| Linear Search | O(1)      | O(n)         | O(n)        | O(n)              |
-| Binary Search | O(1)      | O(log n)     | O(log n)    | O(n)              |
-| Insert (mid)  | O(n)      | O(n)         | O(n)        | O(n)              |
-| Insert (end)  | O(1)      | O(1)         | O(1)        | O(n)              |
-| Delete        | O(n)      | O(n)         | O(n)        | O(n)              |
+| Operation     | Best Case | Average Case | Worst Case | Space Complexity |
+|---------------|-----------|--------------|------------|------------------|
+| Access        | O(1)      | O(1)         | O(1)       | O(n)             |
+| Update        | O(1)      | O(1)         | O(1)       | O(n)             |
+| Linear Search | O(1)      | O(n)         | O(n)       | O(n)             |
+| Binary Search | O(1)      | O(log n)     | O(log n)   | O(n)             |
+| Insert (mid)  | O(n)      | O(n)         | O(n)       | O(n)             |
+| Insert (end)  | O(1)      | O(1)         | O(1)       | O(n)             |
+| Delete        | O(n)      | O(n)         | O(n)       | O(n)             |
 
 ---
 
@@ -76,5 +76,5 @@ function search(arr, target):
 - Base for more advanced structures (e.g., Heaps, Hash Tables)
 
 ## Related Structures
-- [Vectors](./02_Vectors.md) – dynamic version of arrays
-- [Linked Lists](./05_LinkedLists.md) – dynamic size with slower access
+- [Vectors](02_Vectors.md) – dynamic version of arrays
+- [Singly-Linked Lists](06_SinglyLinkedLists.md) – dynamic size with slower access

@@ -20,10 +20,10 @@ The goal is to provide a solid theoretical foundation that complements practical
 | 02  | Vectors                      | [Vectors.md](./02_Vectors.md)        |
 | 03  | Stacks                       | [Stacks.md](./03_Stacks.md)          |
 | 04  | Queues                       | [Queues.md](./04_Queues.md)          |
-| 05  | Linked Lists                 | [LinkedLists.md](./05_LinkedLists.md)|
-| 06  | Skip Lists                   | [SkipLists.md](./06_SkipLists.md)    |
-| 07  | Hash Tables                  | [HashTables.md](./07_HashTables.md)  |
-| 08  | Binary Search Trees (BST)    | [BST.md](./08_BST.md)                |
+| 05  | Linked Lists                 | [LinkedLists.md](06_SinglyLinkedLists.md)|
+| 06  | Skip Lists                   | [SkipLists.md](09_SkipLists.md)    |
+| 07  | Hash Tables                  | [HashTables.md](10_HashTables.md)  |
+| 08  | Binary Search Trees (BST)    | [BST.md](14_BST.md)                |
 | 09  | AVL Trees                    | [AVL.md](./09_AVL.md)                |
 | 10  | Splay Trees                  | [Splay.md](./10_Splay.md)            |
 | 11  | Red-Black Trees              | [RedBlack.md](./11_RedBlack.md)      |

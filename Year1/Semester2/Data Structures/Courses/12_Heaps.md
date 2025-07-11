@@ -40,13 +40,13 @@ Heaps are efficient when:
 
 ## Complexity Summary
 
-| Operation             | Best    | Average | Worst   | Space  |
-|-----------------------|---------|---------|---------|--------|
-| insert                | O(1)    | O(log n)| O(log n)| O(n)   |
-| extract_min           | O(log n)| O(log n)| O(log n)| O(n)   |
-| get_min               | O(1)    | O(1)    | O(1)    | O(n)   |
-| heapify               | O(n)    | O(n)    | O(n)    | O(n)   |
-| increase/decrease key | O(log n)| O(log n)| O(log n)| O(n)   |
+| Operation             | Best     | Average  | Worst    | Space |
+|-----------------------|----------|----------|----------|-------|
+| insert                | O(1)     | O(log n) | O(log n) | O(n)  |
+| extract_min           | O(log n) | O(log n) | O(log n) | O(n)  |
+| get_min               | O(1)     | O(1)     | O(1)     | O(n)  |
+| heapify               | O(n)     | O(n)     | O(n)     | O(n)  |
+| increase/decrease key | O(log n) | O(log n) | O(log n) | O(n)  |
 
 ---
 
@@ -106,7 +106,7 @@ function heapify_down(heap, i):
 - Real-time simulations (event queues)
 
 # Related Structures
-- [Binary Search Tree](./08_BST.md) – for ordered data with search
-- [AVL Trees](./09_AVL.md) – better if you need fast search
-- [Red-Black Trees](./11_RedBlack.md) – better if you need fast search
-- [Hash Tables](./07_HashTables.md) – faster lookup, but no ordering
+- [Binary Search Tree](14_BST.md) – for ordered data with search
+- [AVL Trees](09_AVL.md) – better if you need fast search
+- [Red-Black Trees](11_RedBlack.md) – better if you need fast search
+- [Hash Tables](10_HashTables.md) – faster lookup, but no ordering

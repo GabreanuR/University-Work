@@ -78,6 +78,7 @@ function pop(stack):
 - Expression evaluation (Postfix, Infix)
 
 # Related Structures
-- [Queues](./04_Queues.md) – FIFO instead of LIFO
-- [Deques](./04_Queues.md) – Double-ended stack/queue hybrid
-- [Vectors](./02_Vectors.md) – Can be used to implement stacks
+- [Vectors](02_Vectors.md) – Can be used to implement stacks
+- [Queues](04_Queues.md) – FIFO instead of LIFO
+- [Deque](05_Deque.md) – Double-ended stack/queue hybrid
+

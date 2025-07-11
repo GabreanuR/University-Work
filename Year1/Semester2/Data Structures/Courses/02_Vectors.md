@@ -28,13 +28,13 @@ Vectors are useful when:
 ## Complexity Summary
 
 | Operation       | Best Case | Average Case | Worst Case | Space Complexity |
-|-----------------|-----------|--------------|-------------|-------------------|
-| Access          | O(1)      | O(1)         | O(1)        | O(n)              |
-| Update          | O(1)      | O(1)         | O(1)        | O(n)              |
-| Push Back       | O(1)      | O(1)*        | O(n)**      | O(n)              |
-| Pop Back        | O(1)      | O(1)         | O(1)        | O(n)              |
-| Insert at index | O(n)      | O(n)         | O(n)        | O(n)              |
-| Delete at index | O(n)      | O(n)         | O(n)        | O(n)              |
+|-----------------|-----------|--------------|------------|------------------|
+| Access          | O(1)      | O(1)         | O(1)       | O(n)             |
+| Update          | O(1)      | O(1)         | O(1)       | O(n)             |
+| Push Back       | O(1)      | O(1)*        | O(n)**     | O(n)             |
+| Pop Back        | O(1)      | O(1)         | O(1)       | O(n)             |
+| Insert at index | O(n)      | O(n)         | O(n)       | O(n)             |
+| Delete at index | O(n)      | O(n)         | O(n)       | O(n)             |
 
 > **\*** Amortized constant time due to geometric resizing (e.g. 2x capacity)  
 > **\*\*** Worst case occurs when reallocation and copying are triggered
@@ -73,6 +73,8 @@ function push_back(vec, x):
 - Preferred default over arrays unless performance-critical
 
 ## Related Structures
-- [Arrays](./01_Arrays.md) – fixed size, no automatic resizing
-- [Linked Lists](./05_LinkedLists.md) – better for frequent insertions/deletions
-- [Deques](./04_Queues.md) – efficient insertions/removals at both ends
+- [Arrays](01_Arrays.md) – fixed size, no automatic resizing
+- [Queues](04_Queues.md) - efficient insertions/removals at one end
+- [Deque](05_Deque.md) – efficient insertions/removals at both ends
+- [Linked Lists](06_SinglyLinkedLists.md) – better for frequent insertions/deletions
+

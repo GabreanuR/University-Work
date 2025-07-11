@@ -1,49 +1,31 @@
-# Queues and Deques
+# Queues (FIFO)
 
 ## Motivation
 
 A **queue** is a linear data structure that follows the **First-In, First-Out (FIFO)** principle: the first element added is the first to be removed.
 
-Queues are used in:
-- Scheduling (CPU, printers, processes)
+Queues are useful in:
+- CPU/process scheduling
 - Breadth-First Search (BFS)
 - Data streams and buffering
-
-A **deque** (double-ended queue) generalizes queues and stacks:
-- Supports insertion/removal at both ends
-- Can behave like a queue, stack, or both
+- Simulations (e.g., waiting lines)
 
 ---
 
-## Queue Operations (FIFO)
+## Core Operations
 
 | Operation   | Description                          |
 |-------------|--------------------------------------|
 | enqueue(x)  | Add element `x` to the rear          |
 | dequeue()   | Remove the front element             |
 | front()     | Access the front element             |
-| rear()      | Access the last element (optional)   |
+| rear()      | Access the rear element (optional)   |
 | isEmpty()   | Check if the queue is empty          |
 | size()      | Number of elements in the queue      |
 
 ---
 
-## Deque Operations (Double-Ended)
-
-| Operation         | Description                                   |
-|-------------------|-----------------------------------------------|
-| push_front(x)     | Insert at the front                           |
-| push_back(x)      | Insert at the back                            |
-| pop_front()       | Remove from front                             |
-| pop_back()        | Remove from back                              |
-| front(), back()   | Peek at front or back                         |
-| isEmpty(), size() | Same as in queue                              |
-
----
-
-## Complexity Summary
-
-### Queue (Array or Linked List)
+## Complexity Summary (Array or Linked List)
 
 | Operation   | Best Case | Average | Worst Case | Space  |
 |-------------|-----------|---------|------------|--------|
@@ -51,22 +33,12 @@ A **deque** (double-ended queue) generalizes queues and stacks:
 | dequeue     | O(1)*     | O(1)    | O(1)       | O(n)   |
 | front       | O(1)      | O(1)    | O(1)       | O(n)   |
 
-> *: `dequeue()` is O(1) only if implemented using circular buffer or linked list. Otherwise shifting can cause O(n).
-
-### Deque (with array or doubly linked list)
-
-| Operation      | Best | Average | Worst | Space  |
-|----------------|------|---------|-------|--------|
-| push_front     | O(1) | O(1)    | O(n)  | O(n)   |
-| push_back      | O(1) | O(1)    | O(n)  | O(n)   |
-| pop_front      | O(1) | O(1)    | O(n)  | O(n)   |
-| pop_back       | O(1) | O(1)    | O(n)  | O(n)   |
-
-> O(n) happens in array-based deques when resizing or shifting is needed.
+> \* O(1) only when using a **circular array** or **linked list**.  
+> Otherwise, `dequeue()` in a plain array may require shifting (`O(n)`).
 
 ---
 
-## Pseudocode (Queue – Circular Array)
+## Pseudocode (Circular Array)
 
 ```pseudo
 initialize queue with capacity
@@ -92,24 +64,18 @@ function front():
 ```
 
 # Common Pitfalls
-- Using arrays without wrap-around logic (circular queue)
+- Using arrays without wrap-around logic (circular buffer)
 - Forgetting to resize when using dynamic arrays
 - Confusing front and rear logic
-- For deque, assuming constant time at both ends in all implementations (not true for array-based)
 
 # Use Cases
-## Queues:
-- CPU scheduling, IO buffers
-- Level-order traversal (BFS in trees/graphs)
-- Simulation (e.g., waiting lines)
-
-## Deques:
-- Sliding window problems (e.g., max/min in range)
-- Palindrome checking
-- Undo/Redo buffers
-- Stack + Queue hybrid behaviors
+- CPU scheduling, I/O buffers
+- Level-order traversal (BFS)
+- Event-driven simulation
+- Producer-consumer problems
 
 # Related Structures
-- [Stacks](./03_Stacks.md) – LIFO instead of FIFO
-- [Vectors](./02_Vectors.md) – Can be used to build a queue or deque
-- [Priority Queue](./12_Heaps.md) – Elements dequeued by priority
+- [Vectors](02_Vectors.md) – Can be used to build a queue
+- [Stacks](03_Stacks.md) – LIFO instead of FIFO
+- [Deque](05_Deque.md) – Generalization of queues and stacks
+- [Priority Queue](13_PriorityQueue.md) – Dequeues based on priority
