@@ -13,7 +13,6 @@ This folder contains all resources, assignments, projects, notes, and other mate
 ### [Courses](./Courses)
 - Markdown notes for each data structure
 - Includes motivation, use cases, pseudocode, key operations, and time complexities
-- Will also include proofs and comparisons later
 
 ### [Labs](./Labs)
 - Hands-on implementations of data structures in C++

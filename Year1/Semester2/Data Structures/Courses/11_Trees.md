@@ -94,8 +94,8 @@ Tree traversal = visiting all nodes in a specific order.
 ## Related Structures
 - [Heaps](12_Heaps.md) – complete tree for priority queues (max/min root)
 - [Binary Search Tree](14_BST.md) – sorted binary tree with O(log n) operations
-- [AVL Tree](09_AVL.md) – self-balancing BST with strict height balancing
-- [Splay Tree](10_Splay.md) – self-adjusting BST with recently-used access boost
-- [Red-Black Tree](11_RedBlack.md) – balanced BST with red/black coloring rules
+- [AVL Tree](15_AVL.md) – self-balancing BST with strict height balancing
+- [Splay Tree](16_Splay.md) – self-adjusting BST with recently-used access boost
+- [Red-Black Tree](17_RedBlack.md) – balanced BST with red/black coloring rules
 
 

@@ -109,4 +109,4 @@ Common operations:
 # Related Structures
 - [Arrays](01_Arrays.md) – good for index-based access, no keys
 - [Binary Search Trees](14_BST.md) – better when data must be sorted
-- [Bloom Filters](17_BloomFilters.md) – space-efficient approximate sets
+- [Bloom Filters](20_BloomFilters.md) – space-efficient approximate sets

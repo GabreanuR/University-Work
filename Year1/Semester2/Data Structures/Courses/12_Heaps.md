@@ -107,6 +107,6 @@ function heapify_down(heap, i):
 
 # Related Structures
 - [Binary Search Tree](14_BST.md) – for ordered data with search
-- [AVL Trees](09_AVL.md) – better if you need fast search
-- [Red-Black Trees](11_RedBlack.md) – better if you need fast search
+- [AVL Trees](15_AVL.md) – better if you need fast search
+- [Red-Black Trees](17_RedBlack.md) – better if you need fast search
 - [Hash Tables](10_HashTables.md) – faster lookup, but no ordering

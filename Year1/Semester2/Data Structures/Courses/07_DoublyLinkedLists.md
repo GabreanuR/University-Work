@@ -18,30 +18,30 @@ Useful when:
 
 ## Core Operations
 
-| Operation        | Description                                 |
-|------------------|---------------------------------------------|
-| insertFront(x)   | Insert node at the beginning                |
-| insertEnd(x)     | Insert node at the end                      |
-| deleteFront()    | Remove the first node                       |
-| deleteEnd()      | Remove the last node                        |
-| insertAfter(p, x)| Insert node after a given pointer `p`       |
-| delete(p)        | Delete node `p` when pointer is known       |
-| traverse()       | Traverse from head to tail                  |
-| reverseTraverse()| Traverse from tail to head                  |
+| Operation         | Description                           |
+|-------------------|---------------------------------------|
+| insertFront(x)    | Insert node at the beginning          |
+| insertEnd(x)      | Insert node at the end                |
+| deleteFront()     | Remove the first node                 |
+| deleteEnd()       | Remove the last node                  |
+| insertAfter(p, x) | Insert node after a given pointer `p` |
+| delete(p)         | Delete node `p` when pointer is known |
+| traverse()        | Traverse from head to tail            |
+| reverseTraverse() | Traverse from tail to head            |
 
 ---
 
 ## Complexity Summary
 
-| Operation       | Best Case | Average | Worst Case | Space |
-|-----------------|-----------|---------|------------|--------|
-| Access (by index)| O(n)      | O(n)    | O(n)       | O(n)   |
-| Search          | O(1)\*     | O(n)    | O(n)       | O(n)   |
-| Insert front    | O(1)      | O(1)    | O(1)       | O(n)   |
-| Insert end      | O(1)      | O(1)    | O(1)       | O(n)   |
-| Delete front    | O(1)      | O(1)    | O(1)       | O(n)   |
-| Delete end      | O(1)      | O(1)    | O(1)       | O(n)   |
-| Delete by pointer | O(1)    | O(1)    | O(1)       | O(n)   |
+| Operation         | Best Case | Average | Worst Case | Space |
+|-------------------|-----------|---------|------------|-------|
+| Access (by index) | O(n)      | O(n)    | O(n)       | O(n)  |
+| Search            | O(1)\*    | O(n)    | O(n)       | O(n)  |
+| Insert front      | O(1)      | O(1)    | O(1)       | O(n)  |
+| Insert end        | O(1)      | O(1)    | O(1)       | O(n)  |
+| Delete front      | O(1)      | O(1)    | O(1)       | O(n)  |
+| Delete end        | O(1)      | O(1)    | O(1)       | O(n)  |
+| Delete by pointer | O(1)      | O(1)    | O(1)       | O(n)  |
 
 > \* If you already have a pointer to the node
 

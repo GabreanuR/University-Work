@@ -14,24 +14,31 @@ The goal is to provide a solid theoretical foundation that complements practical
 
 ## Available Topics
 
-| #   | Data Structure               | Link                                 |
-|-----|------------------------------|--------------------------------------|
-| 01  | Arrays                       | [Arrays.md](./01_Arrays.md)          |
-| 02  | Vectors                      | [Vectors.md](./02_Vectors.md)        |
-| 03  | Stacks                       | [Stacks.md](./03_Stacks.md)          |
-| 04  | Queues                       | [Queues.md](./04_Queues.md)          |
-| 05  | Linked Lists                 | [LinkedLists.md](06_SinglyLinkedLists.md)|
-| 06  | Skip Lists                   | [SkipLists.md](09_SkipLists.md)    |
-| 07  | Hash Tables                  | [HashTables.md](10_HashTables.md)  |
-| 08  | Binary Search Trees (BST)    | [BST.md](14_BST.md)                |
-| 09  | AVL Trees                    | [AVL.md](./09_AVL.md)                |
-| 10  | Splay Trees                  | [Splay.md](./10_Splay.md)            |
-| 11  | Red-Black Trees              | [RedBlack.md](./11_RedBlack.md)      |
-| 12  | Heaps (Min, Max, Binary)     | [Heaps.md](./12_Heaps.md)            |
-| 13  | B-Trees                      | [BTrees.md](./13_BTrees.md)          |
-| 14  | Sorting Algorithms           | [Sorting.md](./14_Sorting.md)        |
-| 15  | Graph Algorithms (MST etc.)  | [Graphs.md](./15_Graphs.md)          |
-| 16  | Computational Geometry       | [Geometry.md](./16_Geometry.md)      |
+| #  | Data Structure                                     |
+|----|----------------------------------------------------|
+| 01 | [Arrays](01_Arrays.md)                             |
+| 02 | [Vectors](02_Vectors.md)                           |
+| 03 | [Stacks](03_Stacks.md)                             |
+| 04 | [Queues](04_Queues.md)                             |
+| 05 | [Deque](05_Deque.md)                               | 
+| 06 | [Singly Linked Lists](06_SinglyLinkedLists.md)     |
+| 07 | [Doubly Linked Lists](07_DoublyLinkedLists.md)     |
+| 08 | [Circular Linked Lists](08_CircularLinkedLists.md) |
+| 09 | [Skip Lists](09_SkipLists.md)                      |
+| 10 | [Hash Tables](10_HashTables.md)                    |
+| 11 | [Trees](11_Trees.md)                               |
+| 12 | [Heaps](12_Heaps.md)                               |
+| 13 | [Priority Queues](13_PriorityQueue.md)             |
+| 14 | [Binary Search Trees](14_BST.md)                   |
+| 15 | [AVL](15_AVL.md)                                   |
+| 16 | [Splay Trees](16_Splay.md)                         |
+| 17 | [Red-Black Trees](17_RedBlack.md)                  |
+| 18 | [Sorting Algorithms](18_SortingAlgorithms.md)      |
+| 19 | [B-Trees](19_BTrees.md)                            |
+| 20 | [Bloom Filters](20_BloomFilters.md)                |
+| 21 | [Tries](21_Tries.md)                               |
+| 22 | [Graph Algorithms](22_Graphs.md)                   |
+| 23 | [Computational Geometry](23_Geometry.md)           |
 
 ---
 

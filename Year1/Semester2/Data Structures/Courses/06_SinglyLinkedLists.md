@@ -17,27 +17,27 @@ Useful when:
 
 ## Core Operations
 
-| Operation        | Description                           |
-|------------------|---------------------------------------|
-| insertFront(x)   | Add node with value `x` at the front |
-| insertEnd(x)     | Add node at the end                  |
-| insertAt(i, x)   | Add node at index `i`                |
-| deleteAt(i)      | Remove node at index `i`             |
-| search(x)        | Check if value `x` exists            |
-| traverse()       | Print or collect all elements        |
+| Operation      | Description                          |
+|----------------|--------------------------------------|
+| insertFront(x) | Add node with value `x` at the front |
+| insertEnd(x)   | Add node at the end                  |
+| insertAt(i, x) | Add node at index `i`                |
+| deleteAt(i)    | Remove node at index `i`             |
+| search(x)      | Check if value `x` exists            |
+| traverse()     | Print or collect all elements        |
 
 ---
 
 ## Complexity Summary
 
 | Operation     | Best Case | Average Case | Worst Case | Space |
-|---------------|-----------|--------------|------------|--------|
-| Access        | O(1)\*     | O(n)         | O(n)       | O(n)   |
-| Search        | O(1)\*     | O(n)         | O(n)       | O(n)   |
-| Insert front  | O(1)      | O(1)         | O(1)       | O(n)   |
-| Insert end    | O(1)\*\*   | O(n)         | O(n)       | O(n)   |
-| Delete front  | O(1)      | O(1)         | O(1)       | O(n)   |
-| Delete middle | O(n)      | O(n)         | O(n)       | O(n)   |
+|---------------|-----------|--------------|------------|-------|
+| Access        | O(1)\*    | O(n)         | O(n)       | O(n)  |
+| Search        | O(1)\*    | O(n)         | O(n)       | O(n)  |
+| Insert front  | O(1)      | O(1)         | O(1)       | O(n)  |
+| Insert end    | O(1)\*\*  | O(n)         | O(n)       | O(n)  |
+| Delete front  | O(1)      | O(1)         | O(1)       | O(n)  |
+| Delete middle | O(n)      | O(n)         | O(n)       | O(n)  |
 
 > \* Only if you already have a pointer to the node  
 > \*\* Only if you maintain a tail pointer
